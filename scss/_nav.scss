@@ -1,0 +1,49 @@
+#main-manu{
+    border-bottom: 2px solid $nav-bottom-border-clr;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
+    nav{
+    .nav-option{
+    ul{
+    li{
+    margin: 0px 24px 0px 24px;
+    a{
+    font-size: 28px;
+    color: $nav-option-color;
+    }    
+    }
+    }
+    }   
+    }
+    .nav-profile-option{
+    ul{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    li{
+    margin: 0px 9px 0px 9px;
+    a{
+    font-size: 28px;     
+    color: $nav-option-color;    
+    }  
+    }
+    .user{
+    margin-right: 0px;
+    position: relative;
+    .profile-active-overlay{
+    background-color:$profile-active-overlay;
+    width: 11px;    
+    height: 11px;
+    display: inline-block;
+    border-radius: 50%; 
+    position: absolute;
+    left: 19px;
+    top: 21px;
+    border: 2px solid $white-color;   
+    }  
+    }
+    .nav-arrow{
+    margin-left: 0px;    
+    }    
+    }
+    }
+}
