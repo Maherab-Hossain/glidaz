@@ -36,6 +36,12 @@ body {
 #main-manu nav .nav-option ul li a {
   font-size: 28px;
   color: #030712;
+  padding: 13px 13px;
+}
+#main-manu nav .nav-option ul li:hover a {
+  border-radius: 14px;
+  text-align: center;
+  background-color: #DBEAFE;
 }
 #main-manu .nav-profile-option ul {
   display: flex;
@@ -83,6 +89,7 @@ body {
   padding: 0px 5px 0px 5px;
   padding: 10px;
   background-color: #EFF6FF;
+  max-width: 290px;
   border-radius: 20px;
 }
 #index-home-page .afterlogin-page .home-leftside-bar .leftside-bar .searchBox .search-icon {
@@ -95,9 +102,36 @@ body {
   background-color: #EFF6FF;
   outline: none;
   border: none;
+  max-width: 100%;
+  overflow: hidden;
 }
 #index-home-page .afterlogin-page .home-leftside-bar .leftside-bar .frined-sidebar-left ul li {
   margin-bottom: 29px;
+  position: relative;
+}
+#index-home-page .afterlogin-page .home-leftside-bar .leftside-bar .frined-sidebar-left ul li::before {
+  content: "";
+  position: absolute;
+  left: 286px;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #1D4ED8;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  visibility: hidden;
+  transition: 0.35ms;
+}
+#index-home-page .afterlogin-page .home-leftside-bar .leftside-bar .frined-sidebar-left ul li:hover::before {
+  position: absolute;
+  left: 286px;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #1D4ED8;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  visibility: visible;
 }
 #index-home-page .afterlogin-page .home-leftside-bar .leftside-bar .frined-sidebar-left ul li a {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -337,7 +371,7 @@ body {
 
 .createmodal-bg {
   position: fixed;
-  inset: 0;
+  inset: 86px 0 0 0;
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   height: 100vh;
@@ -347,7 +381,7 @@ body {
 .createmodal-bg .creat-post-modal {
   position: absolute;
   right: 35%;
-  top: 118px;
+  top: 32px;
   padding: 31px 37px 31.259px 37px;
   border-radius: 20px;
   background-color: rgba(204, 204, 204, 0.6);
@@ -452,7 +486,7 @@ body {
 
 .usermodal-bg {
   position: fixed;
-  inset: 0;
+  inset: 86px 0 0 0;
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   height: 100vh;
@@ -462,11 +496,14 @@ body {
 .usermodal-bg .user-post-modal {
   position: absolute;
   right: 25%;
-  top: 90px;
+  top: 4px;
   padding: 31px 37px 31.259px 37px;
   border-radius: 20px;
   background-color: rgba(204, 204, 204, 0.6);
   z-index: 9999;
+  max-height: 500px;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
 }
 .usermodal-bg .user-post-modal .crate-modal-header {
   padding: 0px 10px;

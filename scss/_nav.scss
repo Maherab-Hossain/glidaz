@@ -10,19 +10,13 @@
     a{
     font-size: 28px;
     color: $nav-option-color;
-    // padding: 14px 14px;
-    // border-radius: 14px;
-    // line-height: 14px;
-    // :hover{
-    // // padding: 7px 7px;
-    // border-radius: 14px;
-    // line-height: 7px; 
-    // display: inline-block;
-    // text-align: center;
-    // background-color: $nav-option-hover-clr;
-    // overflow: hidden;
-    // } 
+    padding: 13px 13px;
     }    
+    &:hover a{
+    border-radius: 14px;
+    text-align: center;
+    background-color: $nav-option-hover-clr;
+    } 
     }
     }
     }   
