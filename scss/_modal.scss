@@ -1,7 +1,7 @@
 // ================ create post modal start ================ 
 .createmodal-bg{
     position: fixed;
-    inset: 0;
+    inset:86px 0 0 0;
     backdrop-filter: blur(3px);
     height: 100vh;
     display: none;
@@ -9,7 +9,7 @@
 .creat-post-modal{
     position: absolute;
     right: 35%;
-    top: 118px;
+    top: calc(118px - 86px);
     padding: 31px 37px 31.259px 37px;
     border-radius: 20px;
     background-color: $create-post-modal-bg-clr;
@@ -131,7 +131,7 @@ height: 456px;
 //  ========================= user post modal start =========================
 .usermodal-bg{
     position: fixed;
-    inset: 0;
+    inset:86px 0 0 0;
     backdrop-filter: blur(3px);
     height: 100vh;
     display: none;
@@ -139,11 +139,14 @@ height: 456px;
 .user-post-modal{
     position: absolute;
     right: 25%;
-    top: 90px;
+    top: calc(90px - 86px);
     padding: 31px 37px 31.259px 37px;
     border-radius: 20px;
     background-color: $create-post-modal-bg-clr;
     z-index: 9999;
+    max-height: 500px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
     .crate-modal-header{
     padding: 0px 10px;    
     .create-modal-title{

@@ -16,7 +16,7 @@
     padding: 0px 5px 0px 5px;
     padding: 10px;
     background-color: $search-box-bgclr;
-    // max-width: 290px; 
+    max-width: 290px; 
     border-radius: 20px;
     .search-icon{
     font-size: 24px;
@@ -28,19 +28,43 @@
     background-color: $search-box-bgclr;
     outline: none;
     border: none; 
+    max-width: 100%;
+    overflow: hidden; 
     }    
     }   
     // search-box-end
     //  frined/community/flight start
-    .frined-sidebar-left{   
-    // position: relative;    
+    .frined-sidebar-left{     
     ul{
     li{   
     margin-bottom: 29px;
-    // position: relative;
-    // border-bottom-left-radius:10px ;
-    // border-top-left-radius:10px ;
-    // border-right: 5px solid $sidebar-border-hover-clr;
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    left: 286px;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color:$sidebar-border-hover-clr;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    visibility: hidden;
+    transition: 0.35ms;
+    }
+    &:hover {
+    &::before{
+    position: absolute;
+    left: 286px;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color:$sidebar-border-hover-clr;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    visibility: visible;
+    }  
+    }    
     a{
     font-family: $primaryfont;
     font-size: 14px;
