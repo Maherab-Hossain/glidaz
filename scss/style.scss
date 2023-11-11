@@ -24,6 +24,21 @@
   @import "./_variable.scss";
   // ROOT END
 
+  body{
+    background-color: $body-bg-clr;
+    font-family:$primaryfont ;
+    color: $black-clr;
+    position: relative
+  }
+  
   // NAV START
   @import "./_nav.scss"; 
   // NAV END 
+
+  // INDEX-HOME-PAGE START
+  @import "./_index-home-page.scss"; 
+  // INDEX-HOME-PAGE END 
+
+  // MODAL START
+  @import "./_modal.scss"; 
+  // MODAL END 
