@@ -1,6 +1,20 @@
 // FONT URL START
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap'); 
 // FONT URL END 
+
+ // ROOT START
+ @import "./_variable.scss";
+ // ROOT END
+
+ // NAV START
+ @import "./_nav.scss"; 
+ // NAV END 
+
+ //Profile page starts
+ @import "./profilepage";
+ //Profile page starts
+
+ 
 // COMMON CSS START
 *{
     margin: 0;
@@ -8,6 +22,7 @@
     box-sizing: border-box;
     // outline: 2px solid red;
   }
+ 
   ul,ol{
     list-style: none;
   }
@@ -18,12 +33,12 @@
     margin: 0;
     padding: 0;
   }
+ 
+  
   // COMMON CSS END
   
-  // ROOT START
-  @import "./_variable.scss";
-  // ROOT END
+ 
 
-  // NAV START
-  @import "./_nav.scss"; 
-  // NAV END 
+ body{
+  font-family: $primaryfont;
+ }

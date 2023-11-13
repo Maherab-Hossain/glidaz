@@ -1,9 +1,61 @@
 // ROOT START
-$primaryfont:'Plus Jakarta Sans', sans-serif;
-$secondary-Font :'Roboto', sans-serif;
-$third-Font :'Poppins', sans-serif;
-$profile-active-overlay:#34D399;
-$nav-option-color:#030712;
-$white-color:#fff;
-$nav-bottom-border-clr:#C7D2FE;
-// ROOT END
+
+$primaryfont: 'Plus Jakarta Sans', sans-serif; 
+$secondary-Font : 'Roboto', sans-serif;
+$third-Font: 'Poppins', sans-serif; 
+:root{
+--body-bg-clr:#F9FBFF;
+--profile-active-overlay: #34D399;
+--black-clr:#000;
+--nav-option-color:#030712;
+--white-color:#fff;
+--nav-bottom-border-clr:#C7D2FE; 
+--nav-option-hover-clr:#DBEAFE;
+--side-border-clr:#D1D5DB; 
+--search-box-bgclr:#EFF6FF;
+--search-icon-clr:#9CA3AF;
+--sidebar-heading-bg-clr:#E5E7EB;  
+--sidebar-span-clr:#9CA3AF;
+--sidebar-upcomming-bg-clr: #374151; 
+--sidebar-upcomming-span-clr: #6B7280;
+--sidebar-border-hover-clr:#1D4ED8;
+--post-btn-bg-clr: #3B82F6; 
+--active-title: #929290;
+--active-name-clr:#171725;
+--create-post-modal-bg-clr:rgba(204, 204, 204, 0.60);  
+--create-modal-close-clr: lighten (#9CA3AF,11%);
+--profile-modal-name-clr:#111827;
+--privacy-policy-terms-atag-clr:#60A5FA;
+--button-font-clr:#EEF2FF;
+
+ }
+
+ // ROOT END
+
+ // SCSS ROOT START 31
+
+$body-bg-clr:var(--body-bg-clr);
+$profile-active-overlay :var(--profile-active-overlay);
+$black-clr:var(--black-clr);  
+$nav-option-color:var (--nav-option-color);
+$white-color: var(--white-color);  
+$nav-bottom-border-clr: var(--nav-bottom-border-clr);
+$nav-option-hover-clr:var (--nav-option-hover-clr); 
+$side-border-clr:var(--side-border-clr);
+$search-box-bgclr:var(--search-box-bgclr);
+$search-icon-clr:var(--search-icon-clr);
+$sidebar-heading-bg-clr:var(--sidebar-heading-bg-clr);  
+$sidebar-span-clr:var(--sidebar-span-clr);
+$sidebar-upcomming-bg-clr:var(--sidebar-upcomming-bg-clr);
+$sidebar-upcomming-span-clr:var(--sidebar-upcomming-span-clr);
+$sidebar-border-hover-clr:var(--sidebar-border-hover-clr);
+$post-btn-bg-clr:var(--post-btn-bg-clr);  
+$active-title:var(--active-title);
+$active-name-clr:var(--active-name-clr);
+$create-post-modal-bg-clr: var(--create-post-modal-bg-clr);  
+$create-modal-close-clr:var(--create-modal-close-clr);
+$profile-modal-name-clr: var(--profile-modal-name-clr);  
+$privacy-policy-terms-atag-clr:var(--privacy-policy-terms-atag-clr);
+$button-font-clr:var(--button-font-clr);
+
+ // SCSS ROOT END
