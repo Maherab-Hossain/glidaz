@@ -1,23 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6, ul, p, span, ol, a {
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   --body-bg-clr:#F9FBFF;
   --profile-active-overlay: #34D399;
@@ -462,4 +443,27 @@ h1, h2, h3, h4, h5, h6, ul, p, span, ol, a {
 #video .userVideos ul li {
   display: inline-block;
   margin-left: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p, span, ol, a {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
