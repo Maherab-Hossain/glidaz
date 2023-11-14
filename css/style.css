@@ -30,11 +30,18 @@
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
 #main-manu nav .nav-option ul li {
-  margin: 0px 24px 0px 24px;
+  padding: 0px 24px 0px 24px;
+  display: inline-block;
 }
 #main-manu nav .nav-option ul li a {
   font-size: 28px;
   color: var --nav-option-color;
+  padding: 13px 13px;
+}
+#main-manu nav .nav-option ul li:hover a {
+  border-radius: 14px;
+  text-align: center;
+  background-color: var --nav-option-hover-clr;
 }
 #main-manu .nav-profile-option ul {
   display: flex;
