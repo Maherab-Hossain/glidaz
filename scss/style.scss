@@ -34,7 +34,11 @@
   // NAV START
   @import "./_nav.scss"; 
   // NAV END 
-
+   
+  // HOME LEFT SIDE BAR START
+  @import "./home-leftside-bar.scss"; 
+  // HOME LEFT SIDE BAR END 
+   
   // INDEX-HOME-PAGE START
   @import "./_index-home-page.scss"; 
   // INDEX-HOME-PAGE END 
@@ -42,3 +46,15 @@
   // MODAL START
   @import "./_modal.scss"; 
   // MODAL END 
+  
+  // PRIVACY CENTER START
+  @import "./_privacy-center.scss"; 
+  // PRIVACY CENTER END 
+
+  // COMMUNITY GROUP CATEGORY  START
+  @import "./_community-group-category.scss"; 
+  // COMMUNITY GROUP CATEGORY  END 
+
+  // CREATE NEW COMUNICATION  START
+  @import "./_create-new-comunication.scss"; 
+  // CREATE NEW COMUNICATION  END 
