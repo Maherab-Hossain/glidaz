@@ -58,7 +58,11 @@
   // CREATE NEW COMUNICATION  START
   @import "./_create-new-comunication.scss"; 
   // CREATE NEW COMUNICATION  END 
-  
-  //profile page starts
+
+    // CREATE NAME  START
+    @import "./_create-name.scss"; 
+    // CREATE NAME  END 
+
+    //profile page starts
   @import "./profilepage";
   //profile page ends
