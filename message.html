@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glidaz</title>
+  <!-- CSS LINKS START -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="./css/bootstrap5.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <!-- CSS LINKS END -->
+</head>
+<body>
+<!-- *Navbar section starts here-->
+<section id="main-manu">
+  <nav class="navbar navbar-expand-lg d-none d-lg-block">
+      <div class="container col">
+        <a class="navLogo navbar-brand col-4" href="#"> <img src="./images/nav_logo.png" alt="Glizar"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-4 nav-option" id="customNav">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"><iconify-icon icon="iconoir:home"></iconify-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><iconify-icon icon="bi:airplane"></iconify-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./event-time.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><i class="fa-brands fa-chromecast"></i></a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="nav-profile-option col-4">
+          <ul class="m-auto">
+              <li> <a href="#"><iconify-icon icon="iconoir:add-user"></iconify-icon></a></li>
+              <li> <a href="#"><iconify-icon icon="iconoir:chat-lines"></iconify-icon></a></li>
+              <li> <a href="#"><iconify-icon icon="lucide:bell"></iconify-icon></li>
+              <li class="user"> <a href="#"><iconify-icon icon="iconoir:profile-circle"></iconify-icon><span class="profile-active-overlay"></span></a></li>
+              <li class="nav-arrow"> <a href="#"><iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon></a> </li>
+          </ul>
+      </div>
+      </div>
+    </nav>
+</section>
+<!-- *Navbar section ends here -->
+<!-- NAV SM start -->
+<nav class="navbar navbar-sm d-block d-lg-none bg-body-tertiary" id="main-manusm">
+<div class="container ">
+  <div class="w-100 row">
+    <div class="navlogo-sm col-8">
+      <a class="navbar-brand" href="#"><img src="./assest/image/glizar nav logo sm.png" alt=""></a>
+    </div>
+    
+    <div class="navoption-sm  col-4" id="">
+      <ul class=" me-auto mb-2 mb-lg-0 row">
+        <li class="nav-item col-2">
+          <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-plus"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-text"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-bell"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-airplane"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+<!-- NAV SM end -->
+<!-- Message Section Starts -->
+<section id="msg">
+    <div class="container">
+        <div class="row">
+            <div class="chat col-lg-4">
+                <div class="chatMenu">
+                <p class="col-lg-7">Chat</p>
+                <div class="icon col-lg-3">
+                    <div class="iconGrp">
+                      <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
+                        <iconify-icon icon="iconoir:edit-pencil"></iconify-icon>
+                      </a>
+                    </div>
+                    <div class="iconGrp">
+                      <a href="#">
+                        <iconify-icon icon="material-symbols-light:more-vert"></iconify-icon>
+                      </a>
+                    </div>
+                </div>
+                <form action="#" class="searchbar">
+                  <iconify-icon icon="iconamoon:search-light"></iconify-icon>
+                  <input type="text">
+                </form>
+                <div class="msgBtn">
+                  <button id="chat">Chat box</button>
+                  <button id="comm">Community</button>
+                </div>
+                </div>
+                <div class="allMsg">
+                  <div class="allMsgSidebar" id="recent">
+                    <a href="#"><img src="./images/Brandon.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>Brandon Rogers</h5>
+                      </a>
+                      <p id="status">Just Now</p>
+                      <a href="#">
+                        <p>That's exactly how I felt 😉</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/David.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>David Abraham</h5>
+                      </a>
+                      <p id="status">Just Now</p>
+                      <a href="#">
+                        <p>Thanks a lot Brate!</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/Monalisa.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>Monalisa</h5>
+                      </a>
+                      <p id="status">08.01</p>
+                      <a href="#">
+                        <p>Nullam quis ante. Etiam sit amet orci eget…</p>
+                      </a>
+                      <div class="chatNum">2</div>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/Eliza.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>Eliza</h5>
+                      </a>
+                      <p id="status">12.32</p>
+                      <a href="#">
+                        <p>ok ill check that later</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/Greali.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>Greali</h5>
+                      </a>
+                      <p id="status">14.23</p>
+                      <a href="#">
+                        <p>ok noted, thanks 😆</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/Lindays.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>Lindays</h5>
+                      </a>
+                      <p id="status">Yesterday</p>
+                      <a href="#">
+                        <p>I know thats the facts, but let we just enjoy th…</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/Singh.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5 style="display: block;">Singh Jars</h5>
+                      </a>
+                      <p id="status">Yesterday</p>
+                      <a href="#">
+                        <p>i think its gone too far, bro.</p>
+                      </a>
+                      <div class="chatNum">4</div>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/Markpng.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>Mark Oy</h5>
+                      </a>
+                      <p id="status">21/05/21</p>
+                      <a href="#">
+                        <p>ok, have fun Mark</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="allMsgSidebar">
+                    <a href="#"><img src="./images/Eva.png" alt="Your Friend's Profile Image"></a>
+                    <div class="text">
+                      <a href="#">
+                        <h5>Eva Selia</h5>
+                      </a>
+                      <p id="status">10/05/23</p>
+                      <a href="#">
+                        <p>thats awesome, eva 🙏🏻</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="inbox col-lg-5">
+                
+                  <div class="chatMsg">
+                    <div class="chatHead">
+                      <div class="img">
+                        <img src="./images/Brandon.png" alt="">
+                        <div class="actvShape"></div>
+                      </div>
+                      <div class="text">
+                        <h4>Brandon Rogers</h4>
+                        <p>Online</p>
+                      </div>
+                      <div class="iconGrp">
+                        <a href="#">
+                          <iconify-icon icon="ri:phone-line"></iconify-icon>
+                        </a>
+                        <a href="#">
+                          <iconify-icon icon="material-symbols-light:more-vert"></iconify-icon>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="leftChat w-100">
+                      <p style="background-color: #6366F1;">Yo sup bro 👀</p>
+                      <p class="time">07.20 PM</p>
+                      <br>
+                      <p style="background-color: #4F46E5;">What's your favorite movie?</p>
+                      <p class="time">07.20 PM</p>
+                    </div>
+                    <div class="rightChat w-100">
+                      <p class="time">07.20 PM</p>
+                      <p style="background-color: #EFEFEF;">My favorite movie is Superbad.</p>
+                      <br>
+                      <p class="time" style="padding: 15px 0px;">07.20 PM</p>
+                      <p style="background-color: #EFEFEF;">It's the funniest movie that I've ever seen. You've seen it before? </p>
+                    </div>
+                    <div class="leftChat w-100">
+                      <p style="background-color: #4F46E5;">Yes, I saw that movie the first day it came out in theaters.</p>
+                      <p class="time">07.20 PM</p>
+                      <br>
+                      <p style="background-color: #3730A3;">Didn't you laugh through the whole movie? I did.</p>
+                      <p class="time">07.20 PM</p>
+                    </div>
+                    <div class="rightChat w-100">
+                      <p class="time">07.20 PM</p>
+                      <p style="background-color: #EFEFEF;">Me too. That movie brought tears to my eyes.</p>
+                      <br>
+                      <p class="time">07.20 PM</p>
+                      <img src="./images/chatImg.png" alt="">
+                    </div>
+                    <div class="leftChat w-100">
+                      <p style="background-color: #3730A3;">That's exactly how I felt.  😉</p>
+                      <p class="time">07.20 PM</p>
+                    </div>
+                    <div class="rightChat w-100">
+                      <p class="time">07.20 PM</p>
+                      <p style="background-color: #EFEFEF;">Had a great time.</p>
+                      <br>
+                      <p class="time">07.20 PM</p>
+                      <p style="background-color: #EFEFEF;">Lets watch movie together someday.</p>
+                    </div>
+                  </div>
+                  <hr>
+                <div class="writeMsg">
+                  <form action=""><input type="text" placeholder="Write Message…"></form>
+                </div>
+            </div>
+           
+            <div class="sidebar col-lg-2">
+                <div class="img">
+                  <img src="./images/Brandon.png" alt="">
+                  <div class="actvShape"></div>
+                </div>
+                <a href="#">
+                  <h5>Brandon Rogers</h5>
+                </a>
+                <p>Online</p>
+                <div class="sidebarIcon">
+                  <div class="iconGrp">
+                    <a href="#"><iconify-icon icon="lucide:bell"></iconify-icon></a>
+                  </div>
+                  <div class="iconGrp">
+                    <a href="#"><iconify-icon icon="iconamoon:search-light"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="dropdown custom_dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span style="margin-right: 5px;">Information about the chat</span>
+                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown custom_dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span style="margin-right: 55px;">Customize chats</span>
+                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown custom_dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span style="margin-right: 10px;">Media files, files and links</span>
+                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown custom_dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span style="margin-right: 50px;">Privacy & support</span>
+                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Message Section Ends -->
+
+<!-- JS LINK START -->
+<script src="./js/jquery-3.7.0.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/iconify-icon_1.0.7_iconify-icon.min.js"></script>
+<!-- <script src="./js/bootstrap.min.js"></script> -->
+<script src="./js/bootstrap5.min.js"></script>
+<script src="./js/app.js"></script>
+<!-- JS LINK END -->
+</body>
+</html>
