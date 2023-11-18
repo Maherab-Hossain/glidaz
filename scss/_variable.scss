@@ -29,6 +29,7 @@ $third-Font :'Poppins', sans-serif;
 --group-details-title-h:#082F49;
 --community-category-icon-text-clr:#44444F;
 --community-category-icon-text-bg-clr:#E9F3FB;
+--community-name-member-title-clr:rgba(0, 0, 0, 0.40);
 }
 // ROOT END
 // SCSS ROOT START
@@ -58,6 +59,7 @@ $create-comunication-btn:var(--create-comunication-btn);
 $group-details-title-h:var(--group-details-title-h);
 $community-category-icon-text-clr:var(--community-category-icon-text-clr);
 $community-category-icon-text-bg-clr:var(--community-category-icon-text-bg-clr);
+$community-name-member-title-clr:var(--community-name-member-title-clr);
 // SCSS ROOT END
 
 // $body-bg-clr:#F9FBFF;

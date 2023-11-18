@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6, ul, p, span, ol, a {
   --group-details-title-h:#082F49;
   --community-category-icon-text-clr:#44444F;
   --community-category-icon-text-bg-clr:#E9F3FB;
+  --community-name-member-title-clr:rgba(0, 0, 0, 0.40);
 }
 
 body {
@@ -914,4 +915,220 @@ body {
 
 #create-new-comunication {
   margin: 21px 0px;
+}
+#create-new-comunication .create-new-comunication-details {
+  padding: 0px 30px;
+}
+#create-new-comunication .create-new-comunication-details .create-community-profile {
+  margin-top: 72px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form {
+  margin-top: 55px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .community-name {
+  margin-bottom: 28px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .community-name .community-name-label {
+  font-size: 24px;
+  color: var(--black-clr);
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .community-name .community-name-input {
+  border-bottom: 1px solid var(--black-clr);
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .community-name .community-name-input input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .add-categotry {
+  margin-bottom: 28px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .add-categotry .add-categotry-label {
+  font-size: 24px;
+  color: var(--black-clr);
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .add-categotry .add-categotry-input {
+  border-bottom: 1px solid var(--black-clr);
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .add-categotry .add-categotry-input select {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .add-people h6 {
+  font-size: 24px;
+  color: var(--black-clr);
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .add-people span {
+  padding: 10px;
+  background-color: var(--black-clr);
+  color: var(--white-color);
+  border-radius: 20px;
+  text-align: center;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .create-community-btn {
+  text-align: right;
+  margin-top: 30px;
+}
+#create-new-comunication .create-new-comunication-details .create-new-communication-form .create-community-btn a {
+  font-size: 24px;
+  color: var(--white-color);
+  font-weight: 400;
+  line-height: 32px;
+  padding: 12px;
+  background-color: var(--create-comunication-btn);
+  border-radius: 15px;
+}
+
+#create-name {
+  margin: 21px 0px;
+}
+#create-name .create-name-details-box .create-name-cover {
+  padding: 50px 120px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+#create-name .create-name-details-box .create-name-cover h4 {
+  font-size: 72px;
+  color: var(--white-color);
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -1.44px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box {
+  border: 1px solid var(--sidebar-heading-bg-clr);
+  background-color: var(--white-color);
+  border-radius: 20px;
+  padding: 18px 16px 0px;
+  max-width: 671px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .mind-box {
+  font-size: 14px;
+  color: var(--side-border-clr);
+  font-weight: 500;
+  line-height: 20px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .mind-box .user-profile {
+  padding-right: 18px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .mind-box input {
+  border: 1px solid var(--sidebar-heading-bg-clr);
+  border-radius: 20px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .create-post-option {
+  margin-top: 16px;
+  padding-bottom: 12px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .create-post-option ul {
+  padding-left: 27px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .create-post-option ul li {
+  padding-right: 12px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .create-post-option ul li a {
+  font-size: 24px;
+  color: var(--sidebar-upcomming-span-clr);
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .create-post-option .post-btn {
+  text-align: right;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .create-post-option .post-btn button {
+  border: none;
+  background-color: transparent;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .create-post-box .create-post-option .post-btn button a {
+  color: var(--white-color);
+  background-color: var(--post-btn-bg-clr);
+  padding: 8px 34px;
+  border-radius: 15px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box {
+  margin-top: 33px;
+  margin-bottom: 18px;
+  max-width: 671px;
+  border: 1px solid var(--sidebar-heading-bg-clr);
+  border-radius: 20px;
+  background-color: var(--white-color);
+  padding: 25px 17px 0px;
+  cursor: pointer;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details {
+  margin-bottom: 25px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title {
+  padding-left: 18px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title a {
+  font-size: 16px;
+  color: var(--nav-option-color);
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title a span {
+  font-size: 16px;
+  color: var(--sidebar-upcomming-span-clr);
+  font-weight: 700;
+  line-height: 24px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title p {
+  font-size: 16px;
+  color: var(--nav-option-color);
+  font-weight: 500;
+  line-height: 28px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .posted-img {
+  max-width: 634px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .posted-img img {
+  width: 100%;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .react-option {
+  padding: 0px 14px;
+}
+#create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .react-option ul li {
+  font-size: 15px;
+  color: var(--black-clr);
+  font-weight: 600;
+  line-height: 22.449px;
+  text-align: center;
+}
+#create-name .create-name-details-box .post-member-details-box .member-box .member-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+#create-name .create-name-details-box .post-member-details-box .member-box .member-title h6 {
+  font-size: 20.077px;
+  font-weight: 700;
+  line-height: 30.116px;
+}
+#create-name .create-name-details-box .post-member-details-box .member-box .member-title h6 span {
+  font-size: 20.077px;
+  color: var(--community-name-member-title-clr);
+  font-weight: 700;
+  line-height: 30.116px;
+}
+#create-name .create-name-details-box .post-member-details-box .member-box .member-title .add-member-btn {
+  width: 28px;
+  height: 28px;
+  background-color: var(--sidebar-heading-bg-clr);
+  border-radius: 50%;
+  color: var(--black-clr);
+  line-height: 32px;
+  text-align: center;
+}
+#create-name .create-name-details-box .post-member-details-box .member-box .profile-box {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
