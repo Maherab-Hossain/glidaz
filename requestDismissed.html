@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dismissed</title>
+  <!-- CSS LINKS START -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <!-- CSS LINKS END -->
+</head>
+<body>
+<!-- *Navbar section starts here-->
+<section id="main-manu">
+  <nav class="navbar navbar-expand-lg d-none d-lg-block">
+      <div class="container col">
+        <a class="navLogo navbar-brand col-4" href="#"> <img src="./images/nav_logo.png" alt="Glizar"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-4 nav-option" id="customNav">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"><iconify-icon icon="iconoir:home"></iconify-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><iconify-icon icon="bi:airplane"></iconify-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./event-time.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><i class="fa-brands fa-chromecast"></i></a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="nav-profile-option col-4">
+          <ul class="m-auto">
+              <li> <a href="#"><iconify-icon icon="iconoir:add-user"></iconify-icon></a></li>
+              <li> <a href="#"><iconify-icon icon="iconoir:chat-lines"></iconify-icon></a></li>
+              <li> <a href="#"><iconify-icon icon="lucide:bell"></iconify-icon></li>
+              <li class="user"> <a href="#"><iconify-icon icon="iconoir:profile-circle"></iconify-icon><span class="profile-active-overlay"></span></a></li>
+              <li class="nav-arrow"> <a href="#"><iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon></a> </li>
+          </ul>
+      </div>
+      </div>
+    </nav>
+</section>
+<!-- *Navbar section ends here -->
+<!-- NAV SM start -->
+<nav class="navbar navbar-sm d-block d-lg-none bg-body-tertiary" id="main-manusm">
+<div class="container ">
+  <div class="w-100 row">
+    <div class="navlogo-sm col-8">
+      <a class="navbar-brand" href="#"><img src="./assest/image/glizar nav logo sm.png" alt=""></a>
+    </div>
+    
+    <div class="navoption-sm  col-4" id="">
+      <ul class=" me-auto mb-2 mb-lg-0 row">
+        <li class="nav-item col-2">
+          <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-plus"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-text"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-bell"></i></a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-airplane"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+<!-- NAV SM end -->  
+
+<!-- Friends page starts -->
+<section id="friends">
+    <div class="container">
+        <div class="row">
+            <!-- left side of friends page -->
+            <div class="friendsMenu col-3">
+                <h5>Friends <a href="#"> <span><iconify-icon icon="iconoir:settings"></iconify-icon></span></a> </h5>
+                <ul>
+                    <li>
+                        <div class="icon"> <i class="fa-regular fa-circle-user"></i> </div> 
+                        <a href="#">
+                            Friend List
+                        </a>
+                        
+                    </li>
+
+                    <li>
+                        <div class="icon"> <i class="fa-regular fa-face-smile"></i> </div> 
+                        <a href="#">
+                            Friend Request
+                        </a>
+                        
+                    </li>
+
+                    <li>
+                        <div class="icon"><i class="fa-solid fa-user-plus"></i> </div> 
+                        <a href="#">
+                            Suggest
+                        </a>
+                        
+                    </li>
+
+                    <li>      
+                        <div class="icon"><iconify-icon icon="iconoir:gift"></iconify-icon> </div>
+                        <a href="#">
+                            Birthday
+                        </a>
+                  
+                    </li>
+
+                    <li> 
+                        <div class="icon"> <iconify-icon icon="iconoir:user-love"></iconify-icon> </div>                   
+                        <a href="#">
+                            Custom list
+                        </a>
+                        
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="friendRequest col-5">
+                <div class="friendRequestList">
+                    <h5>Friend request</h5>
+
+                    <ul>
+                      <li>
+                          <img src="./images/friendReq1.png" alt="">
+                          <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                             <span> 1 mutual friends</span> </p>
+
+                             <div class="button dismissed"> Dismissed</div>
+                           
+                             
+                             
+                      </li>
+  
+                      <li>
+                        <img src="./images/friendReq2.png" alt="">
+                        <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                           <span> 1 mutual friends</span> </p>
+                           <div class="button dismiss-button">Dismiss</div>
+                           <div class="button add-button ">Add me</div>
+                    </li>
+
+  
+  
+                    <li>
+                      <img src="./images/friendReq3.png" alt="">
+                      <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                         <span> 1 mutual friends</span> </p>
+                         <div class="button dismiss-button">Dismiss</div>
+                         <div class="button add-button ">Add me</div>
+                  </li>
+
+  
+  
+                      
+                  </ul>
+
+                </div>
+
+                <div class="suggestionPeople">
+                    <h5>Suggestion People</h5>
+                    <ul>
+                      <li>
+                          <img src="./images/suggPeople1.png" alt="">
+                          <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                             <span> 1 mutual friends</span> </p>
+                             <div class="button dismiss-button">Dismiss</div>
+                             <div class="button add-button ">Add me</div>
+                      </li>
+  
+                      <li>
+                        <img src="./images/suggPeople2.png" alt="">
+                        <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                           <span> 1 mutual friends</span> </p>
+                           <div class="button dismiss-button">Dismiss</div>
+                           <div class="button add-button ">Add me</div>
+                    </li>
+
+  
+  
+                    <li>
+                      <img src="./images/suggPeople3.png" alt="">
+                      <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                         <span> 1 mutual friends</span> </p>
+                         <div class="button dismiss-button">Dismiss</div>
+                         <div class="button add-button ">Add me</div>
+                  </li>
+
+                  <li>
+                    <img src="./images/suggPeople4.png" alt="">
+                    <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                       <span> 1 mutual friends</span> </p>
+                       <div class="button dismiss-button">Dismiss</div>
+                       <div class="button add-button ">Add me</div>
+                </li>
+
+                <li>
+                  <img src="./images/suggPeople5.png" alt="">
+                  <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                     <span> 1 mutual friends</span> </p>
+                     <div class="button dismiss-button">Dismiss</div>
+                     <div class="button add-button ">Add me</div>
+              </li>
+
+              <li>
+                <img src="./images/suggPeople6.png" alt="">
+                <p class="friendName"><a href="#"> Callya Ashley</a> <br>
+                   <span> 1 mutual friends</span> </p>
+                   <div class="button dismiss-button">Dismiss</div>
+                   <div class="button add-button ">Add me</div>
+            </li>
+
+  
+  
+                      
+                  </ul>
+                </div>
+
+                
+
+            </div>
+
+            <div class="communityJoined col-3">
+              <form action="" class="searchBar">
+                <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                <input type="text" placeholder="Search" name="q">
+                
+              </form>
+
+                <h5>Community Joined</h5>
+
+                <ul>
+                  <li>
+                   <a href="#">
+                    <img src="./images/CJ1.png" alt="">
+                    <h4>UI/UX Designer</h4> <br>
+                   </a>
+
+                    <div class="mAndu">
+                      <span class="members">398,098K members</span> &bull; <span class="posts">102,987K posts</span>
+                    </div>
+                    
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <img src="./images/CJ2.png" alt="">
+                    <h4>UI/UX Designer</h4> <br>
+                    </a>
+
+                    <div class="mAndu">
+                      <span class="members">398,098K members</span> &bull; <span class="posts">102,987K posts</span>
+                    </div>
+                    
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <img src="./images/CJ3.png" alt="">
+                    <h4>UI/UX Designer</h4> <br>
+                    </a>
+
+                    <div class="mAndu">
+                      <span class="members">398,098K members</span> &bull; <span class="posts">102,987K posts</span>
+                    </div>
+                    
+                  </li>
+
+                  <li>
+                   <a href="#">
+                    <img src="./images/CJ4.png" alt="">
+                    <h4>UI/UX Designer</h4> <br>
+                   </a>
+
+                    <div class="mAndu">
+                      <span class="members">398,098K members</span> &bull; <span class="posts">102,987K posts</span>
+                    </div>
+                    
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <img src="./images/CJ5.png" alt="">
+                    <h4>UI/UX Designer</h4> <br>
+                    </a>
+
+                    <div class="mAndu">
+                      <span class="members">398,098K members</span> &bull; <span class="posts">102,987K posts</span>
+                    </div>
+                    
+                  </li>
+               </ul>
+
+               <div class="TrendingToday">
+                <h5>Trending Today</h5>
+                <ul>
+                  <li>
+                    
+                    <p class="friendName"><a href="#"> UI/UX Designer</a> <br>
+                       <span> 102,987K posts</span> </p>
+                       <div class="button dismiss-button">Follow</div>
+                       
+                </li>
+
+                <li>
+                  
+                  <p class="friendName"><a href="#"> UI/UX Designer</a> <br>
+                     <span> 102,987K posts</span> </p>
+                     <div class="button dismiss-button">Follow</div>
+                     
+              </li>
+
+              <li>
+               
+                <p class="friendName"><a href="#"> UI/UX Designer</a> <br>
+                   <span> 102,987K posts</span> </p>
+                   <div class="button dismiss-button">Follow</div>
+                  
+            </li>
+                </ul>
+               </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+<!-- Friends page ends -->
+
+<!-- JS LINK START -->
+<script src="./js/jquery-3.7.0.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/iconify-icon_1.0.7_iconify-icon.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/app.js"></script>
+<!-- JS LINK END -->
+</body>
+</html>

@@ -6,6 +6,10 @@
  @import "./_variable.scss";
  // ROOT END
 
+ //Noorihan Root start
+ @import "./nVariable";
+ //Noorihan Root end
+
  // NAV START
  @import "./_nav.scss"; 
  // NAV END 
@@ -14,6 +18,18 @@
  @import "./profilepage";
  //Profile page starts
 
+ //Friend page starts
+ @import "./friendspage";
+ //Friend page ends
+
+//  Friend Request Accept Page Starts
+@import "./RequestAccept";
+// Friend Request Accept Page Ends
+
+//Friend Request Dismissed page starts
+@import "./requestDismissed";
+
+//Friend Request Dismissed page ends
  
 // COMMON CSS START
 *{
