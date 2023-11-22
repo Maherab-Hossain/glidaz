@@ -97,7 +97,7 @@ body {
 #main-manu nav .nav-option ul li:hover a {
   border-radius: 14px;
   text-align: center;
-  background-color: var --nav-option-hover-clr;
+  background-color: var(--nav-option-hover-clr);
 }
 #main-manu .nav-profile-option ul {
   display: flex;
