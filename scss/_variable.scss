@@ -83,6 +83,7 @@ $community-name-member-title-clr:var(--community-name-member-title-clr);
 // $create-post-modal-bg-clr:rgba(204, 204, 204, 0.60);
 // $create-modal-close-clr:lighten(#9CA3AF,11%);
 // $profile-modal-name-clr:#111827;
+
 $primaryfont: 'Plus Jakarta Sans', sans-serif; 
 $secondary-Font : 'Roboto', sans-serif;
 $third-Font: 'Poppins', sans-serif; 
@@ -110,17 +111,13 @@ $third-Font: 'Poppins', sans-serif;
 --profile-modal-name-clr:#111827;
 --privacy-policy-terms-atag-clr:#60A5FA;
 --button-font-clr:#EEF2FF;
-
- }
-
+}
  // ROOT END
-
- // SCSS ROOT START 31
-
+// SCSS ROOT START 31
 $body-bg-clr:var(--body-bg-clr);
 $profile-active-overlay :var(--profile-active-overlay);
 $black-clr:var(--black-clr);  
-$nav-option-color:var (--nav-option-color);
+$nav-option-color:var(--nav-option-color);
 $white-color: var(--white-color);  
 $nav-bottom-border-clr: var(--nav-bottom-border-clr);
 $nav-option-hover-clr:var (--nav-option-hover-clr); 
@@ -140,5 +137,4 @@ $create-modal-close-clr:var(--create-modal-close-clr);
 $profile-modal-name-clr: var(--profile-modal-name-clr);  
 $privacy-policy-terms-atag-clr:var(--privacy-policy-terms-atag-clr);
 $button-font-clr:var(--button-font-clr);
-
- // SCSS ROOT END
+// SCSS ROOT END
