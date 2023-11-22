@@ -19,10 +19,12 @@
   }
   .community-name-input{
   border-bottom: 1px solid $black-clr;
+  display: block;
   input{
   background-color: transparent;
   outline: none;
   border: none;  
+  width: 100%;
   }
   }  
   }
@@ -37,10 +39,12 @@
   }
   .add-categotry-input{
   border-bottom: 1px solid $black-clr;
+  display: block;
   select{
   background-color: transparent;
   outline: none;
-  border: none;  
+  border: none; 
+  width: 100%; 
   } 
   }  
   }
@@ -75,6 +79,5 @@
   }  
   }  
   }
-  
   //create new communication details end 
 }

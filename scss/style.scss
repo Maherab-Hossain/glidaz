@@ -28,7 +28,7 @@
     background-color: $body-bg-clr;
     font-family:$primaryfont ;
     color: $black-clr;
-    position: relative
+    position: relative;
   }
   
   // NAV START
@@ -36,7 +36,7 @@
   // NAV END 
    
   // HOME LEFT SIDE BAR START
-  @import "./home-leftside-bar.scss"; 
+  @import "./_home-leftside-bar.scss"; 
   // HOME LEFT SIDE BAR END 
    
   // INDEX-HOME-PAGE START
@@ -59,10 +59,10 @@
   @import "./_create-new-comunication.scss"; 
   // CREATE NEW COMUNICATION  END 
 
-    // CREATE NAME  START
-    @import "./_create-name.scss"; 
-    // CREATE NAME  END 
+  // CREATE NAME  START
+  @import "./_create-name.scss"; 
+  // CREATE NAME  END 
 
-    //profile page starts
+  //profile page starts
   @import "./profilepage";
   //profile page ends
