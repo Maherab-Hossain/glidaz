@@ -4,7 +4,7 @@
     .chat{
         border: 1px solid #E0E3EF;
         border-radius: 15px;
-        padding: 30px 5px 32px 5px;
+        padding: 30px 17px 32px 7px;
         .chatMenu{
             align-items: center;
             
@@ -109,7 +109,7 @@
                     opacity: 0.4;
                 }
                 p{
-                    font-size: 16px;
+                    font-size: 14px;
                     font-weight: 500;
                     color: #202020;
                     opacity: 0.4;
@@ -156,10 +156,12 @@
         .chatMsg{
             padding: 2px 0px;
             .chatHead{
+                
                 display: flex;
                 align-items: center;
+                padding: 10px;
                 .img{
-                    margin-right: 14px;
+                    margin-right: 21px;
                     position: relative;
     
                     .actvShape{
@@ -174,11 +176,12 @@
                     }
                 }
                 .text{
-                    margin-right: 180px;
+                    margin-right: 100px;
                     h4{
-                        font-size: 24px;
+                        font-size: 22px;
                         font-weight: 700;
                         color: $inbox-primary-font-clr;
+
                     }
                     p{
                         font-size: 18px;
@@ -203,12 +206,17 @@
         }
 
         .writeMsg{
-            border: 1px solid red;
+            border-top: 1px solid rgba(32, 32, 1, 0.08);
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
             height: 48px;
             background-color: #FAFAFA;
 
             form{
+                
+                position: relative;
                 input{
+                    margin-left: 10px;
                     margin-top: 5px;
                     border: 0;
                     background-color: #FAFAFA;
@@ -226,16 +234,27 @@
                         outline: 0;
                     }
                 }
+
+                .writemsgIcon{
+                    position: absolute;
+                    right: 10px;
+                    bottom: 0;
+                    display: inline-block;
+                    a{
+                        padding: 0 3px;
+                    }
+                }
                 
             }
             
         }
 
         .leftChat{
+            padding-left: 12px;
             p{
                 display: inline-block;
                 padding: 15px;
-                font-size: 14px;
+                font-size: 12px;
                 font-weight: 700;
                 color: $white-color;
                 border-radius: 12px;
@@ -253,10 +272,11 @@
 
         .rightChat{
             text-align: right;
+            padding-right: 12px;
                 p{
                     display: inline-block;
                     padding: 15px;
-                    font-size: 14px;
+                    font-size: 12px;
                     font-weight: 700;
                     color: $inbox-primary-font-clr;
                     opacity: 0.7;
@@ -284,13 +304,14 @@
     .sidebar{
         border: 1px solid #E0E3EF;
         border-radius: 15px;
-        padding: 15px 21px;
+        // padding: 15px 21px;
         margin-left: 16px;
         height: 375px;
         
         .img{
             position: relative;
             text-align: center;
+            margin-top: 15px;
             .actvShape{
                 background-color: #20D234;
                 border: 2px solid white;
@@ -299,7 +320,7 @@
                 border-radius: 50%;
                 position: absolute;
                 bottom: 0;
-                right: 66px;
+                right: 100px;
                 
             }
         }
@@ -340,7 +361,8 @@
         }
 
         .custom_dropdown{
-            margin-top: 10px;
+            margin: 10px 5px 0px 5px;
+            
             button{
                 font-size: 12px;
                 color: $black-clr;

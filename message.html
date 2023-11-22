@@ -7,7 +7,6 @@
   <!-- CSS LINKS START -->
   <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/slick.css">
-  <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="./css/bootstrap5.min.css">
   <link rel="stylesheet" href="./css/style.min.css">
   <!-- CSS LINKS END -->
@@ -86,275 +85,282 @@
 <!-- Message Section Starts -->
 <section id="msg">
     <div class="container">
-        <div class="row">
-            <div class="chat col-lg-4">
-                <div class="chatMenu">
-                <p class="col-lg-7">Chat</p>
-                <div class="icon col-lg-3">
-                    <div class="iconGrp">
-                      <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
-                        <iconify-icon icon="iconoir:edit-pencil"></iconify-icon>
-                      </a>
-                    </div>
-                    <div class="iconGrp">
-                      <a href="#">
-                        <iconify-icon icon="material-symbols-light:more-vert"></iconify-icon>
-                      </a>
-                    </div>
+        <div class="Message">
+          <div class="row">
+                <div class="col-lg-4">
+                  <div class="chat">
+                      <div class="chatMenu">
+                      <p class="col-lg-6">Chat</p>
+                      <div class="icon col-lg-4">
+                          <div class="iconGrp">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
+                              <iconify-icon icon="iconoir:edit-pencil"></iconify-icon>
+                            </a>
+                          </div>
+                          <div class="iconGrp">
+                            <a href="#">
+                              <iconify-icon icon="material-symbols-light:more-vert"></iconify-icon>
+                            </a>
+                          </div>
+                      </div>
+                      <form action="#" class="searchbar">
+                        <iconify-icon icon="iconamoon:search-light"></iconify-icon>
+                        <input type="text">
+                      </form>
+                      <div class="msgBtn">
+                        <button id="chat">Chat box</button>
+                        <button id="comm">Community</button>
+                      </div>
+                      </div>
+                      <div class="allMsg">
+                        <div class="allMsgSidebar" id="recent">
+                          <a href="#"><img src="./images/Brandon.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>Brandon Rogers</h5>
+                            </a>
+                            <p id="status">Just Now</p>
+                            <a href="#">
+                              <p>That's exactly how I felt 😉</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/David.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>David Abraham</h5>
+                            </a>
+                            <p id="status">Just Now</p>
+                            <a href="#">
+                              <p>Thanks a lot Brate!</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/Monalisa.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>Monalisa</h5>
+                            </a>
+                            <p id="status">08.01</p>
+                            <a href="#">
+                              <p>Nullam quis ante. Etiam sit amet…</p>
+                            </a>
+                            <div class="chatNum">2</div>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/Eliza.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>Eliza</h5>
+                            </a>
+                            <p id="status">12.32</p>
+                            <a href="#">
+                              <p>ok ill check that later</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/Greali.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>Greali</h5>
+                            </a>
+                            <p id="status">14.23</p>
+                            <a href="#">
+                              <p>ok noted, thanks 😆</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/Lindays.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>Lindays</h5>
+                            </a>
+                            <p id="status">Yesterday</p>
+                            <a href="#">
+                              <p>I know thats the facts, but let we just…</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/Singh.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5 style="display: block;">Singh Jars</h5>
+                            </a>
+                            <p id="status">Yesterday</p>
+                            <a href="#">
+                              <p>i think its gone too far, bro.</p>
+                            </a>
+                            <div class="chatNum">4</div>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/Markpng.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>Mark Oy</h5>
+                            </a>
+                            <p id="status">21/05/21</p>
+                            <a href="#">
+                              <p>ok, have fun Mark</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="allMsgSidebar">
+                          <a href="#"><img src="./images/Eva.png" alt="Your Friend's Profile Image"></a>
+                          <div class="text">
+                            <a href="#">
+                              <h5>Eva Selia</h5>
+                            </a>
+                            <p id="status">10/05/23</p>
+                            <a href="#">
+                              <p>thats awesome, eva 🙏🏻</p>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
                 </div>
-                <form action="#" class="searchbar">
-                  <iconify-icon icon="iconamoon:search-light"></iconify-icon>
-                  <input type="text">
-                </form>
-                <div class="msgBtn">
-                  <button id="chat">Chat box</button>
-                  <button id="comm">Community</button>
-                </div>
-                </div>
-                <div class="allMsg">
-                  <div class="allMsgSidebar" id="recent">
-                    <a href="#"><img src="./images/Brandon.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>Brandon Rogers</h5>
-                      </a>
-                      <p id="status">Just Now</p>
-                      <a href="#">
-                        <p>That's exactly how I felt 😉</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/David.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>David Abraham</h5>
-                      </a>
-                      <p id="status">Just Now</p>
-                      <a href="#">
-                        <p>Thanks a lot Brate!</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/Monalisa.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>Monalisa</h5>
-                      </a>
-                      <p id="status">08.01</p>
-                      <a href="#">
-                        <p>Nullam quis ante. Etiam sit amet orci eget…</p>
-                      </a>
-                      <div class="chatNum">2</div>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/Eliza.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>Eliza</h5>
-                      </a>
-                      <p id="status">12.32</p>
-                      <a href="#">
-                        <p>ok ill check that later</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/Greali.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>Greali</h5>
-                      </a>
-                      <p id="status">14.23</p>
-                      <a href="#">
-                        <p>ok noted, thanks 😆</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/Lindays.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>Lindays</h5>
-                      </a>
-                      <p id="status">Yesterday</p>
-                      <a href="#">
-                        <p>I know thats the facts, but let we just enjoy th…</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/Singh.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5 style="display: block;">Singh Jars</h5>
-                      </a>
-                      <p id="status">Yesterday</p>
-                      <a href="#">
-                        <p>i think its gone too far, bro.</p>
-                      </a>
-                      <div class="chatNum">4</div>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/Markpng.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>Mark Oy</h5>
-                      </a>
-                      <p id="status">21/05/21</p>
-                      <a href="#">
-                        <p>ok, have fun Mark</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="allMsgSidebar">
-                    <a href="#"><img src="./images/Eva.png" alt="Your Friend's Profile Image"></a>
-                    <div class="text">
-                      <a href="#">
-                        <h5>Eva Selia</h5>
-                      </a>
-                      <p id="status">10/05/23</p>
-                      <a href="#">
-                        <p>thats awesome, eva 🙏🏻</p>
-                      </a>
-                    </div>
+                <div class="col-lg-5">
+                  <div class="inbox">
+                        <div class="chatMsg">
+                          <div class="chatHead">
+                            <div class="img">
+                              <img src="./images/Brandon.png" alt="">
+                              <div class="actvShape"></div>
+                            </div>
+                            <div class="text">
+                              <a href="#">
+                                <h4>Brandon Rogers</h4>
+                              </a>
+                              <p>Online</p>
+                            </div>
+                            <div class="iconGrp">
+                              <a href="#">
+                                <iconify-icon icon="ri:phone-line"></iconify-icon>
+                              </a>
+                              <a href="#">
+                                <iconify-icon icon="material-symbols-light:more-vert"></iconify-icon>
+                              </a>
+                            </div>
+                          </div>
+                          <hr>
+                          <div class="leftChat w-100">
+                            <p style="background-color: #6366F1;">Yo sup bro 👀</p>
+                            <p class="time">07.20 PM</p>
+                            <br>
+                            <p style="background-color: #4F46E5;">What's your favorite movie?</p>
+                            <p class="time">07.20 PM</p>
+                          </div>
+                          <div class="rightChat w-100">
+                            <p class="time">07.20 PM</p>
+                            <p style="background-color: #EFEFEF;">My favorite movie is Superbad.</p>
+                            <br>
+                            <p class="time" style="padding: 15px 0px;">07.20 PM</p>
+                            <p style="background-color: #EFEFEF;">It's the funniest movie that I've ever seen. You've seen it before? </p>
+                          </div>
+                          <div class="leftChat w-100">
+                            <p style="background-color: #4F46E5;">Yes, I saw that movie the first day it came out in theaters.</p>
+                            <p class="time">07.20 PM</p>
+                            <br>
+                            <p style="background-color: #3730A3;">Didn't you laugh through the whole movie? I did.</p>
+                            <p class="time">07.20 PM</p>
+                          </div>
+                          <div class="rightChat w-100">
+                            <p class="time">07.20 PM</p>
+                            <p style="background-color: #EFEFEF;">Me too. That movie brought tears to my eyes.</p>
+                            <br>
+                            <p class="time">07.20 PM</p>
+                            <img src="./images/chatImg.png" alt="">
+                          </div>
+                          <div class="leftChat w-100">
+                            <p style="background-color: #3730A3;">That's exactly how I felt.  😉</p>
+                            <p class="time">07.20 PM</p>
+                          </div>
+                        </div>
+                      <div class="writeMsg">
+                        <form action=""><input type="text" placeholder="Write Message…">
+                          <div class="writemsgIcon">
+                            <a href="#"><iconify-icon icon="fa-regular:smile" style="color: #6b7280;"></iconify-icon></a>
+                            <a href="#"><iconify-icon icon="iconoir:attachment" style="color: #6b7280;"></iconify-icon></a>
+                            <a href="#"><iconify-icon icon="ph:camera" style="color: #6b7280;"></iconify-icon></a>
+                          </div>
+                        </form>
+                      </div>
+                      
                   </div>
                 </div>
-            </div>
-            <div class="inbox col-lg-5">
-                
-                  <div class="chatMsg">
-                    <div class="chatHead">
+                <div class="col-lg-3">
+                  <div class="sidebar">
                       <div class="img">
                         <img src="./images/Brandon.png" alt="">
                         <div class="actvShape"></div>
                       </div>
-                      <div class="text">
-                        <h4>Brandon Rogers</h4>
-                        <p>Online</p>
+                      <a href="#">
+                        <h5>Brandon Rogers</h5>
+                      </a>
+                      <p>Online</p>
+                      <div class="sidebarIcon">
+                        <div class="iconGrp">
+                          <a href="#"><iconify-icon icon="lucide:bell"></iconify-icon></a>
+                        </div>
+                        <div class="iconGrp">
+                          <a href="#"><iconify-icon icon="iconamoon:search-light"></iconify-icon></a>
+                        </div>
                       </div>
-                      <div class="iconGrp">
-                        <a href="#">
-                          <iconify-icon icon="ri:phone-line"></iconify-icon>
-                        </a>
-                        <a href="#">
-                          <iconify-icon icon="material-symbols-light:more-vert"></iconify-icon>
-                        </a>
+                      <div class="dropdown custom_dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span style="margin-right: 44px;">Information about the chat</span>
+                          <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                       </div>
-                    </div>
-                    <hr>
-                    <div class="leftChat w-100">
-                      <p style="background-color: #6366F1;">Yo sup bro 👀</p>
-                      <p class="time">07.20 PM</p>
-                      <br>
-                      <p style="background-color: #4F46E5;">What's your favorite movie?</p>
-                      <p class="time">07.20 PM</p>
-                    </div>
-                    <div class="rightChat w-100">
-                      <p class="time">07.20 PM</p>
-                      <p style="background-color: #EFEFEF;">My favorite movie is Superbad.</p>
-                      <br>
-                      <p class="time" style="padding: 15px 0px;">07.20 PM</p>
-                      <p style="background-color: #EFEFEF;">It's the funniest movie that I've ever seen. You've seen it before? </p>
-                    </div>
-                    <div class="leftChat w-100">
-                      <p style="background-color: #4F46E5;">Yes, I saw that movie the first day it came out in theaters.</p>
-                      <p class="time">07.20 PM</p>
-                      <br>
-                      <p style="background-color: #3730A3;">Didn't you laugh through the whole movie? I did.</p>
-                      <p class="time">07.20 PM</p>
-                    </div>
-                    <div class="rightChat w-100">
-                      <p class="time">07.20 PM</p>
-                      <p style="background-color: #EFEFEF;">Me too. That movie brought tears to my eyes.</p>
-                      <br>
-                      <p class="time">07.20 PM</p>
-                      <img src="./images/chatImg.png" alt="">
-                    </div>
-                    <div class="leftChat w-100">
-                      <p style="background-color: #3730A3;">That's exactly how I felt.  😉</p>
-                      <p class="time">07.20 PM</p>
-                    </div>
-                    <div class="rightChat w-100">
-                      <p class="time">07.20 PM</p>
-                      <p style="background-color: #EFEFEF;">Had a great time.</p>
-                      <br>
-                      <p class="time">07.20 PM</p>
-                      <p style="background-color: #EFEFEF;">Lets watch movie together someday.</p>
-                    </div>
-                  </div>
-                  <hr>
-                <div class="writeMsg">
-                  <form action=""><input type="text" placeholder="Write Message…"></form>
-                </div>
-            </div>
-           
-            <div class="sidebar col-lg-2">
-                <div class="img">
-                  <img src="./images/Brandon.png" alt="">
-                  <div class="actvShape"></div>
-                </div>
-                <a href="#">
-                  <h5>Brandon Rogers</h5>
-                </a>
-                <p>Online</p>
-                <div class="sidebarIcon">
-                  <div class="iconGrp">
-                    <a href="#"><iconify-icon icon="lucide:bell"></iconify-icon></a>
-                  </div>
-                  <div class="iconGrp">
-                    <a href="#"><iconify-icon icon="iconamoon:search-light"></iconify-icon></a>
+                      <div class="dropdown custom_dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span style="margin-right: 100px;">Customize chats</span>
+                          <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown custom_dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span style="margin-right: 55px;">Media files, files and links</span>
+                          <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown custom_dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span style="margin-right: 92px;">Privacy & support</span>
+                          <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
                   </div>
                 </div>
-                <div class="dropdown custom_dropdown">
-                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span style="margin-right: 5px;">Information about the chat</span>
-                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </div>
-                <div class="dropdown custom_dropdown">
-                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span style="margin-right: 55px;">Customize chats</span>
-                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </div>
-                <div class="dropdown custom_dropdown">
-                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span style="margin-right: 10px;">Media files, files and links</span>
-                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </div>
-                <div class="dropdown custom_dropdown">
-                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span style="margin-right: 50px;">Privacy & support</span>
-                    <iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </div>
-                
-            </div>
+              
+          </div>
         </div>
     </div>
 </section>
@@ -366,7 +372,6 @@
 <script src="./js/slick.min.js"></script>
 <script src="./js/all.min.js"></script>
 <script src="./js/iconify-icon_1.0.7_iconify-icon.min.js"></script>
-<!-- <script src="./js/bootstrap.min.js"></script> -->
 <script src="./js/bootstrap5.min.js"></script>
 <script src="./js/app.js"></script>
 <!-- JS LINK END -->

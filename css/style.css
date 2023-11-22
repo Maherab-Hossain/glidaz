@@ -456,7 +456,7 @@
 #msg .chat {
   border: 1px solid #E0E3EF;
   border-radius: 15px;
-  padding: 30px 5px 32px 5px;
+  padding: 30px 17px 32px 7px;
 }
 #msg .chat .chatMenu {
   align-items: center;
@@ -552,7 +552,7 @@
   opacity: 0.4;
 }
 #msg .chat .allMsg .allMsgSidebar .text p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #202020;
   opacity: 0.4;
@@ -594,9 +594,10 @@
 #msg .inbox .chatMsg .chatHead {
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 #msg .inbox .chatMsg .chatHead .img {
-  margin-right: 14px;
+  margin-right: 21px;
   position: relative;
 }
 #msg .inbox .chatMsg .chatHead .img .actvShape {
@@ -610,10 +611,10 @@
   right: 0;
 }
 #msg .inbox .chatMsg .chatHead .text {
-  margin-right: 180px;
+  margin-right: 100px;
 }
 #msg .inbox .chatMsg .chatHead .text h4 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--inbox-primary-font-clr);
 }
@@ -631,11 +632,17 @@
   color: var(--inbox-primary-font-clr);
 }
 #msg .inbox .writeMsg {
-  border: 1px solid red;
+  border-top: 1px solid rgba(32, 32, 1, 0.08);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   height: 48px;
   background-color: #FAFAFA;
 }
+#msg .inbox .writeMsg form {
+  position: relative;
+}
 #msg .inbox .writeMsg form input {
+  margin-left: 10px;
   margin-top: 5px;
   border: 0;
   background-color: #FAFAFA;
@@ -650,10 +657,22 @@
 #msg .inbox .writeMsg form input:focus {
   outline: 0;
 }
+#msg .inbox .writeMsg form .writemsgIcon {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  display: inline-block;
+}
+#msg .inbox .writeMsg form .writemsgIcon a {
+  padding: 0 3px;
+}
+#msg .inbox .leftChat {
+  padding-left: 12px;
+}
 #msg .inbox .leftChat p {
   display: inline-block;
   padding: 15px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--white-color);
   border-radius: 12px;
@@ -668,11 +687,12 @@
 }
 #msg .inbox .rightChat {
   text-align: right;
+  padding-right: 12px;
 }
 #msg .inbox .rightChat p {
   display: inline-block;
   padding: 15px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--inbox-primary-font-clr);
   opacity: 0.7;
@@ -692,13 +712,13 @@
 #msg .sidebar {
   border: 1px solid #E0E3EF;
   border-radius: 15px;
-  padding: 15px 21px;
   margin-left: 16px;
   height: 375px;
 }
 #msg .sidebar .img {
   position: relative;
   text-align: center;
+  margin-top: 15px;
 }
 #msg .sidebar .img .actvShape {
   background-color: #20D234;
@@ -708,7 +728,7 @@
   border-radius: 50%;
   position: absolute;
   bottom: 0;
-  right: 66px;
+  right: 100px;
 }
 #msg .sidebar a {
   color: var(--inbox-primary-font-clr);
@@ -742,7 +762,7 @@
   font-size: 24px;
 }
 #msg .sidebar .custom_dropdown {
-  margin-top: 10px;
+  margin: 10px 5px 0px 5px;
 }
 #msg .sidebar .custom_dropdown button {
   font-size: 12px;
@@ -750,6 +770,145 @@
 }
 #msg .sidebar .custom_dropdown .dropdown-toggle::after {
   display: none !important;
+}
+
+#groupCl .container {
+  margin-bottom: 18px;
+  margin-top: 11px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+#groupCl .container .icon {
+  position: relative;
+  margin-top: 22px;
+  margin-right: 11px;
+}
+#groupCl .container .icon .more-vert {
+  position: absolute;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#groupCl .container .icon .more-vert a {
+  font-size: 24px;
+  color: var(--black-clr);
+}
+#groupCl .container .grpMember {
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+#groupCl .container .grpMember .friends {
+  width: 234px;
+  height: 223px;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  line-height: 223px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 36px;
+  margin-bottom: 30px;
+}
+#groupCl .container .callBtn {
+  margin-bottom: 43px;
+}
+#groupCl .container .callBtn ul {
+  text-align: center;
+}
+#groupCl .container .callBtn ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+#groupCl .container .callBtn ul #mic, #groupCl .container .callBtn ul #cam {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 20px;
+  background-color: rgba(148, 148, 148, 0.4);
+  text-align: center;
+}
+#groupCl .container .callBtn ul #call {
+  width: 80px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 15px;
+  background-color: var(--message-notification-clr);
+  font-size: 24px;
+}
+
+#singleCall .container {
+  height: 800px;
+  margin-bottom: 18px;
+  margin-top: 11px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+}
+#singleCall .container .profileMenu {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  position: relative;
+}
+#singleCall .container .profileMenu .text {
+  margin-left: 15px;
+}
+#singleCall .container .profileMenu .text a {
+  color: var(--inbox-primary-font-clr);
+  font-size: 24px;
+  font-weight: 700;
+}
+#singleCall .container .profileMenu .text p {
+  color: rgba(var(--inbox-primary-font-clr), 0.7);
+}
+#singleCall .container .profileMenu .icon {
+  position: absolute;
+  right: 0;
+}
+#singleCall .container .profileMenu .icon .more-vert-icon {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#singleCall .container .profileMenu .icon .more-vert-icon a {
+  color: var(--black-clr);
+}
+#singleCall .container .callBtn {
+  position: absolute;
+  margin-bottom: 43px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#singleCall .container .callBtn ul {
+  text-align: center;
+}
+#singleCall .container .callBtn ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+#singleCall .container .callBtn ul #mic, #singleCall .container .callBtn ul #cam {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 20px;
+  background-color: rgba(148, 148, 148, 0.4);
+  text-align: center;
+}
+#singleCall .container .callBtn ul #call {
+  width: 80px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 15px;
+  background-color: var(--message-notification-clr);
+  font-size: 24px;
 }
 
 * {

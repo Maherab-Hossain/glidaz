@@ -1,0 +1,77 @@
+// Single Call Section Start
+#singleCall{
+    .container{
+        height: 800px;
+        margin-bottom: 18px;
+        margin-top: 11px;
+        border: 1px solid rgba($color: #000000, $alpha: 0.20);
+        border-radius: 20px;
+        position: relative;
+        .profileMenu{
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            position: relative;
+            .text{
+                margin-left: 15px;
+                a{
+                    color: $inbox-primary-font-clr;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                p{
+                    color: rgba($color: $inbox-primary-font-clr, $alpha: 0.7);
+                }
+            }
+            .icon{
+                position: absolute;
+                right: 0;
+                .more-vert-icon{
+                width: 44px;
+                height: 44px;
+                line-height: 44px;
+                text-align: center;
+                background-color: rgba($color: #000000, $alpha: 0.10);
+                border-radius: 20px;
+                a{
+                    color: $black-clr;
+                }
+                }
+            }
+        }
+        .callBtn{
+            position: absolute;
+            margin-bottom: 43px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+             ul{
+                 text-align: center;
+                 li{
+                     display: inline-block;
+                     margin-left: 10px;
+                 }
+ 
+                 #mic,#cam{
+                         width: 44px;
+                         height: 44px;
+                         line-height: 44px;
+                         border-radius: 20px;
+                         background-color: rgba(148, 148, 148, 0.40);
+                         text-align: center;
+                 }
+ 
+                 #call{
+                     width: 80px;
+                     height: 44px;
+                     line-height: 44px;
+                     border-radius: 15px;
+                     background-color: $message-notification-clr;
+                     font-size: 24px;
+                     
+                 }
+             }
+         }
+    }
+}
+// Single Call Section End
