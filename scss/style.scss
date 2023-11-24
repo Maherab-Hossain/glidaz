@@ -22,6 +22,7 @@
   
   // ROOT START
   @import "./_variable.scss";
+  @import "./_messageVariable.scss";
   // ROOT END
 
   body{
@@ -66,3 +67,19 @@
   //profile page starts
   @import "./profilepage";
   //profile page ends
+    
+  // Profile Page 2 Start
+  @import "./profilePage2";
+  // Profile Page 2 End
+
+  // Message Section Start
+  @import "./msg";
+  // Message Section End
+
+  // Group Call Section Start
+  @import "./groupCall";
+  // Group Call Section End
+
+  // Single Call Section Start
+  @import "./singleCall";
+  // Single Call Section End

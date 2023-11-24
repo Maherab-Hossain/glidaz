@@ -1,0 +1,19 @@
+// CSS Root Start
+:root{
+    --message-button-inactive-clr: #F3F4F6;
+--message-button-active-clr:#60A5FA;
+--message-friend-bg-clr: #4F46E5;
+--message-notification-clr: #FC685D;
+
+--inbox-primary-font-clr:#202020;
+}
+// CSS Root End
+
+// SCSS Root Start
+$message-button-inactive-clr: var(--message-button-inactive-clr);
+$message-button-active-clr: var(--message-button-active-clr);
+$message-friend-bg-clr: var(--message-friend-bg-clr);
+$message-notification-clr: var(--message-notification-clr);
+
+$inbox-primary-font-clr: var(--inbox-primary-font-clr);
+// SCSS Root End
