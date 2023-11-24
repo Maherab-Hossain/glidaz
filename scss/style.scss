@@ -1,6 +1,5 @@
 // FONT URL START
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 // FONT URL END 
 // COMMON CSS START
 *{
@@ -23,7 +22,7 @@
   
   // ROOT START
   @import "./_variable.scss";
-  @import "./messageVariable";
+  @import "./_messageVariable.scss";
   // ROOT END
 
   body{
@@ -68,7 +67,7 @@
   //profile page starts
   @import "./profilepage";
   //profile page ends
-  
+    
   // Profile Page 2 Start
   @import "./profilePage2";
   // Profile Page 2 End
