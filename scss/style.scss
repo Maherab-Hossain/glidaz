@@ -2,31 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 // FONT URL END 
-  // ROOT START
-  @import "./_variable.scss";
-  @import "./messageVariable";
-  // ROOT END
-
-  // NAV START
-  @import "./_nav.scss"; 
-  // NAV END 
-
-  // Profile Page 2 Start
-  @import "./profilePage2";
-  // Profile Page 2 End
-
-  // Message Section Start
-  @import "./msg";
-  // Message Section End
-
-  // Group Call Section Start
-  @import "./groupCall";
-  // Group Call Section End
-
-  // Single Call Section Start
-  @import "./singleCall";
-  // Single Call Section End
-
 // COMMON CSS START
 *{
     margin: 0;
@@ -44,9 +19,68 @@
     margin: 0;
     padding: 0;
   }
-  
-  body{
-    font-family: $primaryfont;
-  }
-
   // COMMON CSS END
+  
+  // ROOT START
+  @import "./_variable.scss";
+  @import "./messageVariable";
+  // ROOT END
+
+  body{
+    background-color: $body-bg-clr;
+    font-family:$primaryfont ;
+    color: $black-clr;
+    position: relative;
+  }
+  
+  // NAV START
+  @import "./_nav.scss"; 
+  // NAV END 
+   
+  // HOME LEFT SIDE BAR START
+  @import "./_home-leftside-bar.scss"; 
+  // HOME LEFT SIDE BAR END 
+   
+  // INDEX-HOME-PAGE START
+  @import "./_index-home-page.scss"; 
+  // INDEX-HOME-PAGE END 
+
+  // MODAL START
+  @import "./_modal.scss"; 
+  // MODAL END 
+  
+  // PRIVACY CENTER START
+  @import "./_privacy-center.scss"; 
+  // PRIVACY CENTER END 
+
+  // COMMUNITY GROUP CATEGORY  START
+  @import "./_community-group-category.scss"; 
+  // COMMUNITY GROUP CATEGORY  END 
+
+  // CREATE NEW COMUNICATION  START
+  @import "./_create-new-comunication.scss"; 
+  // CREATE NEW COMUNICATION  END 
+
+  // CREATE NAME  START
+  @import "./_create-name.scss"; 
+  // CREATE NAME  END 
+
+  //profile page starts
+  @import "./profilepage";
+  //profile page ends
+  
+  // Profile Page 2 Start
+  @import "./profilePage2";
+  // Profile Page 2 End
+
+  // Message Section Start
+  @import "./msg";
+  // Message Section End
+
+  // Group Call Section Start
+  @import "./groupCall";
+  // Group Call Section End
+
+  // Single Call Section Start
+  @import "./singleCall";
+  // Single Call Section End

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glidaz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glidaz</title>
   <!-- CSS LINKS START -->
   <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/slick.css">
@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="./css/style.min.css">
   <!-- CSS LINKS END -->
 </head>
-<body>
+<body> 
+<body> 
 <!-- *Navbar section starts here-->
 <section id="main-manu">
   <nav class="navbar navbar-expand-lg d-none d-lg-block">
@@ -23,16 +24,16 @@
         <div class="collapse navbar-collapse col-4 nav-option" id="customNav">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html"><iconify-icon icon="iconoir:home"></iconify-icon></a>
+              <a  aria-current="page" href="./index.html"><iconify-icon icon="iconoir:home"></iconify-icon></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><iconify-icon icon="bi:airplane"></iconify-icon></a>
+              <a  aria-current="page" href="#"><iconify-icon icon="bi:airplane"></iconify-icon></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./event-time.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+              <a  aria-current="page" href="./event-time.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><i class="fa-brands fa-chromecast"></i></a>
+              <a  aria-current="page" href="#"><i class="fa-brands fa-chromecast"></i></a>
             </li>
 
           </ul>
@@ -43,7 +44,7 @@
               <li> <a href="#"><iconify-icon icon="iconoir:add-user"></iconify-icon></a></li>
               <li> <a href="#"><iconify-icon icon="iconoir:chat-lines"></iconify-icon></a></li>
               <li> <a href="#"><iconify-icon icon="lucide:bell"></iconify-icon></li>
-              <li class="user"> <a href="#"><iconify-icon icon="iconoir:profile-circle"></iconify-icon><span class="profile-active-overlay"></span></a></li>
+              <li class="user"> <a href="./ProfiePage2.html"><iconify-icon icon="iconoir:profile-circle"></iconify-icon><span class="profile-active-overlay"></span></a></li>
               <li class="nav-arrow"> <a href="#"><iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon></a> </li>
           </ul>
       </div>
@@ -81,8 +82,527 @@
   </div>
 </div>
 </nav>
-<!-- NAV SM end -->    
-
+<!-- NAV SM end -->
+    <!--  =============== create post modal start ===============  -->
+    <div class="createmodal-bg">
+      <div class="creat-post-modal ">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="crate-modal-header row">
+              <h1 class="create-modal-title  col-10" id="staticBackdropLabel">Create Post</h1>
+              <!-- <button type="button" class="btn-close create-modal-close-btn col-2" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              <button class="create-modal-close-btn col-2"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <hr class="create-modal-hr">
+            <div class="create-modal-body">
+             <div class="user-profile-details-modal">
+              <ul class="profile-modal-box row">
+                <li class="col-2 profile-img"><a href="#"><img src="./images/create-modal-profile.png" alt=""></a></li>
+                <li class="col-8 profile-name">
+                  <a href="#">Oni Ade</a>
+                  <h6>
+                    <p><span><i class="fa-solid fa-earth-americas"></i></span>&nbsp;&nbsp; Public &nbsp;&nbsp;<span><iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon></span></p>
+                  </h6>
+                </li>
+              </ul>
+              <div class="text-box">
+                <textarea class="" placeholder="Oni, What are you thinking?" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="effect-emoji">
+               <ul>
+                <li class="effect">Aa</li>
+                <li><i class="fa-regular fa-face-smile"></i></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+            <div class="create-modal-footer">
+              <div class="post-add-tag-option row">
+                <div class="addto-your-post col-7">
+                 <span>Add to your post</span>
+                </div>
+                <div class="post-option col-5">
+                  <ul class="row">
+                    <li class="col-2"><a href="#"><iconify-icon icon="iconoir:add-user"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="solar:gallery-linear"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="fluent:location-16-regular"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="fluent:emoji-20-regular"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="fluent:gif-24-regular"></iconify-icon></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="post-btn">
+                <a href="#">Post</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  =============== create post modal end ===============  --> 
+    <!--  ========== user post modal start ==========  -->
+    <div class="usermodal-bg">
+      <div class="user-post-modal ">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="crate-modal-header row">
+              <h1 class="create-modal-title  col-10" >Post Title</h1>
+              <!-- <button type="button" class="btn-close create-modal-close-btn col-2" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              <button class="user-modal-close-btn col-2"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <hr class="create-modal-hr">
+            <div class="user-modal-body">
+             <div class="user-img-modal">
+              <div class="post-img"><img src="./images/user-post-modal-img.png" alt=""></div>
+              <div class="react-btn">
+                <span class="react-A"><img src="./images/like.svg" alt=""></span>
+                <span class="react-B"><img src="./images/like 2.svg" alt=""></span>
+                <p>10</p>
+              </div>
+              <div class="react-option">
+                <hr>
+                  <ul class="row">
+                  <li class="col-4"><iconify-icon icon="bx:like"></iconify-icon> <span>Like</span></li>
+                  <li class="col-4"><iconify-icon icon="uil:comment"></iconify-icon> <span>Comment</span></li>
+                  <li class="col-4"><iconify-icon icon="clarity:share-line"></iconify-icon> <span>Share</span></li>
+                  </ul>
+                <hr>
+              </div>
+              <div class="comment-section">
+                <ul class="row">
+                  <li class="comment-profile-img col-1">
+                    <img src="./images/comment-profile-img.png" alt="">
+                  </li>
+                  <li class="comment-text col-10">
+                    <h6>Darrell Steward</h6>
+                    <p>Congratulations 👏👏👏</p>
+                  </li>
+                </ul>
+              </div>
+             </div>
+            </div>
+            <div class="create-modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  ========== user post modal end ==========  -->
+<!-- main page start -- sidebar-scrollpage-active page -->
+<section id="index-home-page">
+  <div class="afterlogin-page">
+    <div class="container">
+      <div class="row">
+        <!-- home left side bar start -->
+        <div class="home-leftside-bar col-3">
+          <div class="leftside-bar">
+              <!-- search box start -->
+              <div class="input-group flex-nowrap searchBox">
+                <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+             <!-- search box end -->
+             <!-- friend/Community/searchflight start -->
+             <div class="frined-sidebar-left">
+              <ul>
+                <li><a href="#"><img src="./images/sidebar-left-friends.png" alt=""> <span class="option-name">Friends</span> </a> </li>
+                <li><a href="./community-group-category.html"><img src="./images/sidebar-left-community.png" alt=""> <span class="option-name">Community</span></a> </li>
+                <li><a href="#"><img src="./images/sidebar-left-flight.png" alt=""> <span class="option-name">Search Flight</span></a> </li>
+              </ul>
+             </div>
+             <!-- friend/Community/searchflight end -->
+             <hr class="sidebar-hr">
+             <!-- my community start -->
+             <div class="my-community-sidebar-left">
+              <div class="my-community-heading">
+                <div class="row">
+                  <p class="col-10">My Community</p>
+                  <h6 class="col-1">12</h6>
+                </div>
+              </div>
+                <div class="my-community-details">
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-2">
+                      <a href="#"><img src="./images/my-community-profile-1.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-10">
+                        <a href="#"><p>Nigeria UI Designer</p></a>
+                        <a href="#"><span>734 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-2">
+                      <a href="#"><img src="./images/my-community-profile-2.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-10">
+                        <a href="#"><p>Indonesia UI Research</p></a>
+                        <a href="#"><span>102 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-2">
+                      <a href="#"><img src="./images/my-community-profile-3.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-10">
+                        <a href="#"><p>Frontend Developer Vietnam</p></a>
+                        <a href="#"><span>122 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-2">
+                      <a href="#"><img src="./images/my-community-profile-4.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-10">
+                        <a href="#"><p>Indonesia UI Deignerr</p></a>
+                        <a href="#"><span>508 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <!-- my community end -->
+             <hr class="sidebar-hr">
+            <!-- upcomming event sidebar start -->
+            <div class="upcomming-event-sidebar-let">
+              <div class="my-community-heading">
+                <div class="row">
+                  <p class="col-9">UpComming Event</p>
+                  <h6 class="col-2">30</h6>
+                </div>
+              </div>
+              <div class="up-comming-event-details">
+                <div class="upcomming-box">
+                  <div class="row">
+                    <div class="upcomming-profile col-2">
+                    <a href="#">20 <br> <span>Dec</span></a>
+            
+                    </div>
+                    <div class="upcomming-title col-8 ">
+                      <a href="#"><p>SkyView</p></a>
+                      <a href="#"><span>78k Interested · 7.7K going</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="upcomming-box">
+                  <div class="row">
+                    <div class="upcomming-profile col-2">
+                    <a href="#">14 <br> <span>Aug</span></a>
+            
+                    </div>
+                    <div class="upcomming-title col-8 ">
+                      <a href="#"><p>SkyView</p></a>
+                      <a href="#"><span>78k Interested · 7.7K going</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="upcomming-box">
+                  <div class="row">
+                    <div class="upcomming-profile col-2">
+                    <a href="#">31 <br> <span>Dec</span></a>
+            
+                    </div>
+                    <div class="upcomming-title col-8 ">
+                      <a href="#"><p>SkyView</p></a>
+                      <a href="#"><span>78k Interested · 7.7K going</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- upcomming event sidebar end -->
+          </div>
+        </div>
+        <!-- home left side bar end -->
+        <!-- home scroll page start -->
+        <div class="home-scroll-page col-6">
+          <!-- create-post-box start  -->
+          <div class="create-post-box">
+            <div class="row">
+              <div class="input-group flex-nowrap mind-box">
+                <span class="user-profile" id="addon-wrapping"><img src="./images/create-post-box-profile.png" alt=""></span>
+                <input type="text" class="form-control creat-post-modal-btn" placeholder="What's on your mind?" aria-label="What's on your mind?" aria-describedby="addon-wrapping">
+              </div>
+              <div class="create-post-option">
+                <div class="row">
+                  <ul class="row col-5">
+                    <li class="col-2"><a href="#"><iconify-icon icon="ph:camera-thin"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="iconoir:attachment"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="solar:gallery-linear"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="fluent:location-16-regular"></iconify-icon></a></li>
+                    <li class="col-2"><a href="#"><iconify-icon icon="fluent:emoji-20-regular"></iconify-icon></a></li>
+                  </ul>
+                  <div class="post-btn col-7">
+                  <button class="col-4"><a href="#">Post</a></button> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- create-post-box end  -->
+           <!-- user post box start -->
+          <div class="user-post-box">
+            <div class="profile-box-details">
+              <div class="row">
+                <div class="user-profile-details col-1">
+                <img src="./images/create-post-box-profile.png" alt="">
+                </div>
+                <div class="user-post-title col-11">
+                <a href="#">Shadow <span>@mattshadow</span></a>
+                <p>Hi All, This is my new Exploration, what do you think? 😉</p>
+                </div>
+              </div>
+            </div>
+            <div class="posted-img">
+            <img src="./images/posted-img.png" alt="">
+            </div>
+            <div class="react-option">
+              <hr>
+                <ul class="row">
+                <li class="col-4"><iconify-icon icon="bx:like"></iconify-icon> <span>Like</span></li>
+                <li class="col-4"><iconify-icon icon="uil:comment"></iconify-icon> <span>Comment</span></li>
+                <li class="col-4"><iconify-icon icon="clarity:share-line"></iconify-icon> <span>Share</span></li>
+                </ul>
+              <hr>
+            </div>
+          </div>
+          <div class="user-post-box">
+            <div class="profile-box-details">
+              <div class="row">
+                <div class="user-profile-details col-1">
+                <img src="./images/create-post-box-profile.png" alt="">
+                </div>
+                <div class="user-post-title col-11">
+                <a href="#">Shadow <span>@mattshadow</span></a>
+                <p>Hi All, This is my new Exploration, what do you think? 😉</p>
+                </div>
+              </div>
+            </div>
+            <div class="posted-img">
+            <img src="./images/posted-img.png" alt="">
+            </div>
+            <div class="react-option">
+              <hr>
+                <ul class="row">
+                <li class="col-4"><iconify-icon icon="bx:like"></iconify-icon> <span>Like</span></li>
+                <li class="col-4"><iconify-icon icon="uil:comment"></iconify-icon> <span>Comment</span></li>
+                <li class="col-4"><iconify-icon icon="clarity:share-line"></iconify-icon> <span>Share</span></li>
+                </ul>
+              <hr>
+            </div>
+          </div>
+          <div class="user-post-box">
+            <div class="profile-box-details">
+              <div class="row">
+                <div class="user-profile-details col-1">
+                <img src="./images/create-post-box-profile.png" alt="">
+                </div>
+                <div class="user-post-title col-11">
+                <a href="#">Shadow <span>@mattshadow</span></a>
+                <p>Hi All, This is my new Exploration, what do you think? 😉</p>
+                </div>
+              </div>
+            </div>
+            <div class="posted-img">
+            <img src="./images/posted-img.png" alt="">
+            </div>
+            <div class="react-option">
+              <hr>
+                <ul class="row">
+                <li class="col-4"><iconify-icon icon="bx:like"></iconify-icon> <span>Like</span></li>
+                <li class="col-4"><iconify-icon icon="uil:comment"></iconify-icon> <span>Comment</span></li>
+                <li class="col-4"><iconify-icon icon="clarity:share-line"></iconify-icon> <span>Share</span></li>
+                </ul>
+              <hr>
+            </div>
+          </div>
+          <!-- user post box end-->
+        </div>
+        <!-- home scroll page end -->
+        <!-- home right side bar / active start -->
+        <div class="home-rightside-bar col-3">
+        <div class="your-page">
+          <div class="active-title">
+            <h6>Your Pages</h6>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active -1.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Cynthia Cox</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 2.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Danny Quinn</a>
+            </div>
+            <div class="active-min col-2">
+              <span>11 min</span>
+            </div>
+          </div>
+        </div>
+        <div class="your-page">
+          <div class="active-title">
+            <h6>Friends</h6>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 3.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Morgan</a>
+            </div>
+            <div class="active-min col-2">
+              <span>8 min</span>
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 4.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Stanley Burton</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 5.png" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Maherab Anderson</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 6.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Lucas West</a>
+            </div>
+            <div class="active-min col-2">
+              <span>14 min</span>
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 7.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Danny Tasnya</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 8.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Jason Sadia</a>
+            </div>
+            <div class="active-min col-2">
+              <span>44 min</span>
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 9.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Jihan Cooper</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 10.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Joshua Hunt</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 11.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Jimmy Maxwell</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="your-page">
+          <div class="active-title">
+            <h6>Groups</h6>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 12.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Web Designer</a>
+            </div>
+            <div class="active-min col-2">
+              <span>4hr</span>
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 13.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Topcoder Indonesia</a>
+            </div>
+            <div class="active-status col-2">
+              <img src="./images/active-green.svg" alt="">
+            </div>
+          </div>
+          <div class="your-page-active-member row">
+            <div class="active-profile col-1">
+              <img src="./images/active - 14.svg" alt="">
+            </div>
+            <div class="active-user-name col-6">
+              <a href="#">Creativemarket YK</a>
+            </div>
+            <div class="active-min col-2">
+              <span>20 min</span>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- home right side bar / active end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- main page start -- sidebar-scrollpage-active page -->
 <!-- JS LINK START -->
 <script src="./js/jquery-3.7.0.min.js"></script>
 <script src="./js/slick.min.js"></script>

@@ -1,0 +1,115 @@
+#privecyCenter{
+    margin-top: 39px;
+    margin-bottom: 20px;
+   .privacy-policy-center{
+   .privacy-center-option-bar{
+    .privacy-center-sidebar{
+    border-radius: 20px;
+    border: 1px solid $side-border-clr;
+    padding: 12px;
+    // search-box-start
+    .searchBox{
+        margin-top: 25px;    
+        margin-bottom: 25px;
+        padding: 0px 5px 0px 5px;
+        padding: 10px;
+        background-color: $search-box-bgclr;
+        max-width: 290px; 
+        border-radius: 20px;
+        .search-icon{
+        font-size: 24px;
+        color: $search-icon-clr; 
+        background-color: transparent;
+        border: none;  
+        }
+        input{
+        background-color: $search-box-bgclr;
+        outline: none;
+        border: none; 
+        max-width: 100%;
+        overflow: hidden; 
+        }    
+        }   
+        // search-box-end
+    .privacy-option-title{
+    margin-top: 19px;
+    // margin-bottom: 39px;   
+    h5{
+    font-size: 30px;
+    color: $black-clr;
+    font-weight: 700;
+    line-height: 36px;
+    padding-left: 15px;
+    }    
+    }
+    .privacy-option-profile{
+    margin-bottom: 52px;
+    cursor: pointer;
+    .profile-img{
+    text-align: center; 
+    }
+    .profile-name{ 
+    padding-left: 20px;
+    // text-align: center;      
+    a{
+    font-size: 20px;
+    color: $black-clr;
+    font-weight: 700;
+    line-height: 50px;    
+    }     
+    }
+    .profile-arrow {
+    text-align: right; 
+    span{
+    font-size: 24px;
+    line-height: 50px;    
+    }  
+    }    
+    }
+    .privacy-option{
+    ul{
+    li{
+    margin-bottom: 28px;    
+    a{
+    font-size: 16px;
+    color: $black-clr;
+    font-weight: 700;
+    line-height: 24px;
+    span{
+    padding-right: 26px;    
+    }    
+    }    
+    }    
+    }    
+    }
+   }
+   } 
+   .privacy-policy-terms{
+    padding-left: 51px;
+    .privacy-policy-title{
+    h6{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;   
+    }
+    p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 12px 0px;
+    span{
+    a{
+    color: $privacy-policy-terms-atag-clr;    
+    }    
+    }     
+    }
+    }
+    .privacy-policy-terms-details{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: justify;  
+    } 
+   }
+   } 
+}

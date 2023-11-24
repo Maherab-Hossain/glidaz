@@ -5,11 +5,18 @@
     .nav-option{
     ul{
     li{
-    margin: 0px 24px 0px 24px;
+    padding: 0px 24px 0px 24px;
+    display: inline-block;
     a{
     font-size: 28px;
     color: $nav-option-color;
+    padding: 13px 13px;
     }    
+    &:hover a{
+    border-radius: 14px;
+    text-align: center;
+    background-color: $nav-option-hover-clr;
+    } 
     }
     }
     }   
@@ -23,7 +30,7 @@
     margin: 0px 9px 0px 9px;
     a{
     font-size: 28px;     
-    color: $nav-option-color;    
+    color: $nav-option-color;   
     }  
     }
     .user{
