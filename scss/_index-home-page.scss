@@ -1,0 +1,165 @@
+#index-home-page{
+    margin-top: 21px;
+    margin-bottom: 22px;
+.afterlogin-page{
+//  ================== home scroll page start ================== 
+    .home-scroll-page{
+    // padding-left: 31px;
+    max-width: 671px;
+        // create post box start
+    .create-post-box{ 
+    border: 1px solid $sidebar-heading-bg-clr;
+    background-color: $white-color;
+    border-radius: 20px;
+    padding: 18px 16px 0px; 
+      max-width: 671px;   
+    .mind-box{
+    font-size: 14px;
+    color: $side-border-clr;
+    font-weight: 500;
+    line-height: 20px;
+    .user-profile{
+    padding-right: 18px;
+    }
+    input{
+    border: 1px solid $sidebar-heading-bg-clr;
+    border-radius: 20px; 
+    }    
+    }
+    .create-post-option{
+    margin-top: 16px;
+    padding-bottom: 12px;
+    ul{
+    padding-left: 27px;
+    li{
+    padding-right: 12px;   
+    a{
+    font-size: 24px;
+    color: $sidebar-upcomming-span-clr;  
+    }    
+    }    
+    }
+    .post-btn{
+    text-align: right;
+    button{
+    border: none;
+    background-color: transparent;
+
+    a{
+    color: $white-color;
+    background-color: $post-btn-bg-clr;
+    padding: 8px 34px; 
+    border-radius: 15px;   
+    }    
+    }    
+    }    
+    }    
+    }
+    // create post box end
+    // user post box start
+    .user-post-box{
+    margin-top: 33px;
+    margin-bottom: 18px;
+       max-width: 671px;
+    border:1px solid $sidebar-heading-bg-clr; 
+    border-radius: 20px;
+    background-color: $white-color;
+    padding: 25px 17px 0px;
+    cursor: pointer;
+    .profile-box-details{
+    margin-bottom: 25px;    
+    .user-post-title{
+    padding-left: 18px;    
+    a{
+    font-size: 16px;
+    color: $nav-option-color;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 7px;
+    span{
+    font-size: 16px;
+    color:$sidebar-upcomming-span-clr;
+    font-weight: 700;
+    line-height: 24px;    
+    }
+    }
+    p{
+    font-size: 16px;
+    color: $nav-option-color;
+    font-weight: 500;
+    line-height: 28px;    
+    }    
+    }
+    }    
+    .posted-img{
+    max-width: 634px;
+    img{
+    width: 100%;
+    }    
+    }
+    .react-option{
+    padding: 0px 14px;    
+    ul{
+    li{
+    font-size: 15px;
+    color: $black-clr;
+    font-weight: 600;
+    line-height: 22.449px;    
+    text-align: center;    
+    }    
+    }    
+    }    
+    }
+    // user post box end
+    }
+//  ================== home scroll page end ================== 
+//  ================== home right side bar / active start ================== 
+    .home-rightside-bar {
+    .your-page{
+    .active-title{
+    margin-bottom: 21px;    
+    h6{
+    font-size: 12px;
+    color: $active-title;
+    font-weight: 600;
+    line-height: 18px;    
+    }
+    }
+    .your-page-active-member{
+    margin-bottom: 18px;    
+    .active-profile{
+    img{
+    width: 25.808px;
+    height: 25.808px;    
+    }    
+    }
+    .active-user-name{
+    margin-left: 10px;    
+    a{
+    text-align: left;    
+    font-size: 12px;
+    color: $active-name-clr;
+    font-weight: 500;
+    line-height: 18px;      
+    }    
+    }
+    .active-status{
+    text-align: right;    
+    }
+    .active-min{
+    span{
+    font-family: $secondary-Font;    
+    font-size: 9.678px;
+    text-align: right;
+    color: $active-title;
+    font-weight: 400;
+    line-height: 17.743px;    
+    }    
+    }    
+    }   
+    }    
+    }
+//  ================== home right side bar / active end ================== 
+
+}
+}
