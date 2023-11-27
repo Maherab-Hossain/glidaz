@@ -1,0 +1,430 @@
+#friends{
+    margin-top: 21px;
+    .friendsMenu{
+       
+        border: 1px solid $friendPage-border-color;
+        border-radius: 20px;
+        padding: 10px;
+        height: 50vh;
+        
+        h5{
+            color: #000;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+
+        }
+        a{
+            span{
+                height: 30px;
+                width: 30px;
+                padding: 10px;
+                border-radius: 20px;
+                background-color: #F3F4F6;
+                color: #9CA3AF;
+                font-size: 25px;
+                margin-left: 141px;
+                margin-top: 5px;
+                
+            }
+        }
+        li{
+            margin-top: 22px;
+            font-size: 18px;
+            position: relative;
+           
+            &:hover::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                width: 6px; 
+                background-color: #1D4ED8; 
+              }
+        }
+
+            
+            a{
+                margin-left: 18px;
+                color: #000;
+                
+                font-style: normal;
+                font-weight: 500;
+
+            }
+            .icon{
+                display: inline-block;
+                font-size: 20px;
+            }
+            
+        }
+    
+    .friendRequest{
+        
+        margin-left: 15px;
+    .friendRequestList{
+        border: 1px solid $friendPage-border-color;
+        border-radius: 20px;
+        padding: 10px;
+        h5{
+            color: #000;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+
+        }
+        ul{
+            li{
+                margin-top: -17px;
+               
+                // img{
+                //     height: 15%;
+                //     width: 15%;
+                // }
+                p{
+                    display: inline-block;
+                    margin-top: 40px;
+                    
+                    font-family: $third-Font;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-left: 14px;
+                    a{
+                        color: #000;
+                    }
+                    
+
+                    span{
+                        color: #000;
+                        font-family: $third-Font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        opacity: 0.5;
+                        
+                    }
+                    
+                    
+                }
+                .button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    cursor: pointer;
+                    
+                    border-radius: 4px;
+                    background-color: #f9f9f9;
+                    color: #333;
+                    font-size: 16px;
+                    margin-right: 10px;
+
+                    
+                  }
+                  .add-button {
+                    background-color: #4580F0; 
+                    margin-left: 5px;
+                  
+                    color: #fff;
+                    &:hover{
+                        background-color: white;
+                        color: #4580F0;
+                    }
+            }
+            .dismiss-button {
+                background-color: #dde3ee;
+                margin-left: 76px; 
+                
+                color: #4580F0; 
+                // opacity: 0.5;
+                &:hover{
+                    background-color: white;
+                    color: #4580F0;
+                }
+              }
+        }
+
+    }
+
+    
+       
+
+    }
+    .suggestionPeople{
+        border: 1px solid $friendPage-border-color;
+        border-radius: 20px;
+        
+        margin-left: 4px;
+        margin-top: 21px;
+        padding: 10px;
+       
+        
+        // padding-left: 25px;
+        // padding-top: 5px;
+       
+        h5{
+            color: #000;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+
+        }
+        ul{
+            
+            li{
+                margin-top: -17px;
+               
+                // img{
+                //     height: 15%;
+                //     width: 15%;
+                // }
+                p{
+                    display: inline-block;
+                    margin-top: 40px;
+                    
+                    font-family: $third-Font;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-left: 14px;
+                    a{
+                        color: #000;
+                    }
+                    
+
+                    span{
+                        color: #000;
+                        font-family: $third-Font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        opacity: 0.5;
+                        
+                    }
+                    
+                    
+                }
+                .button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    cursor: pointer;
+                    
+                    border-radius: 4px;
+                    background-color: #f9f9f9;
+                    color: #333;
+                    font-size: 16px;
+                    margin-right: 10px;
+
+                    
+                  }
+                  .add-button {
+                    background-color: #4580F0; 
+                    margin-left: 5px;
+                  
+                    color: #fff;
+                    &:hover{
+                        background-color: white;
+                        color: #4580F0;
+                    }
+            }
+            .dismiss-button {
+                background-color: #dde3ee;
+                margin-left: 76px; 
+                
+                color: #4580F0; 
+                // opacity: 0.5;
+                &:hover{
+                    background-color: white;
+                    color: #4580F0;
+                }
+              }
+        }
+
+    }
+    }
+}
+
+    .communityJoined{
+        
+        padding: 10px;
+        margin-left: 15px;
+     
+        h5{
+            color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-left: 10px;
+
+        }
+        .searchBar{
+            width: 100%;
+            max-width: 700px;
+            background-color: #F9F9F9;
+            // border: 1px solid #221e1e ;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            button{
+                border: none;
+                color: #D1D5DB;
+                margin-right: 10px;
+                background-color: #F9F9F9;
+                
+            }
+            
+            input{
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                // padding: 24px 20px;
+                font-size: 14px;
+                font-weight: 400;
+                
+            ::placeholder{
+                color: #D1D5DB;
+            }
+            }
+            
+
+        }
+
+        ul{
+            li{
+                margin-top: 20px;
+                position: relative;
+                padding: 10px;
+                
+
+                img{
+                    height: 100%;
+                }
+                
+                h4{
+                    display: inline-block;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #000;
+                    margin-bottom: 10px;
+
+                }
+
+                .mAndu{
+                    
+                    position: absolute;
+                 
+                    bottom: 4px;
+                    left: 53px;
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    opacity: 0.5;
+                  
+
+
+                    span{
+                    
+                    
+                        color: #000;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        opacity: 0.5;
+                        margin: 0 2px;
+                        
+    
+                        .members{
+                            margin-left: 50px;
+                        }
+                        
+                       
+                        
+                        
+                    }
+
+                }
+                
+            }
+        }
+
+        .TrendingToday{
+            li{
+                margin-top: -38px;
+                
+               
+                // img{
+                //     height: 15%;
+                //     width: 15%;
+                // }
+                p{
+                    display: inline-block;
+                    margin-top: 40px;
+                    
+                    font-family: $third-Font;
+                    font-size: 16px;
+                    font-weight: 400;
+                   
+                    font-weight: bold;
+                    a{
+                        color: #000;
+                    }
+                    
+
+                    span{
+                        color: #000;
+                        font-family: $third-Font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        opacity: 0.5;
+                        
+                    }
+                    
+                    
+                }
+                .button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    cursor: pointer;
+                    
+                    border-radius: 4px;
+                    background-color: #f9f9f9;
+                    color: #333;
+                    font-size: 16px;
+                    margin-right: 10px;
+                    position: relative;
+                   
+
+                    
+                  }
+              
+            .dismiss-button {
+                background-color: #dde3ee;
+                margin-left: 300px;
+                position: absolute; 
+                top: 50px;
+                left: 0;
+                
+                color: #4580F0; 
+                // opacity: 0.5;
+                &:hover{
+                    background-color: white;
+                    color: #4580F0;
+                }
+              }
+        }
+        }
+
+    }
+}
+
+

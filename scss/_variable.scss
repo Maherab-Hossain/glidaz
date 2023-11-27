@@ -30,6 +30,7 @@ $notification-Font:'Rubik', sans-serif;
 --community-category-icon-text-clr:#44444F;
 --community-category-icon-text-bg-clr:#E9F3FB;
 --community-name-member-title-clr:rgba(0, 0, 0, 0.40);
+--friendPage-border-color: #D1D5DB;
 }
 // ROOT END
 // SCSS ROOT START
@@ -60,6 +61,7 @@ $group-details-title-h:var(--group-details-title-h);
 $community-category-icon-text-clr:var(--community-category-icon-text-clr);
 $community-category-icon-text-bg-clr:var(--community-category-icon-text-bg-clr);
 $community-name-member-title-clr:var(--community-name-member-title-clr);
+$friendPage-border-color:var(--friendPage-border-color);
 // SCSS ROOT END
 
 // $body-bg-clr:#F9FBFF;

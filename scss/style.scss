@@ -27,7 +27,7 @@
 
   body{
     background-color: $body-bg-clr;
-    font-family:$primaryfont ;
+    font-family:$primaryfont;
     color: $black-clr;
     position: relative;
   }
@@ -83,3 +83,15 @@
   // Single Call Section Start
   @import "./singleCall";
   // Single Call Section End
+  
+ //Friend page starts
+ @import "./friendspage";
+ //Friend page ends
+
+//  Friend Request Accept Page Starts
+@import "./RequestAccept";
+// Friend Request Accept Page Ends
+
+//Friend Request Dismissed page starts
+@import "./requestDismissed";
+//Friend Request Dismissed page ends
