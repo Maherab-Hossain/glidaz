@@ -6,14 +6,18 @@
  @import "./_variable.scss";
  // ROOT END
 
+<<<<<<< HEAD
  //Noorihan Root start
  @import "./nVariable";
  //Noorihan Root end
 
+=======
+>>>>>>> master
  // NAV START
  @import "./_nav.scss"; 
  // NAV END 
 
+<<<<<<< HEAD
  //Profile page starts
  @import "./profilepage";
  //Profile page starts
@@ -31,6 +35,12 @@
 
 //Friend Request Dismissed page ends
  
+=======
+ //profile page starts
+ @import "./profilepage";
+ //profile page ends
+
+>>>>>>> master
 // COMMON CSS START
 *{
     margin: 0;
@@ -38,7 +48,13 @@
     box-sizing: border-box;
     // outline: 2px solid red;
   }
+<<<<<<< HEAD
  
+=======
+  body{
+    font-family: $primaryfont;
+  }
+>>>>>>> master
   ul,ol{
     list-style: none;
   }
@@ -50,6 +66,7 @@
     padding: 0;
   }
  
+<<<<<<< HEAD
   
   // COMMON CSS END
   
@@ -58,3 +75,8 @@
  body{
   font-family: $primaryfont;
  }
+=======
+  // COMMON CSS END
+  
+  
+>>>>>>> master
