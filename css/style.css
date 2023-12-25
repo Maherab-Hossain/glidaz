@@ -47,6 +47,9 @@ h1, h2, h3, h4, h5, h6, ul, p, span, ol, a {
   --community-category-icon-text-bg-clr:#E9F3FB;
   --community-name-member-title-clr:rgba(0, 0, 0, 0.40);
   --friendPage-border-color: #D1D5DB;
+  --eventNearbyYou-box-shadow: 0px -1px 27px 0px rgba(20, 19, 73, 0.05), 0px -2px 25px 0px rgba(4, 17, 21, 0.00);
+  --see-all-clr:#93C5FD;
+  --event-swimming-details-clr:#76777C;
 }
 
 :root {
@@ -438,8 +441,7 @@ body {
 .createmodal-bg {
   position: fixed;
   inset: 86px 0 0 0;
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   height: 100vh;
   display: none;
   z-index: 9999;
@@ -553,8 +555,7 @@ body {
 .usermodal-bg {
   position: fixed;
   inset: 86px 0 0 0;
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   height: 100vh;
   display: none;
   z-index: 9999;
@@ -2122,12 +2123,6 @@ body {
   background-color: #FAFAFA;
   padding: 5px;
 }
-#msg .inbox .writeMsg form input::-moz-placeholder {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--inbox-primary-font-clr);
-  opacity: 0.6;
-}
 #msg .inbox .writeMsg form input::placeholder {
   font-size: 12px;
   font-weight: 700;
@@ -2608,9 +2603,6 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-#friends .communityJoined .searchBar input ::-moz-placeholder {
-  color: #D1D5DB;
-}
 #friends .communityJoined .searchBar input ::placeholder {
   color: #D1D5DB;
 }
@@ -2925,9 +2917,6 @@ body {
   outline: none;
   font-size: 14px;
   font-weight: 400;
-}
-#friends .communityJoined .searchBar input ::-moz-placeholder {
-  color: #D1D5DB;
 }
 #friends .communityJoined .searchBar input ::placeholder {
   color: #D1D5DB;
@@ -3244,9 +3233,6 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-#friends .communityJoined .searchBar input ::-moz-placeholder {
-  color: #D1D5DB;
-}
 #friends .communityJoined .searchBar input ::placeholder {
   color: #D1D5DB;
 }
@@ -3331,4 +3317,120 @@ body {
 #friends .communityJoined .TrendingToday li .dismiss-button:hover {
   background-color: white;
   color: #4580F0;
+}
+
+#event-community-countdown {
+  margin: 21px 0px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time {
+  background-color: var(--white-color);
+  border: 1px solid var(--side-border-clr);
+  border-radius: 20px;
+  padding: 14px 17px;
+  margin-bottom: 27px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .countdown-cover-box {
+  padding: 20px 80px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .countdown-cover-box h2 {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  padding: 88px 35px 0px;
+  margin-bottom: 20px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .countdown-cover-box .counter {
+  margin-bottom: 20px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .countdown-cover-box .counter ul {
+  text-align: center;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .countdown-cover-box .counter ul li {
+  display: inline-block;
+  color: var(--white-color);
+  margin-right: 10px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .countdown-cover-box .counter ul li h4 {
+  display: inline-block;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 88px;
+  letter-spacing: -1.44px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .countdown-cover-box .counter ul li p {
+  display: inline;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .event-register-btn {
+  padding-bottom: 77px;
+  text-align: center;
+}
+#event-community-countdown .event-countdown-details-box .sidebar-details-time .event-register-btn a {
+  font-size: 14px;
+  color: var(--black-clr);
+  font-weight: 700;
+  line-height: 20px;
+  padding: 12px 60px;
+  border-radius: 30px;
+  background-color: var(--white-color);
+  margin-bottom: 47px;
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-head {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-head h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-head a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--see-all-clr);
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart {
+  padding: 0px 17px;
+  margin-bottom: 5px;
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming-a {
+  width: 49%;
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming {
+  border-radius: 24px;
+  background-color: var(--white-color);
+  box-shadow: var(--eventNearbyYou-box-shadow);
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming .swimming-img img {
+  border-radius: 24px;
+  height: 100%;
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming .swimming-details h2 {
+  margin-top: 21px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--black-clr);
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming .swimming-details p {
+  font-size: 12px;
+  color: var(--event-swimming-details-clr);
+  font-weight: 400;
+  line-height: 18px;
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming .swimming-hr {
+  color: var(--event-swimming-details-clr);
+}
+#event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming .swimming-km p {
+  padding-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
