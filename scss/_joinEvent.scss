@@ -1,0 +1,57 @@
+// Message Section Starts Here
+#Event{
+    margin-top: 5px;
+    
+
+    .eventStart{
+        border: 1px solid #D1D5DB;
+        border-radius: 15px;
+        margin-left: 16px;
+        padding: 0 58px 0 52px;
+        
+
+        h3{
+            
+            color: $black-clr;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 30px;
+            font-weight: 700; 
+            margin-top: 10px;
+            
+        }
+        img{
+            margin-top: 10px;
+        }
+
+        .linkSpace{
+            margin-top: 200px;
+            margin-bottom: 200px;
+            form{
+                #link_space{
+                    width: 736px;
+                    height: 51px;
+                    border-radius: 20px;
+                    border: 1px solid rgba(0, 0, 0, 0.6);
+                    padding: 15px;
+                    color: rgba(0, 0, 0, 0.30);
+                    font-size: 20.252px;
+                    font-weight: 600;
+                    
+                 
+                }
+            }
+
+        }
+
+        
+
+       
+
+        
+        }
+        
+    }
+    
+
+// Message Section Ends Here
