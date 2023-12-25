@@ -1,0 +1,186 @@
+//  =================== home left side bar start =================== 
+.home-leftside-bar{
+    // margin-right: 20px;
+    .leftside-bar{
+    border: 2px solid $side-border-clr;
+    border-radius: 20px;
+    padding: 12px;
+    // search-box-start
+    .searchBox{
+    margin-top: 20px;    
+    margin-bottom: 20px;
+    padding: 0px 5px 0px 5px;
+    padding: 10px;
+    background-color: $search-box-bgclr;
+    max-width: 290px; 
+    border-radius: 20px;
+    .search-icon{
+    font-size: 24px;
+    color: $search-icon-clr; 
+    background-color: transparent;
+    border: none;  
+    }
+    input{
+    background-color: $search-box-bgclr;
+    outline: none;
+    border: none; 
+    max-width: 100%;
+    overflow: hidden; 
+    }    
+    }   
+    // search-box-end
+    //  frined/community/flight start
+    .frined-sidebar-left{     
+    ul{
+    li{   
+    margin-bottom: 29px;
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    left: 286px;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color:$sidebar-border-hover-clr;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    visibility: hidden;
+    transition: 0.35ms;
+    }
+    &:hover {
+    &::before{
+    position: absolute;
+    left: 286px;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color:$sidebar-border-hover-clr;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    visibility: visible;
+    }  
+    }    
+    a{
+    font-family: $primaryfont;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: $black-clr;
+    .option-name{
+    margin-left: 20px;    
+    }    
+    }  
+    }    
+    }    
+    }
+    //  frined/community/flight end
+    .sidebar-hr{
+    margin-top: 20px;    
+    border: 1px solid $side-border-clr;  
+    } 
+    // my-community start
+    .my-community-sidebar-left{
+    .my-community-heading{
+    margin-bottom: 21px;    
+    p{
+    margin-top: 15px;    
+    font-size: 16px;
+    font-weight: 700;
+    }
+    h6{
+    margin-top: 5px;
+    text-align: center;
+    // margin-right: 27px; 
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: $sidebar-heading-bg-clr;   
+    }    
+    }
+    .my-community-details{
+    .profile-box{
+    margin-bottom: 17px;
+    .my-community-title{
+    a{
+    P{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $black-clr;  
+    }
+    span{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: $sidebar-span-clr;    
+    }
+    }    
+    } 
+    }    
+    } 
+    }
+    // my-community end
+    //  upcomming event sidebar start
+    .upcomming-event-sidebar-let{
+    .my-community-heading{
+    margin-bottom: 21px;    
+    p{
+    margin-top: 15px;    
+    font-size: 16px;
+    font-weight: 700;
+    }
+    h6{
+    margin-top: 5px;
+    text-align: center; 
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: $sidebar-heading-bg-clr;   
+    }    
+    }
+    .up-comming-event-details{
+    .upcomming-box{
+     margin-bottom: 17px;   
+    .upcomming-profile{
+    text-align: center;
+    background-color: $sidebar-upcomming-bg-clr;
+    padding: 10px; 
+    margin-left: 30px;
+    border-radius: 10px;
+    a{
+    color: $white-color;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    span{
+    color: $sidebar-upcomming-span-clr;    
+    }   
+    }   
+    }
+    .upcomming-title{
+    margin-top: 10px;    
+    a{
+    p{
+    font-size: 16px;
+    color: $black-clr;
+    font-weight: 600;
+    line-height: 24px;    
+    }
+    span{
+    font-size: 12px;
+    color: $side-border-clr;
+    font-weight: 500;
+    line-height: 18px;  
+    }
+    }    
+    }     
+    }    
+    }
+    }
+    //  upcomming event sidebar end
+    }
+    }
+//  =================== home left side bar end =================== 

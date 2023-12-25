@@ -1,0 +1,245 @@
+#community-group-category{
+   margin: 21px 0px; 
+   .community-group-category-box{
+   .suggested-group-category-box{
+      // suggested group start
+   .suggested-group{
+      // suggested group title start
+   .suggested-group-title{
+      .group-title{
+      margin-top: 24px;   
+      h6{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      }
+      p{
+      font-size: 14px;
+      color: $active-title;
+      font-weight: 400;
+      line-height: 20px;   
+      }   
+      }
+      .create-comunication-btn{
+      text-align: right;   
+      button{
+      border: none;
+      background-color: $create-comunication-btn;
+      padding: 14px 22px;
+      border-radius: 20px;
+      a{
+      color: $white-color;
+      font-size: 19.573px;
+      font-weight: 700;
+      line-height: 26.097px;  
+      span{
+      margin-right: 20px;
+      }  
+      }   
+      }   
+      }   
+   }
+   // suggested group title end
+   // suggested group details box start
+   .suggested-group-details-box{
+      margin-top: 8px;
+      .group-details-box{
+      max-width: 202.453px;
+      padding-bottom: 14px;
+      border-radius: 14px;
+      border: 1px solid $sidebar-upcomming-span-clr;
+      background-color: $white-color;   
+      .group-img{
+      margin-bottom: 14px;   
+      img{
+      height: 100%;
+      width: 100%;  
+      }   
+      }
+      .group-details-title{
+      text-align: center;   
+      padding: 0px 9px;
+      h6{  
+      a{
+      font-size: 14px;
+      color: $group-details-title-h;
+      font-weight: 700;
+      line-height: 20px;   
+      }   
+      } 
+      p{
+      margin-bottom: 26px;   
+      a{
+      font-size: 12.486px;
+      color: $active-title;
+      font-weight: 400;
+      letter-spacing: 0.089px;     
+      } 
+      }  
+      }
+      //group join btn start 
+      .group-join-btn{
+      text-align: center;
+      padding: 8px 20px;
+      background-color: $group-details-title-h;
+      border-radius: 10px; 
+      button{
+      border: none;
+      background-color: transparent;
+      a{
+      font-size: 12.486px;
+      color: $white-color;
+      font-weight: 400;
+      font-family: $secondary-Font;
+      letter-spacing: 0.089px;
+      }   
+      }   
+      }
+      //group join btn end 
+      }   
+   }
+   // suggested group details box end
+   }
+   // suggested group end
+   // community category start
+   .community-category{
+   margin-top: 41px;
+   .community-category-title{
+   margin-bottom: 21px;   
+   h6{
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   }   
+   }
+   .community-category-details-box{
+   //  display: flex;
+   //  align-items: center;
+   //  justify-content: center;  
+   .category-details-box{
+   border-radius: 14px;   
+   max-width: 165px;
+   // height: 124.861px;
+   position: relative;
+   img{
+   width: 100%;   
+   }  
+   }
+   .category-icon-box{
+   position: absolute;
+   top: 59px;
+   right:29px;   
+   background-color: $community-category-icon-text-bg-clr;
+   text-align: center;
+   border-radius: 14px;
+   padding: 18px 25px;
+   a{
+   img{
+   width: 30px;  
+   height: 30px;  
+   }   
+   }
+   a{
+   span{
+   font-size: 10.702px;
+   font-family: $secondary-Font;
+   font-weight: 400;
+   line-height: 19.621px; 
+   color: $community-category-icon-text-clr;  
+   }   
+   }   
+   }   
+   }
+   }
+   // community category end
+   // your friends group start
+   .your-friend-group-start{
+   margin-top: 87px;
+   border-radius: 14px;
+   border: 1px solid $sidebar-upcomming-span-clr;
+   background-color: $white-color; 
+   padding: 17px;
+   .friend-group-title{
+   margin-bottom: 20px;   
+   h6{
+   font-size: 16px;
+   color: $nav-option-color;
+   font-weight: 700;
+   line-height: 24px;   
+   }
+   p{
+   font-size: 14px;
+   color: $active-title;
+   font-weight: 400;
+   line-height: 20px;   
+   }   
+   } 
+   .group-details-join-box{
+   margin-bottom: 18px;
+   .group-profile{
+   border-radius: 14px;  
+   }   
+   .group-info{
+   border: 1px solid $side-border-clr;
+   border-radius: 14px;
+   padding: 9px 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   // .info-box{
+   // margin-right: 5px;
+   // }
+   h6{
+   a{
+   font-size: 14px;
+   color: $nav-option-color;
+   font-weight: 700;
+   line-height: 20px;   
+   }
+   }
+   p{
+   a{
+   font-size: 12px;
+   color: $active-title;
+   font-weight: 400;
+   line-height: 18px;    
+   }
+   }
+   .group-info-contact{
+   .contact-profile{
+   display: flex;
+   align-items: center;
+   justify-content: center;   
+   }   
+   p{
+   font-size: 10px;
+   color: $active-title;
+   font-weight: 400;
+   line-height: 18px;   
+   }
+   }
+   }
+   .join-btn{
+   text-align: center;
+   padding-left: 10px;   
+   button{
+   border: none;
+   background-color: transparent;
+   a{
+   font-size: 10.702px;
+   color: $white-color;
+   font-weight: 600;
+   line-height: normal;
+   // background-color: $group-details-title-h;
+   background-color: $group-details-title-h;
+   padding: 9px;
+   border-radius: 9px;
+   }   
+   }   
+   }
+   }
+   }
+   // your friends group end
+   }   
+   }
+}

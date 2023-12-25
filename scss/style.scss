@@ -3,80 +3,94 @@
 // FONT URL END 
 
  // ROOT START
- @import "./_variable.scss";
- // ROOT END
+@import "./_variable.scss";
+@import "./_messageVariable.scss";
+@import "./nVariable.scss";
+// ROOT END
 
-<<<<<<< HEAD
- //Noorihan Root start
- @import "./nVariable";
- //Noorihan Root end
+body{
+    background-color: $body-bg-clr;
+    font-family:$primaryfont;
+    color: $black-clr;
+    position: relative;
+}
 
-=======
->>>>>>> master
- // NAV START
- @import "./_nav.scss"; 
- // NAV END 
+// NAV START
+@import "./_nav.scss";
+// NAV END
 
-<<<<<<< HEAD
- //Profile page starts
- @import "./profilepage";
- //Profile page starts
+// HOME LEFT SIDE BAR START
+@import "./_home-leftside-bar.scss";
+// HOME LEFT SIDE BAR END
 
- //Friend page starts
- @import "./friendspage";
- //Friend page ends
+// INDEX-HOME-PAGE START
+@import "./_index-home-page.scss";
+// INDEX-HOME-PAGE END
 
-//  Friend Request Accept Page Starts
+// MODAL START
+@import "./_modal.scss";
+// MODAL END
+
+// PRIVACY CENTER START
+@import "./_privacy-center.scss";
+// PRIVACY CENTER END
+
+// COMMUNITY GROUP CATEGORY START
+@import "./_community-group-category.scss";
+// COMMUNITY GROUP CATEGORY END
+
+// CREATE NEW COMUNICATION START
+@import "./_create-new-comunication.scss";
+// CREATE NEW COMUNICATION END
+
+// CREATE NAME START
+@import "./_create-name.scss";
+// CREATE NAME END
+
+//profile page starts
+@import "./profilepage";
+//profile page ends
+
+// Profile Page 2 Start
+@import "./profilePage2";
+// Profile Page 2 End
+
+// Message Section Start
+@import "./msg";
+// Message Section End
+
+// Group Call Section Start
+@import "./groupCall";
+// Group Call Section End
+
+// Single Call Section Start
+@import "./singleCall";
+// Single Call Section End
+
+//Friend page starts
+@import "./friendspage";
+//Friend page ends
+
+// Friend Request Accept Page Starts
 @import "./RequestAccept";
 // Friend Request Accept Page Ends
 
 //Friend Request Dismissed page starts
 @import "./requestDismissed";
-
 //Friend Request Dismissed page ends
- 
-=======
- //profile page starts
- @import "./profilepage";
- //profile page ends
 
->>>>>>> master
-// COMMON CSS START
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    // outline: 2px solid red;
-  }
-<<<<<<< HEAD
- 
-=======
-  body{
-    font-family: $primaryfont;
-  }
->>>>>>> master
-  ul,ol{
-    list-style: none;
-  }
-  a{
-    text-decoration: none;
-  }
-  h1,h2,h3,h4,h5,h6,ul,p,span,ol,a{
-    margin: 0;
-    padding: 0;
-  }
- 
-<<<<<<< HEAD
-  
-  // COMMON CSS END
-  
- 
+//Event Page started 
+@import "./eventStart";
+//Event Page ends
 
- body{
-  font-family: $primaryfont;
- }
-=======
-  // COMMON CSS END
-  
-  
->>>>>>> master
+//Event Created Page starts
+@import "./eventCreated";
+//Event Created Page ends
+
+//Event Summary page starts
+@import "./eventSummary";
+//Event Summary page ends
+
+//join event page starts
+@import "./joinEvent";
+//join event page ends
