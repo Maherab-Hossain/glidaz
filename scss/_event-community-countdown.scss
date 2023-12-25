@@ -1,0 +1,139 @@
+#event-community-countdown{
+    margin: 21px 0px;
+    .event-countdown-details-box{
+    .sidebar-details-time{
+    background-color: $white-color;
+    border: 1px solid $side-border-clr;
+    border-radius: 20px;
+    padding: 14px 17px;
+    margin-bottom: 27px;
+    .countdown-cover-box{
+    padding: 20px 80px;    
+    // padding: 0px 80px;    
+    h2{
+    color: $white-color;
+    text-align: center;
+    // font-size: 42px; 
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    // line-height: 60px;
+    letter-spacing: -0.96px;
+    padding: 88px 35px 0px; 
+    // padding: 88px 75px 0px; 
+    margin-bottom: 20px;   
+    }
+    //counter start 
+    .counter{
+    margin-bottom: 20px;    
+    ul{
+    text-align: center;
+    li{
+    display: inline-block;
+    color: $white-color;
+    margin-right: 10px;
+    h4{
+    display: inline-block;
+    color: $white-color;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: -1.44px;    
+    } 
+    p{
+    display: inline;
+    color: $white-color;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;  
+    }   
+    }  
+    }
+    }    
+    }
+    //counter end 
+    .event-register-btn{
+    padding-bottom: 77px;  
+    text-align: center;  
+    a{
+    font-size: 14px;
+    color: $black-clr;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px 60px;
+    border-radius: 30px;
+    background-color: $white-color;
+    margin-bottom: 47px;    
+    }    
+    }
+    } 
+
+    }  
+// event nearby you start
+.event-nearby-details{   
+.event-nearby{
+   .event-nearby-head{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;    
+    } 
+    a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: $see-all-clr;     
+    }
+   } 
+   .event-nearby-cart{
+    padding: 0px 17px;
+    margin-bottom: 5px;
+    .swimming-a{
+    width: 49%;
+    }
+   .swimming{
+    border-radius: 24px;
+    background-color: $white-color;
+    box-shadow: $eventNearbyYou-box-shadow; 
+    // width: 49%;
+    .swimming-img{
+    img{
+        border-radius: 24px;
+        // transform: translateX(-10px);
+        height: 100%;    
+    }
+    }
+    .swimming-details{
+        // padding: 10px;
+    h2{
+    margin-top: 21px;    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;   
+    color: $black-clr; 
+    } 
+    p{
+    font-size: 12px;
+    color: $event-swimming-details-clr;
+    font-weight: 400;
+    line-height: 18px;    
+    }   
+    }
+    .swimming-hr{
+    color: $event-swimming-details-clr;    
+    }
+    .swimming-km{
+    p{
+    padding-bottom: 10px;    
+    }    
+    }
+   }
+   }
+}
+}
+// event nearby you end
+}
