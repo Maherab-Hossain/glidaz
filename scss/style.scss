@@ -1,12 +1,30 @@
 // FONT URL START
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap'); 
 // FONT URL END 
-
- // ROOT START
-@import "./_variable.scss";
-@import "./_messageVariable.scss";
-@import "./nVariable.scss";
-// ROOT END
+// COMMON CSS START
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // outline: 2px solid red;
+  }
+  ul,ol{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  h1,h2,h3,h4,h5,h6,ul,p,span,ol,a{
+    margin: 0;
+    padding: 0;
+  }
+  // COMMON CSS END
+  
+  // ROOT START
+  @import "./_variable.scss";
+  @import "./_messageVariable.scss";
+  
+  // ROOT END
 
 body{
     background-color: $body-bg-clr;
@@ -91,6 +109,6 @@ body{
 @import "./eventSummary";
 //Event Summary page ends
 
-//join event page starts
-@import "./joinEvent";
-//join event page ends
+// JOIN EVENT  START
+@import "./_joinEvent.scss";
+// JOIN EVENT  END
