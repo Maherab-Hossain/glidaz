@@ -86,6 +86,33 @@ h1, h2, h3, h4, h5, h6, ul, p, span, ol, a {
   --inbox-primary-font-clr:#202020;
 }
 
+:root {
+  --body-bg-clr:#F9FBFF;
+  --profile-active-overlay: #34D399;
+  --black-clr:#000;
+  --nav-option-color:#030712;
+  --white-color:#fff;
+  --nav-bottom-border-clr:#C7D2FE;
+  --nav-option-hover-clr:#DBEAFE;
+  --side-border-clr:#D1D5DB;
+  --search-box-bgclr:#EFF6FF;
+  --search-icon-clr:#9CA3AF;
+  --sidebar-heading-bg-clr:#E5E7EB;
+  --sidebar-span-clr:#9CA3AF;
+  --sidebar-upcomming-bg-clr: #374151;
+  --sidebar-upcomming-span-clr: #6B7280;
+  --sidebar-border-hover-clr:#1D4ED8;
+  --post-btn-bg-clr: #3B82F6;
+  --active-title: #929290;
+  --active-name-clr:#171725;
+  --create-post-modal-bg-clr:rgba(204, 204, 204, 0.60);
+  --create-modal-close-clr: lighten (#9CA3AF,11%);
+  --profile-modal-name-clr:#111827;
+  --privacy-policy-terms-atag-clr:#60A5FA;
+  --button-font-clr:#EEF2FF;
+  --friendPage-border-color: #D1D5DB;
+}
+
 body {
   background-color: var(--body-bg-clr);
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -103,13 +130,13 @@ body {
 }
 #main-manu nav .nav-option ul li a {
   font-size: 28px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
   padding: 13px 13px;
 }
 #main-manu nav .nav-option ul li:hover a {
   border-radius: 14px;
   text-align: center;
-  background-color: var(--nav-option-hover-clr);
+  background-color: var --nav-option-hover-clr;
 }
 #main-manu .nav-profile-option ul {
   display: flex;
@@ -121,7 +148,7 @@ body {
 }
 #main-manu .nav-profile-option ul li a {
   font-size: 28px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
 }
 #main-manu .nav-profile-option ul .user {
   margin-right: 0px;
@@ -367,7 +394,7 @@ body {
 }
 #index-home-page .afterlogin-page .home-scroll-page .user-post-box .profile-box-details .user-post-title a {
   font-size: 16px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 7px;
@@ -380,7 +407,7 @@ body {
 }
 #index-home-page .afterlogin-page .home-scroll-page .user-post-box .profile-box-details .user-post-title p {
   font-size: 16px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
   font-weight: 500;
   line-height: 28px;
 }
@@ -884,7 +911,7 @@ body {
 }
 #community-group-category .community-group-category-box .suggested-group-category-box .your-friend-group-start .friend-group-title h6 {
   font-size: 16px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
   font-weight: 700;
   line-height: 24px;
 }
@@ -910,7 +937,7 @@ body {
 }
 #community-group-category .community-group-category-box .suggested-group-category-box .your-friend-group-start .group-details-join-box .group-info h6 a {
   font-size: 14px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
   font-weight: 700;
   line-height: 20px;
 }
@@ -1110,7 +1137,7 @@ body {
 }
 #create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title a {
   font-size: 16px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 7px;
@@ -1123,7 +1150,7 @@ body {
 }
 #create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title p {
   font-size: 16px;
-  color: var(--nav-option-color);
+  color: var --nav-option-color;
   font-weight: 500;
   line-height: 28px;
 }
