@@ -130,7 +130,7 @@ body {
 }
 #main-manu nav .nav-option ul li a {
   font-size: 28px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
   padding: 13px 13px;
 }
 #main-manu nav .nav-option ul li:hover a {
@@ -148,7 +148,7 @@ body {
 }
 #main-manu .nav-profile-option ul li a {
   font-size: 28px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
 }
 #main-manu .nav-profile-option ul .user {
   margin-right: 0px;
@@ -394,7 +394,7 @@ body {
 }
 #index-home-page .afterlogin-page .home-scroll-page .user-post-box .profile-box-details .user-post-title a {
   font-size: 16px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 7px;
@@ -407,7 +407,7 @@ body {
 }
 #index-home-page .afterlogin-page .home-scroll-page .user-post-box .profile-box-details .user-post-title p {
   font-size: 16px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
   font-weight: 500;
   line-height: 28px;
 }
@@ -911,7 +911,7 @@ body {
 }
 #community-group-category .community-group-category-box .suggested-group-category-box .your-friend-group-start .friend-group-title h6 {
   font-size: 16px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
   font-weight: 700;
   line-height: 24px;
 }
@@ -937,7 +937,7 @@ body {
 }
 #community-group-category .community-group-category-box .suggested-group-category-box .your-friend-group-start .group-details-join-box .group-info h6 a {
   font-size: 14px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
   font-weight: 700;
   line-height: 20px;
 }
@@ -1137,7 +1137,7 @@ body {
 }
 #create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title a {
   font-size: 16px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 7px;
@@ -1150,7 +1150,7 @@ body {
 }
 #create-name .create-name-details-box .post-member-details-box .post-box .user-post-box .profile-box-details .user-post-title p {
   font-size: 16px;
-  color: var --nav-option-color;
+  color: var(--nav-option-color);
   font-weight: 500;
   line-height: 28px;
 }
