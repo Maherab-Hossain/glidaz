@@ -93,13 +93,15 @@
     padding: 0px 17px;
     margin-bottom: 5px;
     .swimming-a{
-    width: 49%;
+    // width: 49%;
+    margin-right: 8px;
     }
    .swimming{
     border-radius: 24px;
     background-color: $white-color;
     box-shadow: $eventNearbyYou-box-shadow; 
-    // width: 49%;
+    width: 49%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     .swimming-img{
     img{
         border-radius: 24px;
