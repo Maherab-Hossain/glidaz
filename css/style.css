@@ -3431,12 +3431,14 @@ body {
   margin-bottom: 5px;
 }
 #event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming-a {
-  width: 49%;
+  margin-right: 8px;
 }
 #event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming {
   border-radius: 24px;
   background-color: var(--white-color);
   box-shadow: var(--eventNearbyYou-box-shadow);
+  width: 49%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #event-community-countdown .event-nearby-details .event-nearby .event-nearby-cart .swimming .swimming-img img {
   border-radius: 24px;
