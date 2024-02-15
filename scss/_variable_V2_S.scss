@@ -1,0 +1,11 @@
+// CSS Root Start
+:root{
+    --event-primary-font-clr: #08080A;
+    --event-secondary-font-clr: #76777C;
+}
+// CSS Root End
+
+// SCSS Root Start
+$event-primary-font-clr: var(--event-primary-font-clr);
+$event-secondary-font-clr: var(--event-secondary-font-clr);
+// SCSS Root End

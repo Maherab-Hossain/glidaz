@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glidaz</title>
+</head>
+  <!-- CSS LINKS START -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <!-- CSS LINKS END -->
+<body>
+<!-- *Navbar section starts here-->
+<section id="main-manu">
+  <nav class="navbar navbar-expand-lg d-none d-lg-block">
+      <div class="container col">
+        <a class="navLogo navbar-brand col-4" href="./index.html"> <img src="./images/nav_logo.png" alt="Glizar"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-4 nav-option" id="customNav">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a  aria-current="page" href="./index.html"><iconify-icon icon="iconoir:home"></iconify-icon></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a  aria-current="page" href="#"><iconify-icon icon="bi:airplane"></iconify-icon></a>
+            </li> -->
+            <li class="nav-item">
+              <a  aria-current="page" href="./event-community-countdown.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+            </li>
+            <li class="nav-item">
+              <a  aria-current="page" href="./createEvent.html"><i class="fa-brands fa-chromecast"></i></a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="nav-profile-option col-4">
+          <ul class="m-auto">
+              <li> <a href="./friendsPage.html"><iconify-icon icon="iconoir:add-user"></iconify-icon></a></li>
+              <li> <a href="./message.html"><iconify-icon icon="iconoir:chat-lines"></iconify-icon></a></li>
+              <li> <a href="#"><iconify-icon icon="lucide:bell"></iconify-icon></li>
+              <li class="user"> <a href="./ProfiePage2.html"><iconify-icon icon="iconoir:profile-circle"></iconify-icon><span class="profile-active-overlay"></span></a></li>
+              <li class="nav-arrow"> <a href="#"><iconify-icon icon="iconoir:nav-arrow-down"></iconify-icon></a> </li>
+          </ul>
+      </div>
+      </div>
+    </nav>
+</section>
+  <!-- *Navbar section ends here -->
+  <!-- NAV SM start -->
+  <nav class="navbar navbar-sm d-block d-lg-none bg-body-tertiary" id="main-manusm">
+  <div class="container ">
+    <div class="w-100 row">
+      <div class="navlogo-sm col-8">
+        <a class="navbar-brand" href="#"><img src="./assest/image/glizar nav logo sm.png" alt=""></a>
+      </div>
+      
+      <div class="navoption-sm  col-4" id="">
+        <ul class=" me-auto mb-2 mb-lg-0 row">
+          <li class="nav-item col-2">
+            <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-plus"></i></a>
+          </li>
+          <li class="nav-item col-2">
+            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li class="nav-item col-2">
+            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-text"></i></a>
+          </li>
+          <li class="nav-item col-2">
+            <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-bell"></i></a>
+          </li>
+          <li class="nav-item col-2">
+            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-airplane"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </nav>
+  <!-- NAV SM end -->
+<!-- Scheduled Event Md to XL Device Start -->
+  <section id="allEvents" class="d-sm-none d-md-block">
+    <div class="container">
+      <div class="row">
+        <div class="home-leftside-bar col-3">
+          <div class="leftside-bar">
+              <!-- search box start -->
+              <div class="input-group flex-nowrap searchBox">
+                <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+             <!-- search box end -->
+             <!-- friend/Community/searchflight start -->
+             <div class="frined-sidebar-left">
+              <ul>
+                <li><a href="./createEvent.html"><span style="font-size: 18px;" class="option-name"><i class="fa-brands fa-chromecast"></i></span> <span style="font-size: 16px;" class="option-name">Live</span> </a> </li>
+                <li><a href="./EventName.html"><span style="font-size: 18px;" class="option-name"><i class="fa-solid fa-book-bookmark"></i></span> <span style="font-size: 16px;"class="option-name">Your Event</span></a> </li>
+                <li><a href="./eventStart.html"> <span style="font-size: 18px;" class="option-name"><i class="fa-solid fa-video"></i></span> <span style="font-size: 16px;" class="option-name">Create Your Event</span></a> </li>
+              </ul>
+             </div>
+             <!-- friend/Community/searchflight end -->
+             <hr class="sidebar-hr">
+             <!-- my community start -->
+             <div class="my-community-sidebar-left">
+              <div class="my-community-heading">
+                <div class="row">
+                  <p class="col-10">Trending Events</p>
+                  <h6 class="col-1">14</h6>
+                </div>
+              </div>
+                <div class="my-community-details">
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-3">
+                      <a href="./eventNamePost.html"><img src="./images/v2-leftsidebar-trending-img-1.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-9">
+                        <a href="./eventNamePost.html"><p>Nigeria UI Designer</p></a>
+                        <a href="./eventNamePost.html"><span>734 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-3">
+                      <a href="./eventNamePost.html"><img src="./images/v2-leftsidebar-trending-img-2.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-9">
+                        <a href="./eventNamePost.html"><p>Indonesia UI Research</p></a>
+                        <a href="./eventNamePost.html"><span>102 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-3">
+                      <a href="./eventNamePost.html"><img src="./images/v2-leftsidebar-trending-img-3.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-9">
+                        <a href="./eventNamePost.html"><p>Frontend Developer Vietnam</p></a>
+                        <a href="./eventNamePost.html"><span>122 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-box">
+                    <div class="row">
+                      <div class="my-community-profile col-3">
+                      <a href="./eventNamePost.html"><img src="./images/v2-leftsidebar-trending-img-4.png" alt=""></a>
+                      </div>
+                      <div class="my-community-title col-9">
+                        <a href="./eventNamePost.html"><p>Indonesia UI Deignerr</p></a>
+                        <a href="./eventNamePost.html"><span>508 members</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <!-- my community end -->
+             <hr class="sidebar-hr">
+            <!-- upcomming event sidebar start -->
+            <div class="upcomming-event-sidebar-let">
+              <div class="my-community-heading">
+                <div class="row">
+                  <p class="col-9">UpComming Event</p>
+                  <h6 class="col-2">30</h6>
+                </div>
+              </div>
+              <div class="up-comming-event-details">
+                <div class="upcomming-box">
+                  <div class="row">
+                    <div class="upcomming-profile col-2">
+                    <a href="./EventName.html#upcoming-event">20 <br> <span>Dec</span></a>
+            
+                    </div>
+                    <div class="upcomming-title col-8 ">
+                      <a href="./EventName.html#upcoming-event"><p>SkyView</p></a>
+                      <a href="./EventName.html#upcoming-event"><span>78k Interested · 7.7K going</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="upcomming-box">
+                  <div class="row">
+                    <div class="upcomming-profile col-2">
+                    <a href="./EventName.html#upcoming-event">14 <br> <span>Aug</span></a>
+            
+                    </div>
+                    <div class="upcomming-title col-8 ">
+                      <a href="./EventName.html#upcoming-event"><p>SkyView</p></a>
+                      <a href="./EventName.html#upcoming-event"><span>78k Interested · 7.7K going</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="upcomming-box">
+                  <div class="row">
+                    <div class="upcomming-profile col-2">
+                    <a href="#">31 <br> <span>Dec</span></a>
+            
+                    </div>
+                    <div class="upcomming-title col-8 ">
+                      <a href="./EventName.html#upcoming-event"><p>SkyView</p></a>
+                      <a href="./EventName.html#upcoming-event"><span>78k Interested · 7.7K going</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- upcomming event sidebar end -->
+          </div>
+      </div>
+      <!-- Event Feed Section Start -->
+      <div class="eventFeed col-6">
+        <!-- Scheduled event start -->
+        <div class="scheduled">
+          <div class="text">
+            <h5>15 May 2023 9:30 am</h5>
+            <h2>Your scheduled event</h2>
+            <a href="" class="joinBtn">Join Now</a>
+          </div>
+        </div>
+         <!-- Scheduled event end -->
+        <!-- Popular event start -->
+        <div class="popular">
+          <div class="eventTitle">
+            <h4>Popular Event</h4>
+            <a href="./EventName.html">See All</a>
+          </div>
+          <div class="popoularCard"> 
+              <div class="row">
+                <div class="col-4">
+                  <div class="cardEvent">
+                    <a href="#"><img src="./images/Summer_Festival.png" alt=""></a>
+                    <!-- <a href="#"><img src="./Images_Sadia_V2/Summer_Festival.png" alt=""></a> -->
+                    <h5><a href="#">Summer Festival</a></h5>
+                    <div class="text">
+                      <p>March, 27 2023</p>
+                      <div class="shape">
+                        <!-- Empty div for shape -->
+                      </div>
+                      <p>07:00 pm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="cardEvent">
+                    <a href="#"><img src="./images/Night_Party.png" alt=""></a>
+                    <h5><a href="#">Night Party</a></h5>
+                    <div class="text">
+                      <p>March, 26 2023</p>
+                      <div class="shape">
+                        <!-- Empty div for shape -->
+                      </div>
+                      <p>07:00 pm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="cardEvent">
+                    <a href="#"><img src="./images/Night_Party_2.png" alt=""></a>
+                    <h5><a href="#">Night Party 2</a></h5>
+                    <div class="text">
+                      <p>July, 27 2023</p>
+                      <div class="shape">
+                        <!-- Empty div for shape -->
+                      </div>
+                      <p>07:00 pm</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+        <!-- Popular event end -->
+        <!-- Event nearby start -->
+        <div class="nearbyEvent">
+          <div class="eventTitle">
+            <h4>Event Nearby You</h4>
+            <a href="./EventName.html">See All</a>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="nearby">
+                <div class="img"><a href="#"><img src="./images/Swimming.png" alt=""></a></div>
+                <div class="cardInfo">
+                  <h5><a href="#">Swimming</a></h5>
+                  <div class="text">
+                    <p>March, 26 2023</p>
+                    <div class="shape">
+                      <!-- Empty div for shape -->
+                    </div>
+                    <p>07:00 pm</p>
+                  </div>
+                  <hr>
+                  <img src="./images/Icon - Discovery.png" alt="">
+                  <p>1.2km</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="nearby">
+                <a href="#">
+                  <div class="img"><img src="./images/Swimming_2.png" alt=""></div>
+                </a>
+                <div class="cardInfo">
+                  <h5><a href="#">Swimming 2</a></h5>
+                  <div class="text">
+                    <p>March, 27 2023</p>
+                    <div class="shape">
+                      <!-- Empty div for shape -->
+                    </div>
+                    <p>07:00 pm</p>
+                  </div>
+                  <hr>
+                  <img src="./images/Icon - Discovery.png" alt="">
+                  <p>1.2km</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Event nearby end -->
+        <!-- Event catagory start -->
+        <div class="eventCatagory">
+          <div class="eventTitle">
+            <h4>Event category</h4>
+            <a href="./categoryName.html">See All</a>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="catagoryCard">
+                <div class="img">
+                  <a href="#"><img src="./images/Favourites.png" alt=""></a>
+                  <h5>Favorites</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="catagoryCard">
+                <div class="img">
+                  <a href="#"><img src="./images/Saved.png" alt=""></a>
+                  <h5>Saved</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="catagoryCard">
+                <div class="img">
+                  <a href="#"><img src="./images/Upcoming.png" alt=""></a>
+                  <h5>Up coming</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Event catagory end -->
+      </div>
+      <!-- Event Feed Section End -->
+      <!-- Create Event Section Start -->
+      <div class="createEvent col-3">
+        <button class="newEventBtn">
+          <iconify-icon id="vid-cam" icon="ph:video-camera"></iconify-icon>
+          <p><a href="./eventStart.html">Create new event</a></p>
+        </button>
+        <button class="joinEventBtn">
+          <iconify-icon id="plus" icon="ic:round-plus"></iconify-icon>
+          <p><a href="./joinEvent.html">Join event</a></p>
+        </button>
+        <div class="detail">
+          <a href="#">
+            <iconify-icon id="left-arrow" icon="formkit:arrowleft" style="font-size: 12px;"></iconify-icon>
+          </a>
+          <p>Detail</p>
+          <a href="#">
+            <iconify-icon id="search" icon="uil:search"></iconify-icon>
+          </a>
+        </div>
+        <div class="summerFest">
+          <img id="summer-img" src="./images/Detail-Summer-Fest.png" alt="">
+          <h5>Summer Festival</h5>
+          <div class="text">
+            <p>July, 26 2023</p>
+            <div class="shape">
+              <!-- Empty div for shape -->
+            </div>
+            <p>07:00 pm</p>
+          </div>
+          <div class="join">
+            <div class="joinImg">
+              <img id="f-img" src="./images/Summer-Fest-Join1.png" alt="">
+              <img id="s-img" src="./images/Summer-Fest-Join2.png" alt="">
+              <img id="t-img" src="./images/Summer-Fest-Join3.png" alt="">
+            </div>
+            <p>134+ Joined</p>
+            <button><span>$</span> 99,99</button>
+        </div>
+        <hr>
+        <div class="description">
+          <h5>Description</h5>
+          <p>The cornerstone of Summerfest hosting the music industry's hottest stars. A separate ticket is needed to see concerts in the <a href="#">read more</a></p>
+        </div>
+        <div class="location">
+          <h5>Location</h5>
+          <div class="location-info">
+            <img src="./images/location.png" alt="">
+            <p>3517 W. Gray St. Utica, Pennsylvania 57867</p>
+          </div>
+          <div class="ticket-price">
+            <div class="price">
+              <p>Total Price</p>
+              <p><span style="color: #60A5FA;">$</span> <span>99,99</span>/person</p>
+            </div>
+            <button>Get a Ticket</button>
+          </div>
+        </div>
+      </div>
+      <!-- Create Event Section End -->
+      </div>
+    </div>
+  </section>
+  <!-- Scheduled Event Md to XL Device End -->
+
+  <!-- Scheduled Event SM Device Start -->
+  <section id="allEvents" class="d-sm-block d-md-none">
+    <div class="container">
+      <div class="scheduled">
+        <div class="text">
+          <h2>Explore events from <br> the community</h2>
+          <button class="startBtn">Get Started</button>
+        </div>
+      </div>
+      <hr>
+              <!-- Popular event start -->
+              <div class="popular">
+                <div class="eventTitle">
+                  <h4>Popular Event</h4>
+                  <a href="./EventName.html">See All</a>
+                </div>
+                <div class="popoularCard"> 
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="cardEvent">
+                          <a href="#"><img src="./images/Summer_Festival.png" alt=""></a>
+                          <h5><a href="#">Summer Festival</a></h5>
+                          <div class="text">
+                            <p>March, 27 2023</p>
+                            <div class="shape">
+                              <!-- Empty div for shape -->
+                            </div>
+                            <p>07:00 pm</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="cardEvent">
+                          <a href="#"><img src="./images/Night_Party.png" alt=""></a>
+                          <h5><a href="#">Night Party</a></h5>
+                          <div class="text">
+                            <p>March, 26 2023</p>
+                            <div class="shape">
+                              <!-- Empty div for shape -->
+                            </div>
+                            <p>07:00 pm</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="cardEvent">
+                          <a href="#"><img src="./images/Night_Party_2.png" alt=""></a>
+                          <h5><a href="#">Night Party 2</a></h5>
+                          <div class="text">
+                            <p>July, 27 2023</p>
+                            <div class="shape">
+                              <!-- Empty div for shape -->
+                            </div>
+                            <p>07:00 pm</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+              <!-- Popular event end -->
+    </div>
+  </section>
+  <!-- Scheduled Event SM Device End -->
+
+<!-- JS LINK START -->
+<script src="./js/jquery-3.7.0.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/iconify-icon_1.0.7_iconify-icon.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/app.js"></script>
+<!-- JS LINK END -->
+</body>
+</html>

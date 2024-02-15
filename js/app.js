@@ -31,3 +31,40 @@ $( function (){
     // ================== user-post-modal-end =================
     // ==============***************** MODAL END ************************==========================
     })
+
+    // SS Branch Start
+    $(document).ready(function(){
+      $('.eventSlider').slick(
+          {
+              slidesToShow: 1,
+              prevArrow: '.leftArrow',
+              nextArrow: '.rightArrow',
+          }
+      );
+  
+      // ---------------Information Event Start-------------------
+      $(`.eventThemeSlider`).slick(
+          {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.eventThemeSubSlider',
+          }
+        );
+  
+        $(`.eventThemeSubSlider`).slick(
+          {
+            slidesToShow:3,
+            asNavFor: '.eventThemeSlider',
+           
+            focusOnSelect:true,
+            prevArrow: false,
+            nextArrow: '.rightArrow',
+            
+          }
+        );
+      // ---------------Information Event End---------------------
+      
+    });
+    // SS Branch End

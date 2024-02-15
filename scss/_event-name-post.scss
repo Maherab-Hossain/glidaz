@@ -1,0 +1,90 @@
+// EVENT NAME POST START
+#event-name-post {
+  margin: 20px 0px;
+  .event-name-details-box{
+    background-color: $white-color;
+    border: 1px solid $side-border-clr;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin-bottom: 27px;
+    .eventPost-details{
+        .post-time-details{
+            h3{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px; 
+            margin: 5px 0px;
+            }
+        
+        span{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 25px;
+        }
+        h2{
+        font-weight: 700;
+        font-size: 32px; 
+        line-height: 50px;
+        }
+        p{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 43px;
+        margin: 10px 0px;
+        }
+    }
+    .post-img{
+        padding: 10px 0px;
+        img{
+            width: 700px;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    }
+
+  }
+  .react-option {
+    padding: 0px 14px;
+    ul {
+      li {
+        font-size: 15px;
+        color: $black-clr;
+        font-weight: 600;
+        line-height: 22.449px;
+        text-align: center;
+      }
+    }
+  }
+  .comment-section {
+    margin-top: 25px ;
+    .comment-text {
+      width: 539.058px;
+      border-radius: 18px;
+      background-color: $event-post-comment-bg-clr;
+      margin-left: 25px;
+      margin-top: 6px;
+      padding: 10px;
+      h6 {
+        font-size: 14.68px;
+        font-weight: 700;
+        line-height: 22.836px;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 17.791px;
+        font-weight: 400;
+        line-height: 32.023px;
+      }
+    }
+    .comment-reaction{
+        transform: translateX(100px);
+        margin-top: 4px;
+        span{
+         padding-right: 10px;  
+         font-weight: 600;  
+        }
+    }
+  }
+}
+// EVENT NAME POST END

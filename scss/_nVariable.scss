@@ -28,8 +28,7 @@ $third-Font: 'Poppins', sans-serif;
 --privacy-policy-terms-atag-clr:#60A5FA;
 --button-font-clr:#EEF2FF;
 --friendPage-border-color: #D1D5DB;
-
- }
+}
 
  // ROOT END
 
@@ -38,9 +37,15 @@ $third-Font: 'Poppins', sans-serif;
 $body-bg-clr:var(--body-bg-clr);
 $profile-active-overlay :var(--profile-active-overlay);
 $black-clr:var(--black-clr);  
+
 $nav-option-color:var(--nav-option-color);
 $white-color: var(--white-color);  
 $nav-bottom-border-clr: var(--nav-bottom-border-clr);
+
+$nav-option-color:var(--nav-option-color);
+$white-color:var(--white-color);  
+$nav-bottom-border-clr:var(--nav-bottom-border-clr);
+
 $nav-option-hover-clr:var (--nav-option-hover-clr); 
 $side-border-clr:var(--side-border-clr);
 $search-box-bgclr:var(--search-box-bgclr);

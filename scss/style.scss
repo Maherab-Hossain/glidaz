@@ -23,75 +23,105 @@
   // ROOT START
   @import "./_variable.scss";
   @import "./_messageVariable.scss";
+
   @import "./_variable_V2_S.scss";
   @import "./nVariable.scss";
 
+
   // ROOT END
 
-  body{
+body{
     background-color: $body-bg-clr;
     font-family:$primaryfont;
     color: $black-clr;
     position: relative;
-  }
-  
-  // NAV START
-  @import "./_nav.scss"; 
-  // NAV END 
-   
-  // HOME LEFT SIDE BAR START
-  @import "./_home-leftside-bar.scss"; 
-  // HOME LEFT SIDE BAR END 
-   
-  // INDEX-HOME-PAGE START
-  @import "./_index-home-page.scss"; 
-  // INDEX-HOME-PAGE END 
+}
 
-  // MODAL START
-  @import "./_modal.scss"; 
-  // MODAL END 
-  
-  // PRIVACY CENTER START
-  @import "./_privacy-center.scss"; 
-  // PRIVACY CENTER END 
+// NAV START
+@import "./_nav.scss";
+// NAV END
 
-  // COMMUNITY GROUP CATEGORY  START
-  @import "./_community-group-category.scss"; 
-  // COMMUNITY GROUP CATEGORY  END 
+// HOME LEFT SIDE BAR START
+@import "./_home-leftside-bar.scss";
+// HOME LEFT SIDE BAR END
 
-  // CREATE NEW COMUNICATION  START
-  @import "./_create-new-comunication.scss"; 
-  // CREATE NEW COMUNICATION  END 
+// INDEX-HOME-PAGE START
+@import "./_index-home-page.scss";
+// INDEX-HOME-PAGE END
 
-  // CREATE NAME  START
-  @import "./_create-name.scss"; 
-  // CREATE NAME  END 
+// MODAL START
+@import "./_modal.scss";
+// MODAL END
 
-  //profile page starts
-  @import "./profilepage";
-  //profile page ends
-    
-  // Profile Page 2 Start
-  @import "./profilePage2";
-  // Profile Page 2 End
+// PRIVACY CENTER START
+@import "./_privacy-center.scss";
+// PRIVACY CENTER END
 
-  // Message Section Start
-  @import "./msg";
-  // Message Section End
+// COMMUNITY GROUP CATEGORY START
+@import "./_community-group-category.scss";
+// COMMUNITY GROUP CATEGORY END
 
-  // Group Call Section Start
-  @import "./groupCall";
-  // Group Call Section End
+// CREATE NEW COMUNICATION START
+@import "./_create-new-comunication.scss";
+// CREATE NEW COMUNICATION END
 
-  // Single Call Section Start
-  @import "./singleCall";
-  // Single Call Section End
-  
- //Friend page starts
- @import "./friendspage";
- //Friend page ends
+// CREATE NAME START
+@import "./_create-name.scss";
+// CREATE NAME END
 
-//  Friend Request Accept Page Starts
+// EVENT NAME START
+@import "./_eventName.scss";
+// EVENT NAME END
+
+// CATEGORY NAME START
+@import "./categoryName.scss";
+// CATEGORY NAME END
+
+// EVENT COMMUNITY COUNTDOWN  START
+@import "./_event-community-countdown.scss";
+// EVENT COMMUNITY COUNTDOWN END
+
+// CREATE EVENT  START
+@import "./createEvent.scss";
+// CREATE EVENT END
+
+// INFO EVENT  START
+@import "./_infoEvent.scss";
+// INFO EVENT END
+
+// EVENT NAME POST  START
+@import "./_event-name-post.scss";
+// EVENT NAME POST END
+
+// EVENT Category POST  START
+@import "./_eventCategory.scss";
+// EVENT Category POST END
+
+//profile page starts
+@import "./profilepage";
+//profile page ends
+
+// Profile Page 2 Start
+@import "./profilePage2";
+// Profile Page 2 End
+
+// Message Section Start
+@import "./msg";
+// Message Section End
+
+// Group Call Section Start
+@import "./groupCall";
+// Group Call Section End
+
+// Single Call Section Start
+@import "./singleCall";
+// Single Call Section End
+
+//Friend page starts
+@import "./friendspage";
+//Friend page ends
+
+// Friend Request Accept Page Starts
 @import "./RequestAccept";
 // Friend Request Accept Page Ends
 
@@ -99,37 +129,17 @@
 @import "./requestDismissed";
 //Friend Request Dismissed page ends
 
-//EVENT COMMUNITY COUNTDOWN START
-@import "./_event-community-countdown.scss";
-//EVENT COMMUNITY COUNTDOWN END
+//Event Page started 
+@import "./eventStart";
+//Event Page ends
 
-// EVENT CATEGORY START
-@import "./_eventCategory.scss";
-// EVENT CATEGORY END
+//Event Created Page starts
+@import "./eventCreated";
+//Event Created Page ends
 
-// CREATE EVENT START
-@import "./_createEvent.scss";
-// CREATE EVENT END
-
-// CATEGORY NAME START
-@import "./_categoryName.scss";
-// CATEGORY NAME END
-
-// INFO EVENT START
-@import "./_infoEvent.scss";
-// INFO EVENT END
-
-// EVENT START  START
-@import "./_eventStart.scss";
-// EVENT START  END
-
-// EVENT CREATED  START
-@import "./_eventCreated.scss";
-// EVENT CREATED  END
-
-// EVENT SUMMARY  START
-@import "./_eventSummary.scss";
-// EVENT SUMMARY  END
+//Event Summary page starts
+@import "./eventSummary";
+//Event Summary page ends
 
 // JOIN EVENT  START
 @import "./_joinEvent.scss";
@@ -144,3 +154,5 @@
 @import "./_responsive_S.scss";
 // RESPONSIVE S END
 //  ******************************************* Responsive End ******************************************* 
+
+
