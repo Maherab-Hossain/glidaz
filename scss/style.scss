@@ -23,13 +23,11 @@
   // ROOT START
   @import "./_variable.scss";
   @import "./_messageVariable.scss";
-<<<<<<< HEAD
-  
-=======
+
   @import "./_variable_V2_S.scss";
   @import "./nVariable.scss";
 
->>>>>>> 4cb51bc365d9086704cce44ccec4d2a38ba394d8
+
   // ROOT END
 
 body{
@@ -70,6 +68,34 @@ body{
 // CREATE NAME START
 @import "./_create-name.scss";
 // CREATE NAME END
+
+// EVENT NAME START
+@import "./_eventName.scss";
+// EVENT NAME END
+
+// CATEGORY NAME START
+@import "./categoryName.scss";
+// CATEGORY NAME END
+
+// EVENT COMMUNITY COUNTDOWN  START
+@import "./_event-community-countdown.scss";
+// EVENT COMMUNITY COUNTDOWN END
+
+// CREATE EVENT  START
+@import "./createEvent.scss";
+// CREATE EVENT END
+
+// INFO EVENT  START
+@import "./_infoEvent.scss";
+// INFO EVENT END
+
+// EVENT NAME POST  START
+@import "./_event-name-post.scss";
+// EVENT NAME POST END
+
+// EVENT Category POST  START
+@import "./_eventCategory.scss";
+// EVENT Category POST END
 
 //profile page starts
 @import "./profilepage";
@@ -118,7 +144,6 @@ body{
 // JOIN EVENT  START
 @import "./_joinEvent.scss";
 // JOIN EVENT  END
-<<<<<<< HEAD
 
 // SCHEDUL EVENT  START
 @import "./_scheduledEvent.scss";
@@ -129,5 +154,5 @@ body{
 @import "./_responsive_S.scss";
 // RESPONSIVE S END
 //  ******************************************* Responsive End ******************************************* 
-=======
->>>>>>> Tasnya
+
+

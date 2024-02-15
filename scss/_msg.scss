@@ -65,7 +65,10 @@
                 }
                 #comm{
                     background-color: $message-button-inactive-clr;
-
+                 a{
+                    color: $black-clr;
+                    margin-right: 3px;
+                 }
                 }
             }
         }

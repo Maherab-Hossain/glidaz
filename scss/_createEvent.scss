@@ -1,0 +1,81 @@
+// Create Event Section Start
+#createEvent{
+    .container{
+        .row{
+            .eventName{
+                padding: 31px 48px;
+                text-align: center;
+                position: relative;
+                h4{
+                    font-weight: 700;
+                }
+                .eventSlider{
+                    margin-top: 19px;
+                   .slides{
+                    position: relative;
+                    img{
+                        width: 100%;
+                        
+                    }
+                    .watchBtn{
+                        position: absolute;
+                        top: 20px;
+                        right: 84px;
+                        width: 112px;
+                        height: 40px;
+                        border-radius: 14px;
+                        border: none;
+                        background-color: rgba(255, 255, 255, 0.20);
+                        color: $white-color;
+                        
+                        p{
+                            display: inline-block;
+                            font-size: 21px;
+                            font-weight: 700;
+                        }
+                    }
+                    .liveCircle{
+                        width: 22px;
+                        height: 22px;
+                        border-radius: 50%;
+                        background-color:#FC0000;
+                        border: 3px solid #c1c1c1;
+                        box-shadow: 0 0 30px 2px white;
+                        position: absolute;
+                        top: 30px;
+                        right: 44px;
+                    }
+                   }
+                   
+                }
+
+                .eventSliderBtn{
+                    cursor: pointer;
+                    .leftArrow{
+                        position: absolute;
+                        width: 44px;
+                        height: 44px;
+                        line-height: 44px;
+                        text-align: center;
+                        border-radius: 20px;
+                        background-color: rgba(255, 255, 255, 0.60);
+                        left: 59px;
+                        top: 48%;
+                    }
+                    .rightArrow{
+                        position: absolute;
+                        width: 44px;
+                        height: 44px;
+                        line-height: 44px;
+                        text-align: center;
+                        border-radius: 20px;
+                        background-color: rgba(255, 255, 255, 0.60);
+                        right: 59px;
+                        top: 48%;
+                    }
+                   }
+            }
+        }
+    }
+}
+// Create Event Section End
