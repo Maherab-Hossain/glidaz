@@ -2,13 +2,13 @@
 #Event {
   margin-top: 5px;
   .eventStart {
-    border: 1px solid #e0e3ef;
+    border: 1px solid $event-created-brd-clr;
     border-radius: 15px;
     margin-left: 16px;
     h3 {
       color: $black-clr;
       text-align: center;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      text-shadow: 0px 4px 4px $nameCard-brd-clr;
       font-size: 30px;
       font-weight: 700;
     }
@@ -86,18 +86,16 @@
         }
         .GetStartedButton {
           margin-top: 32px;
-          button {
+          a {
             text-align: center;
             font-size: 14px;
             font-weight: 700;
             border-radius: 30px;
-            border: 1px solid #082f49;
-            background-color: #fff;
+            border: 1px solid $getStart-btn-brd-clr;
+            background-color: $white-color;
             padding: 12px 32px;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-            a{
+            box-shadow: 0px 4px 4px 0px $nameCard-brd-clr;
             color: $black-clr;
-            }
           }
         }
       }

@@ -4,7 +4,7 @@
         height: 800px;
         margin-bottom: 18px;
         margin-top: 11px;
-        border: 1px solid rgba($color: #000000, $alpha: 0.20);
+        border: 1px solid rgba($color: $black-clr, $alpha: 0.20);
         border-radius: 20px;
         position: relative;
         .profileMenu{
@@ -20,7 +20,7 @@
                     font-weight: 700;
                 }
                 p{
-                    color: rgba($color: $inbox-primary-font-clr, $alpha: 0.7);
+                color: rgba($color: $inbox-primary-font-clr, $alpha: 0.7);
                 }
             }
             .icon{
@@ -31,10 +31,10 @@
                 height: 44px;
                 line-height: 44px;
                 text-align: center;
-                background-color: rgba($color: #000000, $alpha: 0.10);
+                background-color: rgba($color: $black-clr, $alpha: 0.10);
                 border-radius: 20px;
                 a{
-                    color: $black-clr;
+                color: $black-clr;
                 }
                 }
             }
@@ -57,7 +57,7 @@
                          height: 44px;
                          line-height: 44px;
                          border-radius: 20px;
-                         background-color: rgba(148, 148, 148, 0.40);
+                         background-color: $schedule-singleCall-mic-cam-bg;
                          text-align: center;
                  }
  

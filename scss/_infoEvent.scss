@@ -1,391 +1,386 @@
 // Information Event Start
-#infoEvent{
-    margin-top: 20px;
-    .container{
-        .row{
-            .eventInfo{
-                // margin: 28px 31px;
-                .eventThemeMain{
-                    min-height: 450px;
-                    background-image: url(../images/Event_Theme_Bg.png);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    padding:0px 31px;
-                    border-radius: 20px;
-                    margin-bottom: 15px;
-                    .bg-head{
-                       display: flex ;
-                       align-items: center;
-                       justify-content: space-between;
-                       .profile{
-                        margin-top: 18px;
-                        display: flex;
-                        align-items: center;
-                        padding: 10px;
-                        border-radius: 30px;
-                        background-color: rgba(255, 255, 255, 0.20);
-                        h4{
-                            font-size: 20px;
-                            font-weight: 700;
-                            margin-left: 5px;
-                            color: $white-color;
-                        }
-                       }
-                       .expand{
-                        display: inline-block;
-                        margin-left: 255px;
-                        width: 54px;
-                        height: 54px;
-                        line-height: 54px;
-                        text-align: center;
-                        background-color: rgba(255, 255, 255, 0.20);
-                        border-radius: 20px;
-                        
-                        a{
-                            font-size: 24px;
-                            color: $white-color;
-                        }
-                       }
-                    }
-                    .callBtn{
-                        margin-top: 156px;
-                         ul{
-                             text-align: center;
-                             li{
-                                 display: inline-block;
-                                 margin-left: 10px;
-                             }
-             
-                             #mic,#cam{
-                                width: 44px;
-                                height: 44px;
-                                line-height: 44px;
-                                border-radius: 20px;
-                                background-color: rgb(221 216 216 / 40%);
-                                text-align: center;     
-                             }
-
-                             #cam{
-                                background-color: rgba(217, 217, 217, 0.40);
-                             }
-                             
-             
-                             #call{
-                                 width: 80px;
-                                 height: 44px;
-                                 line-height: 44px;
-                                 border-radius: 15px;
-                                 background-color: $message-notification-clr;
-                                 font-size: 24px;
-                                 
-                             }
-                         }
-                     }
-                    .eventThemeName{
-                        margin-top: 15px;
-                        padding: 6px 11px;
-                        border-radius: 20px;
-                        background-color: rgba(217, 217, 217, 0.40);
-                        display: flex;
-                        align-items: center;
-                        .voice{
-                            padding: 5px 10px;
-                            background-color: rgba(255, 255, 255, 0.20);
-                            border-radius: 20px;  
-                        }
-                        .text{
-                            margin-left: 7px;
-                            color: $white-color;
-                            h4{
-                                font-size: 20px;
-                                font-weight: 700;
-                            }
-                        }
-                        .settings{
-                            width: 41px;
-                            height: 41px;
-                            line-height: 41px;
-                            text-align: center;
-                            border-radius: 20px;
-                            background-color: rgba(255, 255, 255, 0.20);
-                            margin-left: 130px;
-                            transform: translateX(100px);
-                        }
-                    }  
-                }
-                .subSlide{
-                    position: relative;
-                    .eventThemeSubSlider{
-                        .eventThemeSub{
-                            width: 177px;
-                            height: 120px;
-                            padding: 0px 10px;
-                            position: relative;
-                            
-                            img{
-                                width: 100%;
-                                height: 120px;
-                                border-radius: 20px;  
-                            }
-                            .text{
-                                position: absolute;
-                                top: 70%;
-                                left: 50%;
-                                transform: translateX(-50%);
-                                border-radius: 20px;
-                                padding: 5px;
-                                background-color: rgba(55, 55, 55, 0.40);
-                                p{
-                                    color: white;
-                                    font-size: 12px;
-                                }
-                            }
-
-                        }
-                    }
-
-                    .subSliderBtn{
-                        cursor: pointer;
-                       .rightArrow{
-                        width: 34px;
-                        height: 107px;
-                        line-height: 107px;
-                        border-radius: 20px;
-                        background-color: #082F49;
-                        color: $white-color;
-                        display: inline-block;
-                        text-align: center;
-                        font-size: 24px;
-                        position: absolute;
-                        top: 50%;
-                        transform: translateY(-50%);
-                        right: 0;
-                       }
-                    }
-                }
-                .nearbyEvent{
-                    margin-top: 54px;
-                    .eventTitle{
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        h4{
-                            font-size: 24px;
-                            font-weight: 700;
-                            color: $event-primary-font-clr;
-                        }
-                        a{
-                            font-size: 16px;
-                            font-weight:700;
-                            color:$see-all-clr;
-                        }
-                    }
-                    .nearby{
-                        margin-top: 21px;
-                        width: 100%;
-                        height: 134px;
-                        border-radius: 24px;
-                        box-shadow:  0px -1px 27px 0px rgba(20, 19, 73, 0.05), 0px -2px 25px 0px rgba(4, 17, 21, 0.00);
-                        
-    
-                        .img, .cardInfo{
-                            vertical-align: top;
-                            display: inline-block;
-                        }
-                        
-                        .img{
-                            img{
-                                border-radius: 24px;
-                                width: 100%;
-                                height: 100%;
-                            }
-                        }
-        
-                        .cardInfo{
-                            margin-top: 20px;
-                            margin-left: 15px;
-    
-                            h5{
-                                font-size: 18px;
-                                font-weight: 700;
-                               
-                                
-                                a{
-                                    color: $event-primary-font-clr;
-                                }
-                            }
-            
-                            .text{
-                                display: flex;
-                                align-items: center;
-                                margin-top: 5px;
-                               
-                                p{
-                                    font-size: 9px;
-                                    color: $event-secondary-font-clr;
-                                }
-                                .shape{
-                                    width: 3px;
-                                    height: 4px;
-                                    border-radius: 50%;
-                                    background-color: $event-swimming-details-clr;
-                                    margin: 0 3px;
-                                }
-                            }
-    
-                            hr{
-                                // background-color: #F7F7F7;
-                                background-color: $event-post-comment-bg-clr;
-                                margin: 12px 0px !important;
-                            }
-        
-                            p{
-                                
-                                font-size: 12px;
-                                color: $event-secondary-font-clr;
-                                display: inline-block;
-                            }
-                        }
-                       }
-                   }
+#infoEvent {
+  margin-top: 20px;
+  .container {
+    .row {
+      .eventInfo {
+        // margin: 28px 31px;
+        .eventThemeMain {
+          min-height: 450px;
+          background-image: url(../images/Event_Theme_Bg.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding: 0px 31px;
+          border-radius: 20px;
+          margin-bottom: 15px;
+          .bg-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .profile {
+              margin-top: 18px;
+              display: flex;
+              align-items: center;
+              padding: 10px;
+              border-radius: 30px;
+              background-color: $info-profile-bg;
+              h4 {
+                font-size: 20px;
+                font-weight: 700;
+                margin-left: 5px;
+                color: $white-color;
+              }
             }
-            .eventChat{  
-                .title{
-                    background-color: #082F49;
-                    border-radius: 20px;
-                    padding: 10px 40px;
-                    h3{
-                        font-size: 30px;
-                        font-weight: 700;
-                       
-                        color: $white-color;
-                    }
-                }
-                .text{
-                    display: flex;
-                    align-items: center;
-                    margin-top: 21px;
-                    .summary,.task{
-                        background-color: #BAE6FD;
-                        border-radius: 20px;
-                        padding: 10px 6px 9px 10px;
-                       
-                        h6{
-                            font-size: 12px;
-                            font-weight: 700;
-                        }
-                        p{
-                         font-size: 8px;
-                         line-height: 16px;
-                        
-                         
-                        }
-                        .edit{
-                            display: inline-block;
-                            width: 29px;
-                            height: 29px;
-                            line-height: 29px;
-                            text-align: center;
-                            border-radius: 50%;
-                            background-color: rgba(255, 255, 255, 0.20);
-                            margin-left: 70%;
-                        }
-                    }
-                }
-                .summary{
-                    margin-right: 25px;
-                }
-            }
-            .inbox{
-                width: 100%;
-                background-color: $event-post-comment-bg-clr;
-                border-radius: 23px;
-                margin-top: 24px;
-                padding: 12px;
-                ul{
-                    border-radius: 20px;
-                    background-color: $white-color;
-                    
-                    li{
-                        button{
-                            color:$friendPage-border-color;
-                            font-weight: 700;
-                            font-size: 14px;
-                            padding: 12px 21px;
-                            
-                        }
-                        .active{
-                            color: $white-color;
-                            background-color: $group-details-title-h;
-                            border-radius: 20px;
-                        }
-                    }
-                }
-                #roomchat{
-                    margin-top: 263px;
-                    .reciever{
-                        background-color: $white-color;
-                        border-radius: 0px 14.938px 14.938px 14.938px;
-                    }
-                    .sender{
-                        background-color: $nav-option-hover-clr;
-                        border-radius: 14.844px 0px 14.938px 14.938px;
-                        margin: 14px 0;
-                        margin-left: 70px;
-                    }
-                    .reciever, .sender{
-                        display: inline-block;
-                        padding: 7.5px;
-                        
-                        p{
-                            display: inline-block;
-                            font-size: 9px;
-                            color: $sidebar-span-clr;
-                        }
-                        #time{
-                            margin-left: 52px;
-                        }
-                        h6{
-                            font-size: 9px;
-                            font-weight: 700;
-                            color: $nav-option-color;
-                        }
-                    }
-                    .sendMsg{
-                        margin-top: 36px;
-                        padding: 14px 6px 13px 16px;
-                        border-radius: 23px;
-                        background-color: $send-msg-bg;
-                        form{
-                            display: inline-block;
-                            input[type= text] {
-                                border: none;
-                                outline: 0;
-                                background-color: rgba(217, 217, 217, 0);
-                            }
-                            ::placeholder{
-                                color: $sidebar-upcomming-span-clr;
-                                font-size: 14px;
-                                font-weight: 700;
-                            }
-                        }
-                        .sendBtn{
-                            display: inline-block;
-                            background-color: $white-color;
-                            width: 35px;
-                            height: 35px;
-                            line-height: 35px;
-                            border-radius: 50%;
-                            text-align: center;
-                            border: none;
-                            color: $sidebar-upcomming-span-clr;
-                            transform: translateX(40px);
-                        }
+            .expand {
+              display: inline-block;
+              margin-left: 255px;
+              width: 54px;
+              height: 54px;
+              line-height: 54px;
+              text-align: center;
+              background-color: $info-profile-bg;
+              border-radius: 20px;
 
-                    }
-                }
+              a {
+                font-size: 24px;
+                color: $white-color;
+              }
             }
+          }
+          .callBtn {
+            margin-top: 156px;
+            ul {
+              text-align: center;
+              li {
+                display: inline-block;
+                margin-left: 10px;
+              }
+
+              #mic,
+              #cam {
+                width: 44px;
+                height: 44px;
+                line-height: 44px;
+                border-radius: 20px;
+                background-color: $info-call-btn-cam-bg;
+                text-align: center;
+              }
+
+              #cam {
+                background-color: $info-call-btn-cam-bg-two;
+              }
+
+              #call {
+                width: 80px;
+                height: 44px;
+                line-height: 44px;
+                border-radius: 15px;
+                background-color: $message-notification-clr;
+                font-size: 24px;
+              }
+            }
+          }
+          .eventThemeName {
+            margin-top: 15px;
+            padding: 6px 11px;
+            border-radius: 20px;
+            background-color: $info-call-btn-cam-bg-two;
+            display: flex;
+            align-items: center;
+            .voice {
+              padding: 5px 10px;
+              background-color: $info-call-btn-cam-bg-two;
+              border-radius: 20px;
+            }
+            .text {
+              margin-left: 7px;
+              color: $white-color;
+              h4 {
+                font-size: 20px;
+                font-weight: 700;
+              }
+            }
+            .settings {
+              width: 41px;
+              height: 41px;
+              line-height: 41px;
+              text-align: center;
+              border-radius: 20px;
+              background-color: $info-call-btn-cam-bg-two;
+              margin-left: 130px;
+              transform: translateX(100px);
+            }
+          }
         }
+        .subSlide {
+          position: relative;
+          .eventThemeSubSlider {
+            .eventThemeSub {
+              width: 177px;
+              height: 120px;
+              padding: 0px 10px;
+              position: relative;
+
+              img {
+                width: 100%;
+                height: 120px;
+                border-radius: 20px;
+              }
+              .text {
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 20px;
+                padding: 5px;
+                background-color: $info-subSlide-text-bg;
+                p {
+                  color: $white-color;
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+
+          .subSliderBtn {
+            cursor: pointer;
+            .rightArrow {
+              width: 34px;
+              height: 107px;
+              line-height: 107px;
+              border-radius: 20px;
+              background-color: $getStart-btn-brd-clr;
+              color: $white-color;
+              display: inline-block;
+              text-align: center;
+              font-size: 24px;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              right: 0;
+            }
+          }
+        }
+        .nearbyEvent {
+          margin-top: 54px;
+          .eventTitle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h4 {
+              font-size: 24px;
+              font-weight: 700;
+              color: $event-primary-font-clr;
+            }
+            a {
+              font-size: 16px;
+              font-weight: 700;
+              color: $see-all-clr;
+            }
+          }
+          .nearby {
+            margin-top: 21px;
+            width: 100%;
+            height: 134px;
+            border-radius: 24px;
+            box-shadow: 0px -1px 27px 0px rgba(20, 19, 73, 0.05),
+              0px -2px 25px 0px rgba(4, 17, 21, 0);
+
+            .img,
+            .cardInfo {
+              vertical-align: top;
+              display: inline-block;
+            }
+
+            .img {
+              img {
+                border-radius: 24px;
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+            .cardInfo {
+              margin-top: 20px;
+              margin-left: 15px;
+
+              h5 {
+                font-size: 18px;
+                font-weight: 700;
+
+                a {
+                  color: $event-primary-font-clr;
+                }
+              }
+
+              .text {
+                display: flex;
+                align-items: center;
+                margin-top: 5px;
+
+                p {
+                  font-size: 9px;
+                  color: $event-secondary-font-clr;
+                }
+                .shape {
+                  width: 3px;
+                  height: 4px;
+                  border-radius: 50%;
+                  background-color: $event-swimming-details-clr;
+                  margin: 0 3px;
+                }
+              }
+
+              hr {
+                // background-color: #F7F7F7;
+                background-color: $event-post-comment-bg-clr;
+                margin: 12px 0px !important;
+              }
+
+              p {
+                font-size: 12px;
+                color: $event-secondary-font-clr;
+                display: inline-block;
+              }
+            }
+          }
+        }
+      }
+      .eventChat {
+        .title {
+          background-color: $getStart-btn-brd-clr;
+          border-radius: 20px;
+          padding: 10px 40px;
+          h3 {
+            font-size: 30px;
+            font-weight: 700;
+
+            color: $white-color;
+          }
+        }
+        .text {
+          display: flex;
+          align-items: center;
+          margin-top: 21px;
+          .summary,
+          .task {
+            background-color: $info-summery-task-bg;
+            border-radius: 20px;
+            padding: 10px 6px 9px 10px;
+
+            h6 {
+              font-size: 12px;
+              font-weight: 700;
+            }
+            p {
+              font-size: 8px;
+              line-height: 16px;
+            }
+            .edit {
+              display: inline-block;
+              width: 29px;
+              height: 29px;
+              line-height: 29px;
+              text-align: center;
+              border-radius: 50%;
+              background-color: $info-summery-edit-bg;
+              margin-left: 70%;
+            }
+          }
+        }
+        .summary {
+          margin-right: 25px;
+        }
+      }
+      .inbox {
+        width: 100%;
+        background-color: $event-post-comment-bg-clr;
+        border-radius: 23px;
+        margin-top: 24px;
+        padding: 12px;
+        ul {
+          border-radius: 20px;
+          background-color: $white-color;
+
+          li {
+            button {
+              color: $friendPage-border-color;
+              font-weight: 700;
+              font-size: 14px;
+              padding: 12px 21px;
+            }
+            .active {
+              color: $white-color;
+              background-color: $group-details-title-h;
+              border-radius: 20px;
+            }
+          }
+        }
+        #roomchat {
+          margin-top: 263px;
+          .reciever {
+            background-color: $white-color;
+            border-radius: 0px 14.938px 14.938px 14.938px;
+          }
+          .sender {
+            background-color: $nav-option-hover-clr;
+            border-radius: 14.844px 0px 14.938px 14.938px;
+            margin: 14px 0;
+            margin-left: 70px;
+          }
+          .reciever,
+          .sender {
+            display: inline-block;
+            padding: 7.5px;
+
+            p {
+              display: inline-block;
+              font-size: 9px;
+              color: $sidebar-span-clr;
+            }
+            #time {
+              margin-left: 52px;
+            }
+            h6 {
+              font-size: 9px;
+              font-weight: 700;
+              color: $nav-option-color;
+            }
+          }
+          .sendMsg {
+            margin-top: 36px;
+            padding: 14px 6px 13px 16px;
+            border-radius: 23px;
+            background-color: $send-msg-bg;
+            form {
+              display: inline-block;
+              input[type="text"] {
+                border: none;
+                outline: 0;
+                background-color: $info-sendMsg-form-input-bg;
+              }
+              ::placeholder {
+                color: $sidebar-upcomming-span-clr;
+                font-size: 14px;
+                font-weight: 700;
+              }
+            }
+            .sendBtn {
+              display: inline-block;
+              background-color: $white-color;
+              width: 35px;
+              height: 35px;
+              line-height: 35px;
+              border-radius: 50%;
+              text-align: center;
+              border: none;
+              color: $sidebar-upcomming-span-clr;
+              transform: translateX(40px);
+            }
+          }
+        }
+      }
     }
+  }
 }
 // Information Event End

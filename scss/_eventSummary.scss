@@ -2,13 +2,13 @@
 #Event {
   margin: 20px 0px;
   .eventStart {
-    border: 1px solid #d1d5db;
+    border: 1px solid $side-border-clr;
     border-radius: 15px;
     margin-left: 16px;
     h3 {
       color: $black-clr;
       text-align: center;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      text-shadow: 0px 4px 4px $nameCard-brd-clr;
       font-size: 30px;
       font-weight: 700;
     }
@@ -18,7 +18,7 @@
     .summaryPart {
       margin-top: 60px;
       height: 500px;
-      background-color: rgba(217, 217, 217, 0.2);
+      background-color: $summerPart-bg;
       padding: 13px 10px;
       border-radius: 20px;
       .arrow {
@@ -87,25 +87,24 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      button {
+      a {
+        color: $black-clr;
         text-align: center;
         font-size: 14px;
         font-weight: 700;
         border-radius: 30px;
-        border: 1px solid #082f49;
+        border: 1px solid $getStart-btn-brd-clr;
         background-color: $white-color;
         padding: 12px 32px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px 0px $nameCard-brd-clr;
         transition: 0.5s;
         &:hover {
-          background-color: rgba(14, 165, 233, 1);
+          background-color: $getStart-btn-hover-clr;
           color: $white-color;
           border: none;
           overflow: hidden;
         }
-        a{
-          color: $black-clr;
-        }
+
       }
     }
     .cancelButton {
@@ -113,7 +112,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      button {
+      a{
         text-align: center;
         font-size: 14px;
         font-weight: 700;
@@ -124,9 +123,7 @@
         text-align: center;
         font-size: 18px;
         font-weight: 400;
-        a{
-          color: $black-clr;
-        }
+        color: $black-clr;
       }
     }
   }

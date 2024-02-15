@@ -8,7 +8,7 @@
         height: 50vh;
         
         h5{
-            color: #000;
+            color: $black-clr;
         font-size: 27px;
         font-style: normal;
         font-weight: 700;
@@ -20,8 +20,8 @@
                 width: 30px;
                 padding: 10px;
                 border-radius: 20px;
-                background-color: #F3F4F6;
-                color: #9CA3AF;
+                background-color: $friendMenu-span-bg;
+                color: $friendMenu-span-clr;
                 font-size: 25px;
                 margin-left: 141px;
                 margin-top: 5px;
@@ -42,14 +42,14 @@
                 border-top-left-radius: 5px;
                 border-bottom-left-radius: 5px;
                 width: 6px; 
-                background-color: #1D4ED8; 
+                background-color: $sidebar-border-hover-clr; 
               }
         }
 
             
             a{
                 margin-left: 18px;
-                color: #000;
+                color: $black-clr;
                 
                 font-style: normal;
                 font-weight: 500;
@@ -70,7 +70,7 @@
         border-radius: 20px;
         padding: 10px;
         h5{
-            color: #000;
+            color: $black-clr;
         font-size: 27px;
         font-style: normal;
         font-weight: 700;
@@ -93,12 +93,12 @@
                     font-weight: 400;
                     margin-left: 14px;
                     a{
-                        color: #000;
+                        color: $black-clr;
                     }
                     
 
                     span{
-                        color: #000;
+                        color: $black-clr;
                         font-family: $third-Font;
                         font-size: 14px;
                         font-weight: 300;
@@ -116,39 +116,39 @@
                     cursor: pointer;
                     
                     border-radius: 4px;
-                    background-color: #f9f9f9;
-                    color: #333;
+                    background-color: $friendRequest-btn-bg;
+                    color: $friendRequest-btn-clr;
                     font-size: 16px;
                     margin-right: 10px;
 
                     
                   }
                   .add-button {
-                    background-color: #4580F0; 
+                    background-color: $friendRequest-add-btn-clr; 
                     margin-left: 5px;
                   
-                    color: #fff;
+                    color: $white-color;
                     &:hover{
-                        background-color: white;
-                        color: #4580F0;
+                        background-color: $white-color;
+                        color: $friendRequest-add-btn-clr;
                     }
             }
             .dismiss-button {
-                background-color: #dde3ee;
+                background-color: $friendRequest-dismiss-btn-clr;
                 margin-left: 76px; 
                 
-                color: #4580F0; 
+                color: $friendRequest-add-btn-clr; 
                 // opacity: 0.5;
                 &:hover{
-                    background-color: white;
-                    color: #4580F0;
+                    background-color: $white-color;
+                    color: $friendRequest-add-btn-clr;
                 }
               }
               .dismissed{
-                background-color: #E4E4E4;
+                background-color: $request-add-bg;
                 margin-left: 76px; 
                 border-radius: 10px;
-                color: #000;
+                color: $black-clr;
                 font-family: $third-Font;
                 font-size: 15.333px;
                 font-style: normal;
@@ -180,7 +180,7 @@
         // padding-top: 5px;
        
         h5{
-            color: #000;
+            color: $black-clr;
         font-size: 27px;
         font-style: normal;
         font-weight: 700;
@@ -204,12 +204,12 @@
                     font-weight: 400;
                     margin-left: 14px;
                     a{
-                        color: #000;
+                        color: $black-clr;
                     }
                     
 
                     span{
-                        color: #000;
+                        color: $black-clr;
                         font-family: $third-Font;
                         font-size: 14px;
                         font-weight: 300;
@@ -227,32 +227,32 @@
                     cursor: pointer;
                     
                     border-radius: 4px;
-                    background-color: #f9f9f9;
-                    color: #333;
+                    background-color: $friendRequest-btn-bg;
+                    color: $friendRequest-btn-clr;
                     font-size: 16px;
                     margin-right: 10px;
 
                     
                   }
                   .add-button {
-                    background-color: #4580F0; 
+                    background-color: $friendRequest-add-btn-clr; 
                     margin-left: 5px;
                   
-                    color: #fff;
+                    color: $white-color;
                     &:hover{
-                        background-color: white;
-                        color: #4580F0;
+                        background-color: $white-color;
+                        color: $friendRequest-add-btn-clr;
                     }
             }
             .dismiss-button {
-                background-color: #dde3ee;
+                background-color: $friendRequest-dismiss-btn-clr;
                 margin-left: 76px; 
                 
-                color: #4580F0; 
+                color: $friendRequest-add-btn-clr; 
                 // opacity: 0.5;
                 &:hover{
-                    background-color: white;
-                    color: #4580F0;
+                    background-color: $white-color;
+                    color: $friendRequest-add-btn-clr;
                 }
               }
         }
@@ -267,7 +267,7 @@
         margin-left: 15px;
      
         h5{
-            color: #000;
+            color: $black-clr;
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
@@ -278,19 +278,19 @@
         .searchBar{
             width: 100%;
             max-width: 700px;
-            background-color: #F9F9F9;
+            background-color: $friendRequest-btn-bg;
             // border: 1px solid #221e1e ;
             border-radius: 40px;
             display: flex;
             align-items: center;
             padding: 10px 20px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: $requestdisMiss-searchBar-boxshadow;
 
             button{
                 border: none;
-                color: #D1D5DB;
+                color: $friendPage-border-color;
                 margin-right: 10px;
-                background-color: #F9F9F9;
+                background-color: $friendRequest-btn-bg;
                 
             }
             
@@ -304,7 +304,7 @@
                 font-weight: 400;
                 
             ::placeholder{
-                color: #D1D5DB;
+                color: $friendPage-border-color;
             }
             }
             
@@ -326,7 +326,7 @@
                     display: inline-block;
                     font-size: 16px;
                     font-weight: 600;
-                    color: #000;
+                    color: $black-clr;
                     margin-bottom: 10px;
 
                 }
@@ -337,7 +337,7 @@
                  
                     bottom: 4px;
                     left: 53px;
-                    color: #000;
+                    color: $black-clr;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
@@ -348,7 +348,7 @@
                     span{
                     
                     
-                        color: #000;
+                        color: $black-clr;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -389,12 +389,12 @@
                    
                     font-weight: bold;
                     a{
-                        color: #000;
+                        color: $black-clr;
                     }
                     
 
                     span{
-                        color: #000;
+                        color: $black-clr;
                         font-family: $third-Font;
                         font-size: 14px;
                         font-weight: 300;
@@ -412,8 +412,8 @@
                     cursor: pointer;
                     
                     border-radius: 4px;
-                    background-color: #f9f9f9;
-                    color: #333;
+                    background-color: $friendRequest-btn-bg;
+                    color: $friendRequest-btn-clr;
                     font-size: 16px;
                     margin-right: 10px;
                     position: relative;
@@ -423,17 +423,17 @@
                   }
               
             .dismiss-button {
-                background-color: #dde3ee;
+                background-color: $friendRequest-dismiss-btn-clr;
                 margin-left: 300px;
                 position: absolute; 
                 top: 50px;
                 left: 0;
                 
-                color: #4580F0; 
+                color: $friendRequest-add-btn-clr; 
                 // opacity: 0.5;
                 &:hover{
-                    background-color: white;
-                    color: #4580F0;
+                    background-color: $white-color;
+                    color: $friendRequest-add-btn-clr;
                 }
               }
         }
