@@ -19,13 +19,8 @@
                 
                 display: inline;
                 margin-right: 15px;
-                
-               
-
             }
-            background-color: #4B5563;
-           
-
+            background-color: $profilepage-editCover-bg;
         }
 
     }
@@ -50,7 +45,7 @@
                     line-height: 57px;
                     text-align: center;
                     border-radius: 20px;
-                    background-color: #F3F4F6;
+                    background-color: $friendMenu-span-bg;
                     position: absolute;
                     bottom: 0;
                     left: 131px;
@@ -70,7 +65,7 @@
                     
                 }
                 p{
-                    color: #9CA3AF;
+                    color: $search-icon-clr;
                     font-size: 18px;
                     font-weight: 400;
                 }
@@ -169,7 +164,7 @@
                     height: 34px;
                     border-radius: 10px;
                     padding: 5px;
-                    background-color: #0C4A6E;
+                    background-color: $profilepage-booking-bg;
                     display: inline-block;
                     
                     p{
@@ -187,7 +182,7 @@
                     padding: 5px;
                     margin-left: 15px;
                     border-radius: 10px;
-                    background-color: #3B82F6;
+                    background-color: $post-btn-bg-clr;
                     display: inline-block;
                     
                     p{
@@ -205,7 +200,7 @@
                     padding: 5px;
                     margin-left: 15px;
                     border-radius: 10px;
-                    background-color: #9CA3AF;
+                    background-color: $sidebar-span-clr;
                     display: inline-block;
                     
                     p{
@@ -241,14 +236,14 @@
                        
     
                         &:hover{
-                            border-bottom: 2px solid #1D4ED8;
+                            border-bottom: 2px solid $sidebar-border-hover-clr;
                         }
                         a{
                             color: black;
                             transition: 2s;
     
                             :hover{
-                                color: #1D4ED8;
+                                color: $sidebar-border-hover-clr;
                             }
                             p{
                                 font-size: 18px;
@@ -267,7 +262,7 @@
         .intro{
             padding: 10px;
             border-radius: 20px;
-            border: 1px solid rgba(0, 0, 0, 0.20);
+            border: 1px solid $category-icon-bg-clr;
 
             background: $white-color;
             h2{
@@ -280,12 +275,12 @@
             }
             .IntroLeftPart{
                 
-                border-right: 1px solid rgba(0, 0, 0, 0.20);
+                border-right: 1px solid $category-icon-bg-clr;
                 
                 ul{
                     li{
                         padding: 14px;
-                        border: 1px solid white;
+                        border: 1px solid $white-color;
                         border-radius: 20px;
                        a{
                         margin-top: 5px;
@@ -296,13 +291,13 @@
                         font-weight: 700;
                         line-height: 24px;
                         &:hover{
-                            color: #2563EB;
+                            color: $profilepage-intro-li-a-hover-clr;
                         
                         }
                        }
                        &:hover{
                         
-                        background-color: rgba(42, 133, 255, 0.2);
+                        background-color: $profilepage-intro-li-hover-clr;
                         
                         
                        }
@@ -318,7 +313,7 @@
                 ul{
                     li{
                       
-                        border: 1px solid white;
+                        border: 1px solid $white-color;
                         border-radius: 20px;
                     .iconGrp
                         {
@@ -328,7 +323,7 @@
                         } 
                     h6{ 
                         display: inline-block; 
-                        color: black; 
+                        color: $black-clr; 
                         font-weight: 700; 
                         font-size: 15px; 
                         margin-left: 17px;
@@ -345,7 +340,7 @@
         margin-top: 81px;
         .friendSection{
             h2{
-                color: #000;
+                color: $black-clr; 
                 font-size: 30px;
                 font-weight: 700;
             }
@@ -353,7 +348,7 @@
 
         .AddorFindfriend{
             h4{
-                color: #0067FF;
+                color: $profilepage-add-friend-clr;
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
@@ -370,15 +365,15 @@
                     margin-top: 15px;
                     p{
                         display: inline-block;
-                        color: #000;
+                        color: $black-clr; 
                         font-size: 16px;
                         font-weight: 700;
                         margin-left: 15px;
                         a{
-                            color: #000;
+                            color: $black-clr; 
                         }
                         span{
-                            color: rgba(0, 0, 0, 0.30);
+                            color: $nameCard-brd-clr;
                         }
                     }
                 }
@@ -390,15 +385,15 @@
                    
                     p{
                         display: inline-block;
-                        color: #000;
+                        color: $black-clr; 
                         font-size: 16px;
                         font-weight: 700;
                         margin-left: 15px;
                         a{
-                            color: #000;
+                            color: $black-clr; 
                         }
                         span{
-                            color: rgba(0, 0, 0, 0.30);
+                            color: $nameCard-brd-clr;
                         }
                     }
                 }
@@ -409,13 +404,13 @@
     #photo{
         margin-top: 81px;
         .userPhotos{
-            border: 1px solid rgba(0, 0, 0, 0.20);
+            border: 1px solid $nameCard-brd-clr;
             border-radius: 20px;
             padding: 5px;
             padding-left: 15px;
             padding-bottom: 15px;
             h2{
-                color: #000;
+                color: $black-clr; 
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
@@ -447,13 +442,13 @@
         margin-top: 51px;
         margin-bottom: 5px;
         .userVideos{
-            border: 1px solid rgba(0, 0, 0, 0.20);
+            border: 1px solid $nameCard-brd-clr;
             border-radius: 20px;
             padding: 5px;
             padding-left: 15px;
             padding-bottom: 15px;
             h2{
-                color: #000;
+                color: $black-clr; 
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 700;

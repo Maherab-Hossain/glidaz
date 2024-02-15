@@ -57,7 +57,7 @@
                         margin-left: 330px;
                         font-size: 16px;
                         font-weight:700;
-                        color:#93C5FD;
+                        color:$see-all-clr;
                     }
                 }
 
@@ -68,7 +68,7 @@
                         width: 175px;
                         min-height: 230px;
                         border-radius: 24px;
-                        box-shadow: 0px 13px 27px 0px rgba(20, 19, 73, 0.05);
+                        box-shadow: $schedule-card-event-boxShadow;
                         
                         img{
                            width: 100%;
@@ -99,7 +99,7 @@
                                 width: 3px;
                                 height: 4px;
                                 border-radius: 50%;
-                                background-color: #76777C;
+                                background-color: $event-swimming-details-clr;
                                 margin: 0 3px;
                             }
                         }
@@ -122,7 +122,7 @@
                         margin-left: 280px;
                         font-size: 16px;
                         font-weight:700;
-                        color:#93C5FD;
+                        color:$see-all-clr;
                     }
                 }
                 .nearby{
@@ -130,7 +130,7 @@
                     width: 100%;
                     height: 134px;
                     border-radius: 24px;
-                    box-shadow:  0px -1px 27px 0px rgba(20, 19, 73, 0.05), 0px -2px 25px 0px rgba(4, 17, 21, 0.00);
+                    box-shadow:  $schedule-nearby-boxShadow;
                     
 
                     .img, .cardInfo{
@@ -170,13 +170,13 @@
                                 width: 3px;
                                 height: 4px;
                                 border-radius: 50%;
-                                background-color: #76777C;
+                                background-color: $event-swimming-details-clr;
                                 margin: 0 3px;
                             }
                         }
 
                         hr{
-                            background-color: #F7F7F7;
+                            background-color: $schedule-nearby-hr-clr;
                             margin: 12px 0px !important;
                         }
     
@@ -204,7 +204,7 @@
                         margin-left: 300px;
                         font-size: 16px;
                         font-weight:700;
-                        color:#93C5FD;
+                        color:$see-all-clr;
                     }
                 }
 
@@ -238,7 +238,7 @@
          .createEvent{
             
             .newEventBtn{
-                background-color: #0EA5E9;
+                background-color: $create-comunication-btn;
                 border: none;
                 border-radius: 20px;
                 padding: 15px 25px 13px 18px ;
@@ -246,13 +246,13 @@
                 align-items: center;
                 margin-bottom: 10px;
                 color: $white-color;
+                a{
+                    color: $white-color;
+                    }
                 p{
                     margin-left: 30px;
                     font-size: 18px;
                     font-weight: 700;
-                    a{
-                    color: $white-color;
-                    }
                 }
             }
             .joinEventBtn{
@@ -260,15 +260,15 @@
                 padding: 14px 70px 13px 18px;
                 display: flex;
                 align-items: center;
-                color: rgba(0, 0, 0, 0.30);
-                border: 1px solid rgba(0, 0, 0, 0.20);
+                color: $community-name-member-title-clr;
+                border: 1px solid $nameCard-brd-clr;
+                a{
+                    color: $black-clr;   
+                    }
                 p{
                 margin-left: 52px;
                 font-size: 18px;
                 font-weight: 700;
-                a{
-                color: $black-clr;   
-                }
                 }
             }
             .detail{
@@ -307,7 +307,7 @@
                         width: 3px;
                         height: 4px;
                         border-radius: 50%;
-                        background-color: #76777C;
+                        background-color: $event-swimming-details-clr;
                         margin: 0 3px;
                     }
                 }
@@ -332,27 +332,27 @@
                     }
                     p{
                         font-size: 14px;
-                        color: #BFDBFE;
+                        color: $schedule-description-a-clr;
                         margin-left: 78px;
                         display: inline-block;
                     }
                     button{
                         font-size: 14px;
                         font-weight: 700;
-                        color: #76777C;
+                        color: $event-swimming-details-clr;
                         padding: 4px 5px;
-                        background-color: #DBEAFE;
+                        background-color: $nav-option-hover-clr;
                         border-radius: 16px;
                         border: 0;
                         padding: 4px 10px;
                         margin-left: 15px;
                         span{
-                            color: #1E40AF;
+                            color: $schedule-join-btn-span-clr;
                         }
                     }
                 }
                 hr{
-                    background-color: #F7F7F7;
+                    background-color: $schedule-nearby-hr-clr;
                     margin-top: 23px;
                     margin-bottom: 19px;
                 }
@@ -367,7 +367,7 @@
                         color: $event-secondary-font-clr;
                         margin-top: 7px;
                         a{
-                            color: #BFDBFE;
+                            color: $schedule-description-a-clr;
                         }
                     }
                 }
@@ -413,7 +413,7 @@
                         margin-left: 50px;
                         padding: 10px 26px 10px 26px;
                         border-radius: 26px;
-                        background-color: #60A5FA;
+                        background-color: $privacy-policy-terms-atag-clr;
                         border: 0;
                     }
                 }

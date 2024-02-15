@@ -8,7 +8,7 @@
         background-size: cover;
         .editImg{
             display: inline-block;
-            background-color: #4B5563;
+            background-color: $profilepage-editCover-bg;
             border-radius: 4px;
             padding: 4px;
             position: absolute;
@@ -40,7 +40,7 @@
                 line-height: 57px;
                 text-align: center;
                 border-radius: 20px;
-                background-color: #F3F4F6;
+                background-color: $friendMenu-span-bg;
                 position: absolute;
                 bottom: 0;
                 left: 131px;
@@ -60,7 +60,7 @@
                 
             }
             p{
-                color: #9CA3AF;
+                color: $friendMenu-span-clr;
                 font-size: 18px;
                 font-weight: 400;
             }
@@ -158,7 +158,7 @@
                 height: 34px;
                 border-radius: 10px;
                 padding: 5px;
-                background-color: #0C4A6E;
+                background-color: $profilepage-booking-bg;
                 display: inline-block;
                 
                 p{
@@ -176,7 +176,7 @@
                 padding: 5px;
                 margin-left: 15px;
                 border-radius: 10px;
-                background-color: #3B82F6;
+                background-color: $post-btn-bg-clr;
                 display: inline-block;
                 
                 p{
@@ -194,7 +194,7 @@
                 padding: 5px;
                 margin-left: 15px;
                 border-radius: 10px;
-                background-color: #9CA3AF;
+                background-color: $search-icon-clr;
                 display: inline-block;
                 
                 p{
@@ -211,7 +211,7 @@
                 height: 44px;
                 line-height: 44px;
                 border-radius: 10px;
-                background-color: #9CA3AF;
+                background-color: $search-icon-clr;
                 text-align: center;
                 position: absolute;
                 right: 0;
@@ -238,14 +238,14 @@
                    
 
                     &:hover{
-                        border-bottom: 2px solid #1D4ED8;
+                        border-bottom: 2px solid $sidebar-border-hover-clr;
                     }
                     a{
                         color: black;
                         transition: 2s;
 
                         :hover{
-                            color: #1D4ED8;
+                            color: $sidebar-border-hover-clr;
                         }
                         p{
                             font-size: 18px;
@@ -269,7 +269,7 @@
         margin-top: 10px;
         hr{
             width: 368px;
-            color: rgba(0, 0, 0, 0.60);
+            color: $community-name-member-title-clr;
         }
     }
     ul{
@@ -281,7 +281,7 @@
             }
             h6{
                 display: inline-block;
-                color: black;
+                color: $black-clr; 
                 font-weight: 700;
                 font-size: 12px;
                 margin-left: 17px;
@@ -302,7 +302,7 @@
             margin-top: 16px;
         }
         a{
-            color:#7DD3FC;
+            color:$profilepage-two-all-friend-clr;
             text-decoration: underline;
             margin-top: 10px;
             text-align: right;
@@ -312,20 +312,20 @@
    }
    .feed{
     .myPost{
-        border: 1px solid #E5E7EB;
+        border: 1px solid $sidebar-heading-bg-clr;
         padding: 18px 27px 16px ;
         border-radius: 20px;
         .write{
             display: inline-block;
-            border: 1px solid #E5E7EB;
+            border: 1px solid $sidebar-heading-bg-clr;
             border-radius: 20px;
             margin-left: 18px;
             padding: 10px 568px 10px 15px;
-            background-color: white;
+            background-color: $white-color;
             p{
                 font-size: 14px;
                 font-weight: 500;
-                color: #D1D5DB;
+                color: $side-border-clr;
             }
         }
 
@@ -333,7 +333,7 @@
            margin-top: 19px;
            display: inline-block;
             a{
-                color: #6B7280;
+                color: $sidebar-upcomming-span-clr;
                 margin-left: 12px;
                 
             }
@@ -347,22 +347,22 @@
                 padding: 10px 34px;
                 font-size: 14px;
                 font-weight: 500;
-                color: white;
-                background-color: #E0E3EF;
+                color: $white-color;
+                background-color: $event-created-brd-clr;
                 border-radius: 15px;
                 text-align: center;
                 border: none;
             }
 
             #postBtn{
-                background-color: #3B82F6;
+                background-color: $post-btn-bg-clr;
                 margin-left: 12px;
             }
         }
     }
     .managePost{
         margin-top: 30px;
-        border: 1px solid #E0E3EF;
+        border: 1px solid $event-created-brd-clr;
         border-radius: 15px;
         padding: 12px 32px 20px 32px;
         p{
@@ -373,7 +373,7 @@
         #filter, #manage{
             border-radius: 14px;
             padding: 7px;
-            background-color: #F3F4F6;
+            background-color: $friendMenu-span-bg;
             border: none;
             font-size: 12px;
             font-weight: 700;
@@ -390,7 +390,7 @@
     .uploadedPost{
         padding: 26px 21px 17px 21px;
         margin-top: 22px;
-        border: 1px solid #E0E3EF;
+        border: 1px solid $event-created-brd-clr;
         border-radius: 15px;
        
         .text{
@@ -401,7 +401,7 @@
                 font-weight: 700;
             }
             p{
-                color: #030712;
+                color: $nav-option-color;
                 font-size: 22px;
                 font-weight: 500;
             }
@@ -415,7 +415,7 @@
             
             ul{
                 display: inline-block;
-                border: 1px solid #D1D5DB;
+                border: 1px solid $side-border-clr;
                 border-radius: 151px;
                 padding: 16px 7px;
                 width: 255px;
@@ -427,7 +427,7 @@
                     padding-left: 25px;
                     a{
                         font-size: 16px;
-                        color: #030712;
+                        color: $nav-option-color;
                     }
                 }
             }
