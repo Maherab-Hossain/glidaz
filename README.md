@@ -44,10 +44,10 @@ SocialMediaSite aims to provide a user-friendly and intuitive social media exper
 
 ## Contributors
 
-- [Hr-jihan]((https://github.com/Hr-jihan))
-- [Tasnya Noorihan]((https://github.com/noorihan))
-- [Sadia Siddique]((https://github.com/siddiquesadia))
-- [Maherab Hossain]((https://github.com/Maherab-Hossain))
+- [Hr-jihan](https://github.com/Hr-jihan)
+- [Tasnya Noorihan](https://github.com/noorihan)
+- [Sadia Siddique](https://github.com/siddiquesadia)
+- [Maherab Hossain](https://github.com/Maherab-Hossain)
 
 <hr/>
 
