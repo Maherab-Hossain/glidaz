@@ -52,38 +52,146 @@
 </section>
 <!-- *Navbar section ends here -->
 <!-- NAV SM start -->
-<nav class="navbar navbar-sm d-block d-lg-none bg-body-tertiary" id="main-manusm">
-<div class="container ">
-  <div class="w-100 row">
-    <div class="navlogo-sm col-8">
-      <a class="navbar-brand" href="#"><img src="./assest/image/glizar nav logo sm.png" alt=""></a>
+<nav class="navbar navbar-sm d-block d-lg-none " id="main-manusm">
+  <div class="container ">
+    <div class="w-100 row">
+      <div class="navlogo-sm col-6">
+        <a class="navbar-brand" href="./index.html"><img src="./images/gildaz-logo-sm.png" alt=""></a>
+      </div>
+      
+      <div class="navoption-sm  col-6" id="">
+        <ul class=" me-auto mb-2 mb-lg-0 row">
+          <li class="nav-item d-block d-md-none d-lg-none  col-2">
+            <a class="nav-link "  href="./joinEvent.html"><i class="fa-solid fa-plus"></i></a>
+          </li>
+          <!-- SEARCH MODAL START -->
+          <li class="nav-item col-2">
+            <a class="nav-link" href="#">
+              <!-- Button trigger modal -->
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <!-- Button trigger modal -->
+            </a>
+            <!-- ****Modal**** -->
+            <div class="modal fade search-modal-sm" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body search-modal-body-sm">
+                    <div class="input-group flex-nowrap searchBox">
+                      <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                      <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn search-close-btn" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn  search-go-btn">Search</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ****Modal**** -->
+          </li>
+          <!-- SEARCH MODAL END -->
+          <li class="nav-item col-2">
+            <a class="nav-link "  href="./message.html"><i class="fa-regular fa-comment-dots"></i></a>
+          </li>
+          <!-- OFF CANVAS START NOTIFICATION  -->
+          <li class="nav-item col-2">
+            <a class="nav-link " >
+              <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#notification-offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-regular fa-bell"></i></button>
+            </a>
+            <!-- SIDE OFF CANVES START -->
+            <div class="offcanvas offcanvas-end notificationBar-sm-md" data-bs-scroll="true" tabindex="-1" id="notification-offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title notification-title" id="offcanvasWithBothOptionsLabel">Notifications</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="notification-box">
+                <p>"Sorry, we couldn't find the notification you're looking for. 
+                  Please check again later or contact customer support for further assistance."
+                  <img src="./images/notification-box-icon.gif" alt="">
+                </p>
+              </div>
+            </div>
+            <!-- SIDE OFF CANVES END -->
+          </li>
+          <!-- OFF CANVAS END NOTIFICATION  -->
+          <!-- MD SIDE BAR / MENU OFF CANVAS START -->
+          <li class="nav-item d-none d-md-block d-lg-none col-2">
+            <button class=" md-sideBar-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#md-sideBar-offcanvas" aria-controls="offcanvasWithBothOptions">
+              <!-- <input type="checkbox" id="checkbox">
+              <label for="checkbox" class="sidebar-icon-md">
+                  <div class="bars" id="bar1"></div>
+                  <div class="bars" id="bar2"></div>
+                  <div class="bars" id="bar3"></div>
+              </label> -->
+              <a class="nav-link " ><i class="fa-solid fa-bars"></i></a>
+            </button>
+            <!-- OFF CANVAS START -->
+            <div class="offcanvas offcanvas-end md-sideBar-iconBox" data-bs-scroll="true" tabindex="-1" id="md-sideBar-offcanvas" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h5> -->
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+              </div>
+              <div class="offcanvas-body md-sideBar-body">
+                <ul>
+                  <li>
+                    <a href="./ProfiePage2.html"><img src="./images/Event_Theme_Profile.png" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./event-community-countdown.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./friendsPage.html"><iconify-icon icon="fluent-mdl2:add-friend"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./eventStart.html"><iconify-icon icon="fluent:video-24-regular"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./community-group-category.html"><iconify-icon icon="fluent:people-community-16-regular"></iconify-icon></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- OFF CANVAS END -->
+          </li>
+          <!-- MD SIDE BAR / MENU OFF CANVAS END -->
+        </ul>
+      </div>
     </div>
-    
-    <div class="navoption-sm  col-4" id="">
-      <ul class=" me-auto mb-2 mb-lg-0 row">
-        <li class="nav-item col-2">
-          <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-plus"></i></a>
+  </div>
+  </nav>
+  <!-- NAV SM end -->
+  <!-- DOWN NAV SM START -->
+  <nav class=" d-block d-md-none " id="down-navBar-sm">
+    <div class="container">
+      <ul class="nav nav-pills nav-fill down-nav-box">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
         </li>
-        <li class="nav-item col-2">
-          <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <li class="nav-item">
+          <a class="nav-link" href="./event-community-countdown.html"><iconify-icon icon="uil:calender"></iconify-icon></a>
         </li>
-        <li class="nav-item col-2">
-          <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-text"></i></a>
+        <li class="nav-item">
+          <a class="nav-link " href="./createEvent.html"><iconify-icon icon="tabler:cast"></iconify-icon></a>
         </li>
-        <li class="nav-item col-2">
-          <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-bell"></i></a>
-        </li>
-        <li class="nav-item col-2">
-          <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-airplane"></i></a>
+        <li class="nav-item">
+          <a class="nav-link " href="./ProfiePage2.html" style="background-color: transparent;" ><img src="./images/Event_Theme_Profile.png" alt=""></a>
         </li>
       </ul>
     </div>
-  </div>
-</div>
-</nav>
-<!-- NAV SM end -->
+  </nav>
+  <!-- DOWN NAV SM END -->
 <!-- Cover Page 2 Section Starts  -->
-<section id="coverImg2">
+<section id="coverImg2" class="d-none d-lg-block">
   <div class="container">
     <div class="coverImg" style="background-image: url(./images/Cover\ Image.png);">
     <div class="editImg">
@@ -141,7 +249,7 @@
 <!-- Cover Page 2 Section ends  -->
 
 <!-- Profile Menu 2 Section Starts -->
-<section id="profileMenu2">
+<section id="profileMenu2" class="d-none d-lg-block">
   <div class="container">
     <hr>
     <div class="menu">
@@ -161,7 +269,7 @@
 <!-- Profile Menu 2 Section Ends -->
 
 <!-- My Feed Section Starts -->
-<section id="myFeed">
+<section id="myFeed" class="d-none d-lg-block">
   <div class="container">
     <div class="row">
       <div class="intro col-lg-4">
@@ -294,8 +402,165 @@
   </div>
 </section>
 <!-- My Feed Section Ends-->
-
-
+<!----------------------------------- MV version Starts ---------------------------------------------------->
+<section id="sm-user-profile-page-md" class="d-block d-lg-none">
+  <section id="MV-coverImg2">
+    <div class="MV-coverImg" style="background-image: url(./images/Cover\ Image.png);">
+        <a href="#">
+          <iconify-icon icon="ph:camera-light" id="camera"></iconify-icon>
+        </a>
+    </div>
+    <div class="row">
+      <div class="MV-mainProfile  col-6">
+      <a href="#">
+        <iconify-icon icon="ph:camera-light" id="camera"></iconify-icon>
+      </a>
+      </div>
+      <h2 class="col-4">Oni Ade</h2>
+    </div>
+  
+  </section>
+  <section id="MV_profile-btn">
+  <div class="container">
+    <a class="BookingBTN" href="#"> <img src="./images/MV-WPlane.svg" alt="">Boking</a>
+    <div class="createPost-event-edit-btn row">
+      <a href="#" class="col-6" style="margin-left: 15px;"> <img src="./images/MV_Wplus.svg" alt=""> Create A Post</a>
+      <a href="#" class="col-4"> <img src="./images/MV-video-camera.svg" alt=""> Event</a>
+      <a href="#" class="col-1" style="background-color: #9CA3AF;"><img  style="margin-left: -3px; margin-bottom: 2px;" src="./images/MV-edit-pencil.svg" alt=""></a>
+    </div>
+    <hr style="color: var(--black-clr); margin-top: 15px;">
+  </div>
+  
+  </section>
+  <section id="MV-profile-Catagory">
+  <div class="container">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Post</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Event</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+        <div class="MV-profile-intro">
+          <h2>Introduction</h2>
+          <ul>
+            <li><a href="#"> <img src="./images/MV-large-suitcase.svg" alt="">Audit Tech company</a></li>
+            <li><a href="#"> <img src="./images/MV-globe-2.svg" alt="">Nigeria</a></li>
+            <li><a href="#"> <img src="./images/MV-clock.svg" alt="">Joined in August 2012</a></li>
+            <li><a href="#"> <img src="./images/MV-chromecast.svg" alt="">600 followers</a></li>
+          </ul>
+        </div>
+        <hr style="color: var(--black-clr); margin-top: 15px;">
+        <div class="MV-friendList">
+          <h2>Friend</h2>
+          <p>125 friends</p>
+          <div class="listOfFriend">
+            <div class="MV-list-box row">
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Maherab Anderson</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Jihan Cooper</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Stanley Burton</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Lucas West</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Danny Tasnya</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Jason Sadia</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Stanley Burton</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Joshua Hunt</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Lucas West</h3>
+                </a>
+                <a href="#">
+                  <img src="./images/FriendBox-profile.png" alt="">
+                  <h3>Jimmy Maxwell</h3>
+                </a>
+            </div>
+          </div>
+        </div>
+        <hr style="color: var(--black-clr); margin-top: 30px;">
+        <div class="CreatePost-in-profile">
+          <div class="CreatePost-in-profile-Part row">
+            <img src="./images/MV-CreatePost-img.png" alt="" class="col-3">
+            <input type="text" placeholder="What's on your mind?" class="col-9">
+          </div>
+          <div class="CreatePost-in-profile-iconPart row">
+            <ul class="col-6">
+              <li><a href="#"><i class="fa-solid fa-camera"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+              <li><a href="#"><i class="fa-regular fa-image"></i></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
+              <li><a href="#"><i class="fa-regular fa-face-smile"></i></a></li>
+            </ul>
+            <div class="CreateEvent-in-profile-btn col-6">
+              <button style="background-color: var(--sidebar-heading-bg-clr);">Create Event</button><button style="background-color: var(--post-btn-bg-clr);">Post</button>
+            </div>
+  
+  
+          </div>
+  
+        </div>
+        <div class="MV-profile-manage-post row">
+          <div class="MV-profile-manage-post-part-1 col-6">
+             <p>Post</p>
+          </div>
+          <div class="MV-profile-manage-post-part-1 col-6">
+              <a href="#"> <i class="fa-solid fa-gear"></i> Manage post</a>
+          </div>
+          <hr style="color: var(--black-clr); margin-top: 10px;">
+        </div>
+        <hr style="color: var(--black-clr); margin-top: 30px;">
+        <Section id="MV-postPart">
+          <div class="post-profile row">
+              <div class="post-profile-pic col-1"><img src="./images/othersStory-pic.png" alt=""></div>
+              <div class="post-profile-name col-10">Shadow
+                 <span>@mattshadow</span>
+                 <p>11 min</p>
+              </div>
+          </div>
+          <div class="MV-postCaption">
+            <h3>Hi All, This is my new Exploration, what do you think? 🤨</h3>
+          </div>
+          <div class="MV-postPic">
+            <img src="./images/MV-post-pic.png" alt="">
+          </div>
+          <div class="MV-post-LikeCommentShare row">
+              <div class="MV-post-Like  lcs col-4"><img src="./images/Vector.svg" alt=""> Like</div>
+              <div class="MV-post-Comment lcs col-4"><img src="./images/chat-lines.svg" alt=""> Comment</div>
+              <div class="MV-post-share lcs col-4"><img src="./images/share-android.svg" alt="">Share</div>
+          </div>
+        </Section>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">hello</div>
+    </div>
+  </div>
+  </section>
+</section>
+<!----------------------------------- MV version ends ----------------------------------------------------->
 <!-- JS LINK START -->
 <script src="./js/jquery-3.7.0.min.js"></script>
 <script src="./js/slick.min.js"></script>

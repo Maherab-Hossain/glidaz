@@ -29,6 +29,30 @@
             }
         }
     }
+    // SM / MD EVENT CREATED START
+    .eventCreated-box-sm{
+        text-align: center;
+        padding: 50px 0px;
+        .eventCreated-sm-md{
+            margin: 30px 0px;
+            .eventCreated-done{
+                img{
+                    width: 30%;
+                }
+            }
+            h3{
+            font-weight: 700;
+            font-size: 18px;
+            margin-top: 25px;
+            }
+            .eventCreated-go-btn{
+               img{
+                padding: 20px 0px;
+               }
+            }
+        }
+    }
+    // SM / MD EVENT CREATED END
     
 }
 // Message Section Ends Here

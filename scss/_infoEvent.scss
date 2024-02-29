@@ -1,6 +1,6 @@
 // Information Event Start
 #infoEvent {
-  margin-top: 20px;
+  margin: 20px 0px;
   .container {
     .row {
       .eventInfo {
@@ -203,7 +203,7 @@
             .cardInfo {
               margin-top: 20px;
               margin-left: 15px;
-
+              
               h5 {
                 font-size: 18px;
                 font-weight: 700;
@@ -242,6 +242,11 @@
                 color: $event-secondary-font-clr;
                 display: inline-block;
               }
+              // SM / MD PADDING START
+              @media (min-width: 375px) and (max-width: 767px) {
+                padding-bottom: 95px; 
+              }
+              // SM / MD PADDING END
             }
           }
         }

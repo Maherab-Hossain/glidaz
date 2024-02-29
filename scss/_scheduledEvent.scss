@@ -47,6 +47,9 @@
                .popular{
                margin-top: 30px;
                 .eventTitle{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
                     h4{
                         display: inline-block;
                         font-size: 24px;
@@ -54,7 +57,7 @@
                         color: $event-primary-font-clr;
                     }
                     a{
-                        margin-left: 330px;
+                        // margin-left: 330px;
                         font-size: 16px;
                         font-weight:700;
                         color:$see-all-clr;
@@ -112,6 +115,9 @@
                .nearbyEvent{
                 margin-top: 54px;
                 .eventTitle{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
                     h4{
                         display: inline-block;
                         font-size: 24px;
@@ -119,7 +125,7 @@
                         color: $event-primary-font-clr;
                     }
                     a{
-                        margin-left: 280px;
+                        // margin-left: 280px;
                         font-size: 16px;
                         font-weight:700;
                         color:$see-all-clr;
@@ -192,8 +198,14 @@
             // Event Catagory
                .eventCatagory{
                  margin-top: 44px;
-
+                 @media (min-width:375px) and (max-width:767px) {
+                    margin-top: 140px;
+                    margin-bottom: 80px;
+                 }
                 .eventTitle{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
                     h4{
                         display: inline-block;
                         font-size: 24px;
@@ -201,7 +213,7 @@
                         color: $event-primary-font-clr;
                     }
                     a{
-                        margin-left: 300px;
+                        // margin-left: 300px;
                         font-size: 16px;
                         font-weight:700;
                         color:$see-all-clr;
@@ -468,6 +480,9 @@
     .popular{
         margin-top: 30px;
          .eventTitle{
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
              h4{
                  display: inline-block;
                  font-size: 24px;
@@ -475,7 +490,7 @@
                  color: $event-primary-font-clr;
              }
              a{
-                 margin-left: 330px;
+                //  margin-left: 330px;
                  font-size: 16px;
                  font-weight:700;
                  color:#93C5FD;

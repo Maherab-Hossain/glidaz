@@ -1,0 +1,123 @@
+#sm-post-create-section-page{
+    // background-color: $white-color;
+#MV-creatpost-header{
+    .cross-creatPost-share-part{
+        margin-top: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .cross-part {
+            a{
+                color: $black-clr;
+            }
+        }
+        .creat-post-part{
+            font-family:$primaryfont;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            color:var(--black-clr);       
+        }
+        .share-part{
+            font-family:$primaryfont ;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: rgba(0, 0, 0, 0.2);
+        }
+}
+}
+#MV-createPost-menu{
+    .MV-createPost-menu-avater{
+        img{
+            display: inline-block;
+            margin-left: 25px;
+            width: 40px;
+            height: 40px;
+            margin-top: 7px;
+        }
+    }
+    .MV-createPost-menu-part{
+        // h5{
+
+        // }
+        .MV-createPost-menu-option{
+            gap: 15px;
+            .public-friends-onlyMe{
+                button{
+                    border: 0.50px solid rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                    padding: 0px 4px;
+                    width: 65px;
+                    height: 23px;
+                    display: inline-block;
+                    font-family:$primaryfont;
+                    font-weight: 700;
+                    font-size: 10px;
+                    line-height:15px;
+                    color:var(--black-clr);
+                    img{
+                        margin-right: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+#MV-whatAreYouThinking{
+    padding: 20px 30px;
+    textarea{
+        border: none;
+        width: 100% !important;
+        outline: none;
+        font-family: $primaryfont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.03em;
+        margin-top: 15px;
+        background-color: transparent;
+        border: none;
+        background: rgba(0,0,0,0);
+        outline: none;
+        margin-bottom: 25px;
+    }
+}
+#underSlider{
+    
+    .container{
+      .MV-postElements{
+        box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 7%;
+        .slide-openLine{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            padding-top: 20px;     
+        }
+        ul{
+            padding: 20px;
+            li{
+                margin-top: 5px;
+                img{
+                    height: 60px;
+                    width: 60px;
+                    margin-top: -10px;
+                }
+                p{
+                    font-family:$primaryfont;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 143%;
+                    color:var(--black-clr);
+                }
+            }
+        }
+      }  
+    }
+    
+}
+}

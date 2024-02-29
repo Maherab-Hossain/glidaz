@@ -52,42 +52,149 @@
         </nav>
     </section>
   <!-- *Navbar section ends here -->
-  <!-- NAV SM start -->
-  <nav class="navbar navbar-sm d-block d-lg-none bg-body-tertiary" id="main-manusm">
+<!-- NAV SM start -->
+<nav class="navbar navbar-sm d-block d-lg-none " id="main-manusm">
   <div class="container ">
     <div class="w-100 row">
-      <div class="navlogo-sm col-8">
-        <a class="navbar-brand" href="#"><img src="./assest/image/glizar nav logo sm.png" alt=""></a>
-      </div>
-      
-      <div class="navoption-sm  col-4" id="">
+      <div class="navlogo-sm col-6">
+        <a class="navbar-brand" href="./index.html"><img src="./images/gildaz-logo-sm.png" alt=""></a>
+      </div> 
+      <div class="navoption-sm  col-6" id="">
         <ul class=" me-auto mb-2 mb-lg-0 row">
-          <li class="nav-item col-2">
-            <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-plus"></i></a>
+          <li class="nav-item d-block d-md-none d-lg-none  col-2">
+            <a class="nav-link "  href="./joinEvent.html"><i class="fa-solid fa-plus"></i></a>
           </li>
+          <!-- SEARCH MODAL START -->
           <li class="nav-item col-2">
-            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="nav-link" href="#">
+              <!-- Button trigger modal -->
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <!-- Button trigger modal -->
+            </a>
+            <!-- ****Modal**** -->
+            <div class="modal fade search-modal-sm" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body search-modal-body-sm">
+                    <div class="input-group flex-nowrap searchBox">
+                      <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                      <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn search-close-btn" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn  search-go-btn">Search</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ****Modal**** -->
           </li>
+          <!-- SEARCH MODAL END -->
           <li class="nav-item col-2">
-            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-text"></i></a>
+            <a class="nav-link "  href="./message.html"><i class="fa-regular fa-comment-dots"></i></a>
           </li>
+          <!-- OFF CANVAS START NOTIFICATION  -->
           <li class="nav-item col-2">
-            <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-bell"></i></a>
+            <a class="nav-link " >
+              <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#notification-offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-regular fa-bell"></i></button>
+            </a>
+            <!-- SIDE OFF CANVES START -->
+            <div class="offcanvas offcanvas-end notificationBar-sm-md" data-bs-scroll="true" tabindex="-1" id="notification-offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title notification-title" id="offcanvasWithBothOptionsLabel">Notifications</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="notification-box">
+                <p>"Sorry, we couldn't find the notification you're looking for. 
+                  Please check again later or contact customer support for further assistance."
+                  <img src="./images/notification-box-icon.gif" alt="">
+                </p>
+              </div>
+            </div>
+            <!-- SIDE OFF CANVES END -->
           </li>
-          <li class="nav-item col-2">
-            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-airplane"></i></a>
+          <!-- OFF CANVAS END NOTIFICATION  -->
+          <!-- MD SIDE BAR / MENU OFF CANVAS START -->
+          <li class="nav-item d-none d-md-block d-lg-none col-2">
+            <button class=" md-sideBar-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#md-sideBar-offcanvas" aria-controls="offcanvasWithBothOptions">
+              <!-- <input type="checkbox" id="checkbox">
+              <label for="checkbox" class="sidebar-icon-md">
+                  <div class="bars" id="bar1"></div>
+                  <div class="bars" id="bar2"></div>
+                  <div class="bars" id="bar3"></div>
+              </label> -->
+              <a class="nav-link " ><i class="fa-solid fa-bars"></i></a>
+            </button>
+            <!-- OFF CANVAS START -->
+            <div class="offcanvas offcanvas-end md-sideBar-iconBox" data-bs-scroll="true" tabindex="-1" id="md-sideBar-offcanvas" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h5> -->
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+              </div>
+              <div class="offcanvas-body md-sideBar-body">
+                <ul>
+                  <li>
+                    <a href="./ProfiePage2.html"><img src="./images/Event_Theme_Profile.png" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./event-community-countdown.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./friendsPage.html"><iconify-icon icon="fluent-mdl2:add-friend"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./eventStart.html"><iconify-icon icon="fluent:video-24-regular"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./community-group-category.html"><iconify-icon icon="fluent:people-community-16-regular"></iconify-icon></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- OFF CANVAS END -->
           </li>
+          <!-- MD SIDE BAR / MENU OFF CANVAS END -->
         </ul>
       </div>
     </div>
   </div>
   </nav>
   <!-- NAV SM end -->
+  <!-- DOWN NAV SM START -->
+  <!-- <nav class=" d-block d-md-none " id="down-navBar-sm">
+    <div class="container">
+      <ul class="nav nav-pills nav-fill down-nav-box">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./event-community-countdown.html"><iconify-icon icon="uil:calender"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./createEvent.html"><iconify-icon icon="tabler:cast"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./ProfiePage2.html" style="background-color: transparent;" ><img src="./images/Event_Theme_Profile.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+  <!-- DOWN NAV SM END -->
   <!-- Create Event Section Start -->
   <section id="createEvent">
     <div class="container">
         <div class="row">
-          <div class="home-leftside-bar col-3">
+          <div class="home-leftside-bar col-lg-4 col-xl-3 d-none d-lg-block">
             <div class="leftside-bar">
                 <!-- search box start -->
                 <div class="input-group flex-nowrap searchBox">
@@ -212,9 +319,9 @@
               <!-- upcomming event sidebar end -->
             </div>
         </div>
-            <div class="eventName col-8">
-                <h4>Event Name</h4>
-                <div class="eventSlider">
+            <div class="eventName col-lg-8">
+                <h4 class="d-none d-lg-block" >Event Name</h4>
+                <div class="eventSlider d-none d-lg-block">
                     <div class="slides">
                         <img src="./images/Create Event Slider.png" alt="">
                         <button class="watchBtn">
@@ -225,7 +332,7 @@
                             <!-- Empty div for creating circle shape -->
                         </div>
                     </div>
-                    <div class="slides">
+                    <div class="slides ">
                         <img src="./images/Create Event Slider.png" alt="">
                         <button class="watchBtn">
                             <iconify-icon icon="iconoir:eye-alt"></iconify-icon>
@@ -236,7 +343,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="eventSliderBtn">
+                <div class="eventSliderBtn d-none d-lg-block">
                     <div class="leftArrow">
                         <iconify-icon icon="iconamoon:arrow-left-2"></iconify-icon>
                     </div>
@@ -244,9 +351,181 @@
                         <iconify-icon icon="iconamoon:arrow-right-2"></iconify-icon>
                     </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- LIVE PAGE SM / MD START -->
+          <div class="event-live-sm d-block d-lg-none">
+            <div class="slides-sm" >
+                <!-- <img src="./images/Create Event Slider.png" alt=""> -->
+                <div class="event-live-profile">
+                  <div class="profile">
+                    <a href="./ProfiePage2.html" tabindex="0"><img src="./images/Event_Theme_Profile.png" alt=""></a>
+                    <a href="./ProfiePage2.html" tabindex="0" class="profile-name">
+                      <h4>M|H</h4>
+                    </a>
+                </div>
+                <div class="event-live-viewer-profile">
+                  <ul>
+                    <li class="profile-view-A">
+                      <a href="#"><img src="./images/friend4.png" alt=""></a>
+                    </li>
+                    <li class="profile-view-B">
+                      <a href="#"><img src="./images/friend3.png" alt=""></a>
+                    </li>
+                    <li class="profile-view-C">
+                      <a href="#"><img src="./images/friend2.png" alt=""></a>
+                    </li>
+                    <li class="profile-view-D">
+                      <a href="#"><img src="./images/Friend1-s.png" alt=""></a>
+                    </li>
+                    <li class="profile-view-E">
+                      <a href="#">10+</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="event-live-more-btn">
+                  <button><iconify-icon icon="charm:menu-kebab"></iconify-icon></button>
+                </div>
+                </div>
+                <div class="live-btn-down-box">
+                  <nav class=" d-block d-lg-none " id="event-live-down-navBar-sm">
+                    <div class="container">
+                      <ul class="nav nav-pills nav-fill down-nav-box">
+                        <li class="nav-item">
+                          <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#live-page-edit-off-canvas" aria-controls="offcanvasBottom">
+                            <a class="nav-link" href="#"><iconify-icon icon="fluent:edit-24-regular"></iconify-icon></a>
+                          </button>
+                          <!-- EDIT OFF CANVAS START -->
+                          <div class="offcanvas offcanvas-bottom live-page-edit-canvas" tabindex="-1" id="live-page-edit-off-canvas" aria-labelledby="offcanvasBottomLabel">
+                            <!-- <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div> -->
+                            <div class="home-btn">
+                              <p><iconify-icon icon="pajamas:dash"></iconify-icon></p>
+                            </div>
+                            <div class="offcanvas-body small">
+                              <div class="edit-user-text">
+                                <div class="modal-body edit-search-modal-body-sm">
+                                  <div class="input-group flex-nowrap searchBox">
+                                    <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                                    <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="mi:attachment"></iconify-icon></span>
+                                    <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconoir:emoji"></iconify-icon></span>
+                                    <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+                                  </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur. Tristique tristique dignissim volutpat aliquam aliquam habitant lacinia malesuada. Dapibus bibendum massa urna elementum semper volutpat at ipsum. Faucibus egestas semper amet quam erat lectus morbi aliquet eu. In massa accumsan interdum auctor. Neque imperdiet proin vel quisque diam ornare nibh est suscipit.
+
+                                  Lorem ipsum dolor sit amet consectetur. Tristique tristique dignissim volutpat aliquam aliquam habitant lacinia malesuada. Dapibus bibendum massa urna elementum semper volutpat at ipsum. Faucibus egestas semper amet quam erat lectus morbi aliquet eu. In massa accumsan interdum auctor. Neque imperdiet proin vel quisque diam ornare nibh est suscipit.
+                                  
+                                  Lorem ipsum dolor sit amet consectetur. Tristique tristique dignissim volutpat aliquam aliquam habitant lacinia malesuada. Dapibus bibendum massa urna elementum semper volutpat at ipsum. Faucibus egestas semper amet quam erat lectus morbi aliquet eu. In massa accumsan interdum auctor. Neque imperdiet proin vel quisque diam ornare nibh est suscipit.
+                                  
+                                  Lorem ipsum dolor sit amet consectetur. Tristique tristique dignissim volutpat aliquam aliquam habitant lacinia malesuada. Dapibus bibendum massa urna elementum semper volutpat at ipsum. Faucibus egestas semper amet quam erat lectus morbi aliquet eu. In massa accumsan interdum auctor. Neque imperdiet proin vel quisque diam ornare nibh est suscipit.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- EDIT OFF CANVAS END -->
+                        </li>
+                        <li class="nav-item">
+                          <button type="button" class="btn btn-primary" id="voice-message-alertBtn">
+                            <a class="nav-link" href="#"><iconify-icon icon="icon-park-outline:voice"></iconify-icon></a>
+                          </button>
+                          <!-- VOICE MESSAGE OFF CANVAS START -->
+                          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="voice-message-alert" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                              <div class="toast-header">
+                                <iconify-icon icon="icon-park:voice-one"></iconify-icon>
+                                <strong class="me-auto">Voice</strong>
+                                <!-- <small>11 mins ago</small> -->
+                                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                              </div>
+                              <div class="toast-body">
+                                Website needs permissioon to use the microphone
+                              </div>
+                            </div>
+                          </div>
+                          <!-- VOICE MESSAGE OFF CANVAS END -->
+                        </li>
+                        <li class="nav-item">
+                          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#message-off-canvas-comment" aria-controls="offcanvasBottom">
+                            <a class="nav-link" href="#"><iconify-icon icon="icon-park-outline:message"></iconify-icon></a>
+                          </button>
+                          <!-- MESSAGE OFF CANVAS START -->
+                          <div class="offcanvas offcanvas-bottom live-comment-off-canvas" tabindex="-1" id="message-off-canvas-comment" aria-labelledby="offcanvasBottomLabel">
+                            <div class="home-btn">
+                              <p><iconify-icon icon="pajamas:dash"></iconify-icon></p>
+                            </div>
+                            <div class="offcanvas-body  comment-box-details">
+                              <div class="modal-body edit-search-modal-body-sm">
+                                <div class="input-group flex-nowrap searchBox">
+                                  <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                                  <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="mi:attachment"></iconify-icon></span>
+                                  <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconoir:emoji"></iconify-icon></span>
+                                  <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                              </div>
+                              <div class="comment-section">
+                                <ul class="row">
+                                  <li class="comment-profile-img col-1">
+                                    <img src="./images/mh-profile.png" alt="">
+                                  </li>
+                                  <li class="comment-text col-10">
+                                    <h6>M || H</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Lectus suspendisse vestibulum eget lacus nisl nec 
+                                        odio facilisi. Ornare phasellus curabitur egestas lectus facilisis hac. Scelerisque amet 
+                                        varius accumsan proin erat tincidunt sit id.
+                                    </p>
+                                </li>
+                                <small class="comment-reaction">
+                                <span>Like</span>
+                                <span>Reply</span>
+                                <span>9:41</span>
+                                </small>
+                                </ul>
+                              </div>
+                              <div class="comment-section">
+                                <ul class="row">
+                                  <li class="comment-profile-img col-1">
+                                    <img src="./images/comment-profile-img.png" alt="">
+                                  </li>
+                                  <li class="comment-text col-10">
+                                    <h6>Darrell Steward</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Lectus suspendisse vestibulum eget lacus nisl nec 
+                                        odio facilisi. Ornare phasellus curabitur egestas lectus facilisis hac. Scelerisque amet 
+                                        varius accumsan proin erat tincidunt sit id.
+                                    </p>
+                                </li>
+                                <small class="comment-reaction">
+                                <span>Like</span>
+                                <span>Reply</span>
+                                <span>9:41</span>
+                                </small>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- MESSAGE OFF CANVAS END -->
+                        </li>
+                        <li class="nav-item">
+                          <button><a class="nav-link " href="#"><iconify-icon icon="tabler:video"></iconify-icon></a></button>
+                        </li>
+                        <li class="nav-item ">
+                          <button class="close-live">
+                            <a class="nav-link " href="#"><iconify-icon icon="maki:cross"></iconify-icon></a>
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <div class="liveCircle">
+                    <!-- Empty div for creating circle shape -->
+                </div>
             </div>
         </div>
-    </div>
+          <!-- LIVE PAGE SM / MD END -->
   </section>
   <!-- Create Event Section End -->
 <!-- JS LINK START -->
