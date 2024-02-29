@@ -6271,6 +6271,7 @@ body {
 }
 #MV-addfriend-head .container ul {
   margin-left: 15px;
+  margin-top: 15px;
 }
 #MV-addfriend-head .container .MV-suggestFriend .MV-addfriend-search {
   width: 95%;
