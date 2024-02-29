@@ -1,12 +1,21 @@
 // EVENT NAME POST START
 #event-name-post {
   margin: 20px 0px;
+  @media (min-width:375px) and (max-width:767px) {
+    margin: 0px;
+    background-color: $white-color;
+  }
   .event-name-details-box{
     background-color: $white-color;
     border: 1px solid $side-border-clr;
     border-radius: 20px;
     padding:10px 20px;
     margin-bottom: 27px;
+    @media (min-width:375px) and (max-width:767px) {
+      border: none;
+      border-radius: 0;
+      margin-top: 20px;
+    }
     .eventPost-details{
         .post-time-details{
             h3{
@@ -14,6 +23,10 @@
             font-size: 16px;
             line-height: 28px; 
             margin: 5px 0px;
+            @media (min-width:375px) and (max-width:767px) {
+              font-size: 14px;
+              line-height: 18px;
+            }
             }
         
         span{
@@ -25,18 +38,26 @@
         font-weight: 700;
         font-size: 32px; 
         line-height: 50px;
+        @media (min-width:375px) and (max-width:767px) {
+          font-size: 18px;
+          line-height: 28px;
+        }
         }
         p{
         font-weight: 400;
-        font-size: 28px;
+        font-size: clamp(16px, 8vw, 28px);
         line-height: 43px;
         margin: 10px 0px;
+        @media (min-width:375px) and (max-width:767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
         }
     }
     .post-img{
         padding: 10px 0px;
         img{
-            width: 700px;
+            width: 100%;
             background-position: center;
             background-size: cover;
         }
@@ -59,12 +80,18 @@
   .comment-section {
     margin-top: 25px ;
     .comment-text {
-      width: 539.058px;
+      // width: 539.058px;
       border-radius: 18px;
       background-color: $event-post-comment-bg-clr;
       margin-left: 25px;
       margin-top: 6px;
       padding: 10px;
+      @media (min-width:375px) and (max-width:767px) {
+        margin-left: 0px;
+      }
+      @media (min-width:992px) and (max-width:1199px) {
+        margin-left: 35px;
+      }
       h6 {
         font-size: 14.68px;
         font-weight: 700;
@@ -78,11 +105,26 @@
       }
     }
     .comment-reaction{
-        transform: translateX(100px);
+        // transform: translateX(100px);
         margin-top: 4px;
+        padding: 10px 20px;
+        position: relative;
         span{
-         padding-right: 10px;  
+        //  padding-right: 10px;  
          font-weight: 600;  
+         position: absolute;
+        }
+        .like-btn{
+          left: 120px;
+          top: 0px;
+        }
+        .reply-btn{
+          left: 160px;
+          top: 0px;
+        }
+        .time-btn{
+          left: 210px;
+          top: 0px;
         }
     }
   }

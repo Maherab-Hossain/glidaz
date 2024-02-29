@@ -52,44 +52,152 @@
           </nav>
       </section>
     <!-- *Navbar section ends here -->
-    <!-- NAV SM start -->
-    <nav class="navbar navbar-sm d-block d-lg-none bg-body-tertiary" id="main-manusm">
-        <div class="container ">
-            <div class="w-100 row">
-                <div class="navlogo-sm col-8">
-                    <a class="navbar-brand" href="#"><img src="./assest/image/glizar nav logo sm.png" alt=""></a>
+<!-- NAV SM start -->
+<nav class="navbar navbar-sm d-block d-lg-none " id="main-manusm">
+  <div class="container ">
+    <div class="w-100 row">
+      <div class="navlogo-sm col-6">
+        <a class="navbar-brand" href="./index.html"><img src="./images/gildaz-logo-sm.png" alt=""></a>
+      </div>
+      
+      <div class="navoption-sm  col-6" id="">
+        <ul class=" me-auto mb-2 mb-lg-0 row">
+          <li class="nav-item d-block d-md-none d-lg-none  col-2">
+            <a class="nav-link "  href="./joinEvent.html"><i class="fa-solid fa-plus"></i></a>
+          </li>
+          <!-- SEARCH MODAL START -->
+          <li class="nav-item col-2">
+            <a class="nav-link" href="#">
+              <!-- Button trigger modal -->
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <!-- Button trigger modal -->
+            </a>
+            <!-- ****Modal**** -->
+            <div class="modal fade search-modal-sm" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body search-modal-body-sm">
+                    <div class="input-group flex-nowrap searchBox">
+                      <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                      <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn search-close-btn" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn  search-go-btn">Search</button>
+                  </div>
                 </div>
-
-                <div class="navoption-sm  col-4" id="">
-                    <ul class=" me-auto mb-2 mb-lg-0 row">
-                        <li class="nav-item col-2">
-                            <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-plus"></i></a>
-                        </li>
-                        <li class="nav-item col-2">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </li>
-                        <li class="nav-item col-2">
-                            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-text"></i></a>
-                        </li>
-                        <li class="nav-item col-2">
-                            <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-bell"></i></a>
-                        </li>
-                        <li class="nav-item col-2">
-                            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-airplane"></i></a>
-                        </li>
-                    </ul>
-                </div>
+              </div>
             </div>
-        </div>
-    </nav>
-    <!-- NAV SM end -->
+            <!-- ****Modal**** -->
+          </li>
+          <!-- SEARCH MODAL END -->
+          <li class="nav-item col-2">
+            <a class="nav-link "  href="./message.html"><i class="fa-regular fa-comment-dots"></i></a>
+          </li>
+          <!-- OFF CANVAS START NOTIFICATION  -->
+          <li class="nav-item col-2">
+            <a class="nav-link " >
+              <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#notification-offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-regular fa-bell"></i></button>
+            </a>
+            <!-- SIDE OFF CANVES START -->
+            <div class="offcanvas offcanvas-end notificationBar-sm-md" data-bs-scroll="true" tabindex="-1" id="notification-offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title notification-title" id="offcanvasWithBothOptionsLabel">Notifications</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="notification-box">
+                <p>"Sorry, we couldn't find the notification you're looking for. 
+                  Please check again later or contact customer support for further assistance."
+                  <img src="./images/notification-box-icon.gif" alt="">
+                </p>
+              </div>
+            </div>
+            <!-- SIDE OFF CANVES END -->
+          </li>
+          <!-- OFF CANVAS END NOTIFICATION  -->
+          <!-- MD SIDE BAR / MENU OFF CANVAS START -->
+          <li class="nav-item d-none d-md-block d-lg-none col-2">
+            <button class=" md-sideBar-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#md-sideBar-offcanvas" aria-controls="offcanvasWithBothOptions">
+              <!-- <input type="checkbox" id="checkbox">
+              <label for="checkbox" class="sidebar-icon-md">
+                  <div class="bars" id="bar1"></div>
+                  <div class="bars" id="bar2"></div>
+                  <div class="bars" id="bar3"></div>
+              </label> -->
+              <a class="nav-link " ><i class="fa-solid fa-bars"></i></a>
+            </button>
+            <!-- OFF CANVAS START -->
+            <div class="offcanvas offcanvas-end md-sideBar-iconBox" data-bs-scroll="true" tabindex="-1" id="md-sideBar-offcanvas" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h5> -->
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+              </div>
+              <div class="offcanvas-body md-sideBar-body">
+                <ul>
+                  <li>
+                    <a href="./ProfiePage2.html"><img src="./images/Event_Theme_Profile.png" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./event-community-countdown.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./friendsPage.html"><iconify-icon icon="fluent-mdl2:add-friend"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./eventStart.html"><iconify-icon icon="fluent:video-24-regular"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./community-group-category.html"><iconify-icon icon="fluent:people-community-16-regular"></iconify-icon></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- OFF CANVAS END -->
+          </li>
+          <!-- MD SIDE BAR / MENU OFF CANVAS END -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  </nav>
+  <!-- NAV SM end -->
+  <!-- DOWN NAV SM START -->
+  <nav class=" d-block d-md-none " id="down-navBar-sm">
+    <div class="container">
+      <ul class="nav nav-pills nav-fill down-nav-box">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./event-community-countdown.html"><iconify-icon icon="uil:calender"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./createEvent.html"><iconify-icon icon="tabler:cast"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./ProfiePage2.html" style="background-color: transparent;" ><img src="./images/Event_Theme_Profile.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- DOWN NAV SM END -->
     <!-- event community countdown start -->
     <section id="event-community-countdown">
         <div class="container">
             <!-- event community countdown box start -->
             <div class="event-community-countdown-box">
                 <div class="row">
-                    <div class="home-leftside-bar col-3">
+                    <div class="home-leftside-bar col-xl-3 col-lg-4 d-none d-lg-block">
                         <div class="leftside-bar">
                             <!-- search box start -->
                             <div class="input-group flex-nowrap searchBox">
@@ -214,15 +322,15 @@
                           <!-- upcomming event sidebar end -->
                         </div>
                     </div>
-                    <div class="event-countdown-details-box col-lg-7">
+                    <div class="event-countdown-details-box col-lg-8 col-xl-7">
                         <div class="eventName-due-part">
                             <h2 class="eventName-time">Due</h2>
                                     <a class="row" href="./eventNamePost.html">
-                                        <div class="eventName-events-pic col-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
-                                        <div class="eventName-events-details col-10">
-                                            <div class="event-name-date row">
-                                                <h2 class="col-6">Event Name</h2>
-                                                <div class="event-dateTime col-6">
+                                        <div class="eventName-events-pic col-2 col-sm-2 col-lg-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
+                                        <div class="eventName-events-details col-9 ps-5 ps-lg-4 ps-xl-2 ps-sm-5 ps-md-3  col-sm-9 col-lg-10">
+                                            <div class="event-name-date ">
+                                                <h2 class=" ">Event Name</h2>
+                                                <div class="event-dateTime pb-sm-2">
                                                     <p>02:10 pm <span>November 28, 2015</span></p>
                                                     
                                                 </div>
@@ -236,11 +344,11 @@
                                     </a>  
                                     <hr style="margin-left: 20px;background: rgba(0, 0, 0, 0.20); margin-bottom: 30px; ">
                                     <a class="row" href="./eventNamePost.html">
-                                        <div class="eventName-events-pic col-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
-                                        <div class="eventName-events-details col-10">
-                                            <div class="event-name-date row">
-                                                <h2 class="col-6">Event Name</h2>
-                                                <div class="event-dateTime col-6">
+                                        <div class="eventName-events-pic col-2 col-sm-2 col-lg-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
+                                        <div class="eventName-events-details col-9 ps-5 ps-lg-4 ps-xl-2 ps-sm-5 ps-md-3  col-sm-9 col-lg-10">
+                                            <div class="event-name-date ">
+                                                <h2 class="">Event Name</h2>
+                                                <div class="event-dateTime pb-sm-2">
                                                     <p>02:10 pm <span>November 28, 2015</span></p>
                                                     
                                                 </div>
@@ -257,11 +365,11 @@
                         <div class="eventName-due-part">
                             <h2 class="eventName-time">Today</h2>
                                     <a class="row" href="./eventNamePost.html">
-                                        <div class="eventName-events-pic col-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
-                                        <div class="eventName-events-details col-10">
-                                            <div class="event-name-date row">
-                                                <h2 class="col-6">Event Name</h2>
-                                                <div class="event-dateTime col-6">
+                                        <div class="eventName-events-pic col-2 col-sm-2 col-lg-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
+                                        <div class="eventName-events-details col-9 ps-5 ps-lg-4 ps-xl-2 ps-sm-5 ps-md-3  col-sm-9 col-lg-10">
+                                            <div class="event-name-date ">
+                                                <h2 class="">Event Name</h2>
+                                                <div class="event-dateTime pb-sm-2">
                                                     <p>02:10 pm <span>November 28, 2015</span></p>
                                                     
                                                 </div>
@@ -275,11 +383,11 @@
                                     </a>  
                                     <hr style="margin-left: 20px;background: rgba(0, 0, 0, 0.20); margin-bottom: 30px; ">
                                     <a class="row" href="./eventNamePost.html">
-                                        <div class="eventName-events-pic col-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
-                                        <div class="eventName-events-details col-10">
-                                            <div class="event-name-date row">
-                                                <h2 class="col-6">Event Name</h2>
-                                                <div class="event-dateTime col-6">
+                                        <div class="eventName-events-pic col-2 col-sm-2 col-lg-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
+                                        <div class="eventName-events-details col-9 ps-5 ps-lg-4 ps-xl-2 ps-sm-5 ps-md-3  col-sm-9 col-lg-10">
+                                            <div class="event-name-date ">
+                                                <h2 class="">Event Name</h2>
+                                                <div class="event-dateTime pb-sm-2">
                                                     <p>02:10 pm <span>November 28, 2015</span></p>
                                                     
                                                 </div>
@@ -296,11 +404,11 @@
                         <div class="eventName-due-part">
                             <h2 class="eventName-time" id="upcoming-event">Up Comming</h2>
                                     <a class="row" href="./eventNamePost.html">
-                                        <div class="eventName-events-pic col-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
-                                        <div class="eventName-events-details col-10">
-                                            <div class="event-name-date row">
-                                                <h2 class="col-6">Event Name</h2>
-                                                <div class="event-dateTime col-6">
+                                        <div class="eventName-events-pic col-2 col-sm-2 col-lg-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
+                                        <div class="eventName-events-details col-9 ps-5 ps-lg-4 ps-xl-2 ps-sm-5 ps-md-3  col-sm-9 col-lg-10">
+                                            <div class="event-name-date ">
+                                                <h2 class="">Event Name</h2>
+                                                <div class="event-dateTime pb-sm-2">
                                                     <p>02:10 pm <span>November 28, 2015</span></p>
                                                     
                                                 </div>
@@ -313,22 +421,17 @@
                                         
                                     </a>  
                                     <hr style="margin-left: 20px;background: rgba(0, 0, 0, 0.20); margin-bottom: 30px; ">
-                                    <a class="row" href="./eventNamePost.html">
-                                        <div class="eventName-events-pic col-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
-                                        <div class="eventName-events-details col-10">
-                                            <div class="event-name-date row">
-                                                <h2 class="col-6">Event Name</h2>
-                                                <div class="event-dateTime col-6">
+                                    <a class="row last-sm" href="./eventNamePost.html">
+                                        <div class="eventName-events-pic col-2 col-sm-2 col-lg-2"><img src="./images/eventName-Events-pic.png" alt=""></div>
+                                        <div class="eventName-events-details col-9 ps-5 ps-lg-4 ps-xl-2 ps-sm-5 ps-md-3  col-sm-9 col-lg-10">
+                                            <div class="event-name-date ">
+                                                <h2 class="">Event Name</h2>
+                                                <div class="event-dateTime pb-sm-2">
                                                     <p>02:10 pm <span>November 28, 2015</span></p>
-                                                    
                                                 </div>
-                                                
                                             </div>
-                                            
                                             <p>Lorem ipsum dolor sit amet consectetur. At elementum rhoncus odo pretum vitie suscipit. Id congue curabitur nulla felis a faucibus.</p>
-                                        </div> 
-                                        
-                                        
+                                        </div>  
                                     </a>
                                     <hr style="margin-left: 20px;background: rgba(0, 0, 0, 0.20); ">
                         </div>
@@ -339,13 +442,6 @@
         </div>
     </section>
     <!-- event community countdown end -->
-
-
-
-
-
-
-
     <!-- JS LINK START -->
     <script src="./js/jquery-3.7.0.min.js"></script>
     <script src="./js/slick.min.js"></script>

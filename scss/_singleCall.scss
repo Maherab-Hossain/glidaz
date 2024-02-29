@@ -10,7 +10,7 @@
         .profileMenu{
             display: flex;
             align-items: center;
-            margin-top: 15px;
+            padding-top: 15px;
             position: relative;
             .text{
                 margin-left: 15px;
@@ -75,3 +75,39 @@
     }
 }
 // Single Call Section End
+
+//  SM / MD SINGLE CALL START
+// media query :start 
+@media (min-width:320px) and (max-width:576px){
+    #singleCall{
+        background-image: url(../images/photo9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .container{
+            margin: 0px;
+        }
+        .profileMenu{
+            .text{
+                a{
+                    h4{
+                        font-size: 20px;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                }
+            } 
+        }
+        .callBtn{
+            
+            ul{
+               #call{
+                margin-top: 10px;
+               } 
+            }
+        }
+    }
+    }
+    // Single Call Section End
+//  SM / MD SINGLE CALL END

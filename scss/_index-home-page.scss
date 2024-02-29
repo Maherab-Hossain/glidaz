@@ -1,6 +1,10 @@
 #index-home-page{
     margin-top: 21px;
     margin-bottom: 22px;
+    @media (width <= 992px) {
+        margin: 0px;
+        border-top:2px solid #E5E7EB;
+    }
 .afterlogin-page{
 //  ================== home scroll page start ================== 
     .home-scroll-page{
@@ -163,3 +167,213 @@
 
 }
 }
+// ================== // Mobile version starts  here ================== 
+#sm-home-page-main-section{
+    margin-bottom: 22px;
+}
+#MV-homePage-CreatePost{
+    .MV-creatPost-part{
+        padding: 17px;
+        // border-top:2px solid #E5E7EB;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background-color: $white-color;
+        a{
+            color: var(--Gray-200, #D1D5DB);
+            font-family: "Plus Jakarta Sans";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+
+            img {
+                width: 100%;
+            }
+            input {
+            border: none;
+            // margin-top: 15px;
+            padding: 20px;
+            outline: none;
+            font-size: 16px;
+
+            }
+
+        }
+
+        
+    }
+}
+#MV-homePage-story{
+    background-color: #E5E7EB;
+    padding: 6px 17px;
+    .MV-stories{
+        gap: 20px;
+        @media (width >= 767px) {
+            gap: 33px;
+        }
+        .MV-myStory{
+            width: 90px;
+            height: 152px;
+            border-radius: 10px;
+            background: #FFF;
+            display: inline-block;
+            position: relative;
+            .MV-myStory-pic{
+                width:90px;
+                display: inline-block;
+                img{
+                    margin-left: -12px;
+                    width:90px;
+                }
+            
+                
+            }
+            .stroyPlus{
+                position: absolute;
+                top: 95px;
+                left: 23px;
+                padding:4px;
+                background-color: #FFF;
+                border-radius: 50%;
+                
+                .storyPlus-pic{
+                    height: 32px;
+                    width: 32px;
+                    background-color:#E5E7EB;
+                    border-radius: 50%;
+                    line-height: 28px;
+                    display: inline-block;
+                    text-align: center;
+                    
+                    
+                }
+            }
+            p{
+                color: #000;
+                font-family: "Plus Jakarta Sans";
+                font-size: 6.789px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 10.184px; 
+                margin: 18px 5px 3px 10px;
+            }
+        
+
+        }
+        .MV-OthersStory{
+            width: 90px;
+            height: 152px;
+            border-radius: 10px;
+            background: #FFF;
+            display: inline-block;
+            position: relative;
+            .MV-myStory-pic{
+                width:74px;
+                display: inline-block;
+                img{
+                    margin-left: -12px;
+                }
+            
+                
+            }
+            .stroyPlus{
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                padding:4px;
+                background-color: #FFF;
+                border-radius: 50%;
+                
+                .storyPlus-pic{
+                    height: 32px;
+                    width: 32px;
+                    background-color:#E5E7EB;
+                    border-radius: 50%;
+                    line-height: 28px;
+                    display: inline-block;
+                    text-align: center;
+                    
+                    
+                }
+            }
+            p{
+                color: #000;
+                font-family: "Plus Jakarta Sans";
+                font-size: 9px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 13px; 
+                margin-top: 125px;
+                text-align: left;
+                margin-left: -6px;
+            }
+        
+
+        }
+        
+        
+    }
+}
+#MV-postPart{
+    .post-profile{
+        // padding: 15px 20px 7px 20px;
+        margin-top: 20px;
+        .post-profile-pic{
+            display: inline-block;
+        }
+        .post-profile-name{
+            font-family:$primaryfont;
+            font-size: 13px;
+            line-height: 19px;
+            color: #030712;
+            font-weight: 700;
+            span{
+                color: #6B7280;
+            }
+            p{
+                font-size: 10px;
+                font-weight: 400;
+            }
+        }
+    }
+    .MV-postCaption{
+        // padding: 10px 20px;
+        h3{
+            font-family:$primaryfont;
+            font-size: clamp(16px, 8vw, 20px);
+            line-height: 28px;
+            color: $nav-option-color;
+            font-weight: 500; 
+            @media (width <= 767px) {
+                font-size: 16px;
+            }
+        }
+    }
+    .MV-postPic{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        img{
+            width: 100%;
+            display: inline-block;
+            
+        }
+    }
+    .MV-post-LikeCommentShare{
+        // width:90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-top: 15px;
+        .lcs{
+            padding: 14px 20px;
+            text-align: center;
+        }
+    }
+}
+// ================== // Mobile version ends  here ================== 

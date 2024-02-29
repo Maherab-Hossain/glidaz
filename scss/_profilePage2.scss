@@ -436,3 +436,257 @@
    }
 }
 // My Feed Section Ends Here
+
+// -------------------------------------------MV verstion starts -------------------------------
+#sm-user-profile-page-md{
+    background-color: $white-color;
+    margin-bottom: 22px;
+#MV-coverImg2{
+    .MV-coverImg{
+        height:200px;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    a{
+        height: 45px;
+        width: 45px;
+        line-height: 50px;
+        display: inline-block;
+        background-color: var(--sidebar-span-clr);
+        text-align: center;
+        border-radius: 50%;
+        font-size:30px;
+        color:var(--black-clr);
+        position: absolute;
+        bottom:10px;
+        right:10px;
+    }
+    .MV-mainProfile{
+        background-image: url(../images/Profile_Img.png);
+        height: 140px;
+        width: 140px;
+        display: inline-block;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+        margin-left: 35px;
+        margin-top: -40px;
+        border: 2px solid var(--profileChoose-clr);
+        border-radius: 50%;
+        a{
+            height: 45px;
+            width: 45px;
+            line-height: 50px;
+            display: inline-block;
+            background-color: var(--profileChoose-clr);
+            text-align: center;
+            border-radius: 50%;
+            font-size:30px;
+            color:var(--black-clr);
+            position: absolute;
+            bottom:0px;
+            right:00px;
+        } 
+    }
+    h2{
+        font-family: $primaryfont;
+        font-size: 27px;
+        font-weight: 700;
+        color: var(--black-clr);
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+#MV_profile-btn{
+    .BookingBTN{
+        width: 100%;
+        height: 45px;
+        background-color: var(--profileBtnclr-1);
+        display: inline-block;
+        border-radius:10px;
+        text-align: center;
+        color: var(--search-box-bgclr);
+        line-height: 45px;
+        margin-top: 20px;
+        img{
+            margin-right: 10px;
+            margin-top: -3px;
+        }
+
+    }
+    .createPost-event-edit-btn{
+        gap: 8px;
+        width: 1005;
+        a{
+            background-color: var(--post-btn-bg-clr);
+            font-family: $primaryfont;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--search-box-bgclr);
+            height: 45px;
+            margin-top: 10px;
+            line-height: 45px;
+            text-align: center;
+            border-radius: 10px;
+            img{
+                margin-right: 10px ;
+            }
+        }
+    }
+
+}
+
+#MV-profile-Catagory{
+    .MV-profile-intro{
+        h2{
+            font-family: $primaryfont;
+            font-weight: 700;
+            color: var(--black-clr);
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+        ul{
+            li{
+                a{
+                    font-family: $primaryfont;
+                    display: inline-block;
+                    color: var(--black-clr);
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    img{
+                        margin-right: 15px;
+                        height: 35px;
+                    }
+                }
+            }
+        }
+    }
+    .MV-friendList{
+        h2{
+            font-family: $primaryfont;
+            font-weight: 700;
+            color: var(--black-clr);
+            font-size: 22px;
+        }
+        p{
+            font-family: $primaryfont;
+            color: $search-icon-clr;
+            font-size: 14px;
+            margin-top: 7px;
+        }
+        .listOfFriend{
+            .MV-list-box{
+                gap: 16px;
+                padding-left: 15px;
+                margin-top: 20px;
+                a{
+                    box-shadow: var(--community-name-member-title-clr) 0px 3px 8px;
+                    display: inline-block;
+                    width:80px;
+                    // height: 70px;
+                    border-radius: 15px;
+                    padding-bottom: 6px;
+                    img{
+                        width:80px;
+                        margin-left:-12px;
+                    }
+                    h3{
+                    font-family: $primaryfont;
+                    font-weight: 700;
+                    color: var(--black-clr);
+                    font-size: 10px;
+                    margin-left: 5px;
+                    margin-top: 5px;
+                    }
+                }
+                
+                
+            }
+        }
+    }
+    .CreatePost-in-profile{
+        padding: 10px 0px 10px 10px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        border-radius: 10px;
+        .CreatePost-in-profile-Part{
+            width: 100%;
+            img{
+                width: 50px;
+                height: 30px;
+                display: inline-block;
+            }
+            input{
+                width: 85%;
+                border:1px solid rgb(175, 171, 171) ;
+                outline: none;
+                border-radius: 20px;
+                height: 30px;
+            }
+        }
+        .CreatePost-in-profile-iconPart{
+            margin-top: 10px;
+            padding-left: 10px;
+            ul{
+                
+                li{
+                    display: inline-block;
+                    a{
+                        font-family: $primaryfont;
+                        font-weight: 700;
+                        color: var(--sidebar-upcomming-span-clr);
+                        font-size: 15px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .CreateEvent-in-profile-btn{
+                button{
+                    padding: 7px 20px;
+                    text-align: center;
+                    font-family: $primaryfont;
+                    font-weight: 700;
+                    color: var(--black-clr);
+                    font-size: 10px;
+                    margin-right: 10px;
+                    border-radius: 10px;
+                    border: 1px solid rgb(175, 171, 171);
+
+                }
+            }
+        }
+    }
+    .MV-profile-manage-post{
+            padding: 3px 10px 3px 10px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            border-radius: 10px;
+            margin: 0px;
+            margin-top: 10px;
+        .MV-profile-manage-post-part-1{
+            
+            p{
+                font-family: $primaryfont;
+                font-weight: 700;
+                color: var(--black-clr);
+                font-size: 16px;
+
+            }
+            a{
+                font-family: $primaryfont;
+                font-weight: 700;
+                color: var(--black-clr);
+                font-size: 16px;
+                text-align: center;
+                margin-left: 55px;
+            }
+        }
+    }
+}
+}
+// -------------------------------------------MV verstion ends -------------------------------

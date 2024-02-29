@@ -184,3 +184,79 @@
     }
     }
 //  =================== home left side bar end =================== 
+//  =================== HOME SIDE BAR SM START =================== 
+#checkbox {
+    display: none;
+  }
+  
+  .sidebar-icon-md {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition-duration: .5s;
+    // position: relative;
+    // width: 20px;
+    // height: 20px;
+    // cursor: pointer;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // gap: 4px;
+    // transition-duration: .5s;
+    // line-height: 20px;
+    // text-align: center;
+    // left: 7px;
+    // top: 5px;
+  }
+  
+  .bars {
+    width: 50%;
+    // width: 90%;
+    height: 4px;
+    background-color: $black-clr;
+    border-radius: 50%;
+  }
+  
+  #bar2 {
+    transition-duration: .8s;
+  }
+  
+  #bar1,#bar3 {
+    width: 50%;
+    // width: 50%;
+  }
+  
+  #checkbox:checked + .sidebar-icon-md .bars {
+    position: absolute;
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .sidebar-icon-md #bar2 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .sidebar-icon-md #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .sidebar-icon-md #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .sidebar-icon-md {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+  }
+//  =================== HOME SIDE BAR SM END =================== 

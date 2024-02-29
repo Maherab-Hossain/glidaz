@@ -81,6 +81,8 @@ $notification-Font:'Rubik', sans-serif;
 --schedule-description-a-clr:#BFDBFE;
 --schedule-join-btn-span-clr:#1E40AF;
 --schedule-singleCall-mic-cam-bg:rgba(148, 148, 148, 0.40);
+--down-navBar-sm-bg-clr:rgba(208, 208, 208, 0.9);
+--down-navBar-sm-btn-hover-bg: #60a5fa;
 }
 // ROOT END
 // SCSS ROOT START
@@ -161,6 +163,8 @@ $schedule-nearby-hr-clr:var(--schedule-nearby-hr-clr);
 $schedule-description-a-clr:var(--schedule-description-a-clr);
 $schedule-join-btn-span-clr:var(--schedule-join-btn-span-clr);
 $schedule-singleCall-mic-cam-bg:var(--schedule-singleCall-mic-cam-bg);
+$down-navBar-sm-bg-clr:var(--down-navBar-sm-bg-clr);
+$down-navBar-sm-btn-hover-bg:var(--down-navBar-sm-btn-hover-bg);
 // SCSS ROOT END
 
 // $body-bg-clr:#F9FBFF;

@@ -9,13 +9,13 @@
                     align-items: center;
                     justify-content: space-between;
                     h4{
-                        font-size: 38px;
+                        font-size: clamp(14px,8vw,38px);
                         font-weight: 700;
                         color: $event-primary-font-clr;
                     }
                     .icons{
                         display: inline-block;
-                        font-size: 24px;
+                        font-size: clamp(16px, 8vw, 24px);
                        a{
                         display: inline-block !important;
                         width: 44px;
@@ -25,6 +25,13 @@
                         border-radius: 20px;
                         text-align: center;
                         margin-left: 17px;
+                        //  SM / MD ICON START
+                        @media (min-width: 375px) and (max-width:767px) {
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        }
+                        //  SM / MD ICON END
                        }
                     }
                 }

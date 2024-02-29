@@ -1,0 +1,49 @@
+// media query start 
+@media (min-width:480px) and (max-width:576px){
+#msg{
+    .inbox{
+        border: none;
+        .chatMsg{
+            .chatHead{
+                padding: 0px;
+                .img{
+                    margin-right: 10px;
+                }
+                .text{
+                    margin-right: 120px;
+                    h4{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+} 
+}
+@media (min-width:320px) and (max-width:479px){
+    #msg{
+        .inbox{
+            border: none;
+            .chatMsg{
+                .chatHead{
+                    padding: 0px;
+                    .img{
+                        margin-right: 10px;
+                    }
+                    .text{
+                        margin-right:70px;
+                        h4{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}

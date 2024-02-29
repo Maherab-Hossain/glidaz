@@ -1,3 +1,4 @@
+// NAV LG START
 #main-manu{
     border-bottom: 2px solid $nav-bottom-border-clr;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
@@ -54,3 +55,187 @@
     }
     }
 }
+// NAV LG END
+// NAV RESPONSIVE START
+// ****** NAV SM START ******
+#main-manusm{
+    background-color: $white-color;
+    padding: 12px 0px;
+    .navoption-sm{
+        text-align: center;
+        ul{
+            li{
+                margin:0px 6px;
+                a{
+                border-radius: 20px;
+                // padding: 4px;
+                width: 32px;
+                height: 32px;
+                line-height: 32px;
+                background-color: $sidebar-heading-bg-clr;  
+                button{
+                    text-align: center;
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                }
+                } 
+                // SEARCH MODAL START
+                 .search-modal-sm{
+                    .search-modal-body-sm{
+                        .searchBox{
+                            margin-top: 20px;    
+                            margin-bottom: 20px;
+                            padding: 0px 5px 0px 5px;
+                            padding: 10px;
+                            background-color: $search-box-bgclr;
+                            max-width: 100%; 
+                            border-radius: 20px;
+                            .search-icon{
+                            font-size: 24px;
+                            color: $search-icon-clr; 
+                            background-color: transparent;
+                            border: none;  
+                            }
+                            input{
+                            background-color: $search-box-bgclr;
+                            outline: none;
+                            border: none; 
+                            max-width: 100%;
+                            overflow: hidden; 
+                            }    
+                            }  
+                    }
+                    .search-close-btn{
+                        background-color: $create-post-modal-bg-clr;
+                        color: $black-clr;
+                    }  
+                    .search-go-btn{
+                        background-color: $post-btn-bg-clr;
+                        color: $white-color;
+                    } 
+                 }
+                // // SEARCH MODAL END
+                // NOTIFICATION OFF CANVAS START
+                .notificationBar-sm-md{
+                    background-color: $body-bg-clr!important;
+                    .notification-title{
+                        font-weight: 800!important;
+                    }
+                    .notification-box{
+                        margin: 20px 0px;
+                        p{
+                            font-weight: 600!important;
+                            color: $black-clr;
+                        }
+                    }
+                }
+                // NOTIFICATION OFF CANVAS END
+                // MD SIDE BAR / MENU OFF CANVAS START
+                .md-sideBar-btn{
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                }
+                .md-sideBar-iconBox{
+                   width: 10%; 
+                   background-color: $body-bg-clr;
+                }
+                .md-sideBar-body{
+                    ul{
+                        li{
+                            margin: 20px 0px;
+                            a{
+                                background-color: transparent;
+                                font-size: 30px;
+                                color: $black-clr;
+                                img{
+                                    text-align: center;
+                                    transform: translateX(-3px);
+                                    border: 3px groove $profile-active-overlay;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+                // MD SIDE BAR / MENU OFF CANVAS END
+                // SM / MD MEMBER SIDE BAR OFF CANVAS START
+                .member-sm-btn{
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                }
+                .member-sm-off-canvas-sidebar{
+                    // member box start 
+                    .member-box{
+                    .member-title{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 21px;
+                    h6{
+                    font-size: 20.077px;
+                    font-weight: 700;
+                    line-height: 30.116px;
+                    span{
+                    font-size: 20.077px;
+                    color: $community-name-member-title-clr;
+                    font-weight: 700;
+                    line-height: 30.116px;   
+                    } 
+                    }
+                    .add-member-btn{
+                    width: 28px;  
+                    height: 28px; 
+                    background-color: $sidebar-heading-bg-clr; 
+                    border-radius: 50%;
+                    color: $black-clr;
+                    line-height: 32px;
+                    text-align: center;
+                    }  
+                    }
+                    .profile-box{
+                    margin-bottom: 15px;  
+                    }  
+                    }
+                    // member box end 
+                }
+                // SM / MD MEMBER SIDE BAR OFF CANVAS END
+            }
+        }
+    }
+}
+// ****** NAV SM END ******
+// ****** DOWN NAV SM START ******
+#down-navBar-sm{
+    position: fixed;
+    z-index: 9999;
+    bottom: 10px;
+    width: 100%;
+    .down-nav-box{
+        // max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $down-navBar-sm-bg-clr;
+        z-index: 9999;
+        border-radius: 20px;
+            li{
+                padding: 6px;
+                a{
+                    color: $black-clr;
+                    font-size: 26px;
+                    transition: 0.45s;
+                }
+                a:hover{
+                    background-color: $down-navBar-sm-btn-hover-bg;
+                    border-radius: 20px;
+                    color: $white-color;
+                }
+            }
+        
+    }
+}
+// ****** DOWN NAV SM END ******
+// NAV RESPONSIVE END

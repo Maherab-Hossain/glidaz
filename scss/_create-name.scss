@@ -3,12 +3,17 @@
   .create-name-details-box {
     // create name cover start
   .create-name-cover{
-  padding: 50px 120px;
+  padding: 50px 0px;
   background-position: center;
   background-size: cover;
   margin-bottom: 24px;
+  text-align: center;
+  border-radius: 20px;
+  @media (width <= 575px) {
+    padding: 0px 0px;
+  }
   h4{
-  font-size: 72px;
+  font-size: clamp(30px, 8vw, 72px);
   color: $white-color;
   font-weight: 700;
   line-height: 88px;

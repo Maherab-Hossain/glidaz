@@ -51,42 +51,150 @@
     </nav>
 </section>
   <!-- *Navbar section ends here -->
-  <!-- NAV SM start -->
-  <nav class="navbar navbar-sm d-block d-lg-none bg-body-tertiary" id="main-manusm">
+<!-- NAV SM start -->
+<nav class="navbar navbar-sm d-block d-lg-none " id="main-manusm">
   <div class="container ">
     <div class="w-100 row">
-      <div class="navlogo-sm col-8">
-        <a class="navbar-brand" href="#"><img src="./assest/image/glizar nav logo sm.png" alt=""></a>
+      <div class="navlogo-sm col-6">
+        <a class="navbar-brand" href="./index.html"><img src="./images/gildaz-logo-sm.png" alt=""></a>
       </div>
       
-      <div class="navoption-sm  col-4" id="">
+      <div class="navoption-sm  col-6" id="">
         <ul class=" me-auto mb-2 mb-lg-0 row">
-          <li class="nav-item col-2">
-            <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-plus"></i></a>
+          <li class="nav-item d-block d-md-none d-lg-none  col-2">
+            <a class="nav-link "  href="./joinEvent.html"><i class="fa-solid fa-plus"></i></a>
           </li>
+          <!-- SEARCH MODAL START -->
           <li class="nav-item col-2">
-            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="nav-link" href="#">
+              <!-- Button trigger modal -->
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <!-- Button trigger modal -->
+            </a>
+            <!-- ****Modal**** -->
+            <div class="modal fade search-modal-sm" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body search-modal-body-sm">
+                    <div class="input-group flex-nowrap searchBox">
+                      <span class="input-group-text search-icon " id="addon-wrapping"><iconify-icon icon="iconamoon:search"></iconify-icon></span>
+                      <input type="text" class="" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn search-close-btn" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn  search-go-btn">Search</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ****Modal**** -->
           </li>
+          <!-- SEARCH MODAL END -->
           <li class="nav-item col-2">
-            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-text"></i></a>
+            <a class="nav-link "  href="./message.html"><i class="fa-regular fa-comment-dots"></i></a>
           </li>
+          <!-- OFF CANVAS START NOTIFICATION  -->
           <li class="nav-item col-2">
-            <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-bell"></i></a>
+            <a class="nav-link " >
+              <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#notification-offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-regular fa-bell"></i></button>
+            </a>
+            <!-- SIDE OFF CANVES START -->
+            <div class="offcanvas offcanvas-end notificationBar-sm-md" data-bs-scroll="true" tabindex="-1" id="notification-offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title notification-title" id="offcanvasWithBothOptionsLabel">Notifications</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="notification-box">
+                <p>"Sorry, we couldn't find the notification you're looking for. 
+                  Please check again later or contact customer support for further assistance."
+                  <img src="./images/notification-box-icon.gif" alt="">
+                </p>
+              </div>
+            </div>
+            <!-- SIDE OFF CANVES END -->
           </li>
-          <li class="nav-item col-2">
-            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-airplane"></i></a>
+          <!-- OFF CANVAS END NOTIFICATION  -->
+          <!-- MD SIDE BAR / MENU OFF CANVAS START -->
+          <li class="nav-item d-none d-md-block d-lg-none col-2">
+            <button class=" md-sideBar-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#md-sideBar-offcanvas" aria-controls="offcanvasWithBothOptions">
+              <!-- <input type="checkbox" id="checkbox">
+              <label for="checkbox" class="sidebar-icon-md">
+                  <div class="bars" id="bar1"></div>
+                  <div class="bars" id="bar2"></div>
+                  <div class="bars" id="bar3"></div>
+              </label> -->
+              <a class="nav-link " ><i class="fa-solid fa-bars"></i></a>
+            </button>
+            <!-- OFF CANVAS START -->
+            <div class="offcanvas offcanvas-end md-sideBar-iconBox" data-bs-scroll="true" tabindex="-1" id="md-sideBar-offcanvas" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="./images/gildaz-logo-sm.png" alt=""></h5> -->
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+              </div>
+              <div class="offcanvas-body md-sideBar-body">
+                <ul>
+                  <li>
+                    <a href="./ProfiePage2.html"><img src="./images/Event_Theme_Profile.png" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./event-community-countdown.html"><iconify-icon icon="uit:calender"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./friendsPage.html"><iconify-icon icon="fluent-mdl2:add-friend"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./eventStart.html"><iconify-icon icon="fluent:video-24-regular"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="./community-group-category.html"><iconify-icon icon="fluent:people-community-16-regular"></iconify-icon></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- OFF CANVAS END -->
           </li>
+          <!-- MD SIDE BAR / MENU OFF CANVAS END -->
         </ul>
       </div>
     </div>
   </div>
   </nav>
   <!-- NAV SM end -->
+  <!-- DOWN NAV SM START -->
+  <nav class=" d-block d-md-none " id="down-navBar-sm">
+    <div class="container">
+      <ul class="nav nav-pills nav-fill down-nav-box">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html"><iconify-icon icon="iconamoon:home-light"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./event-community-countdown.html"><iconify-icon icon="uil:calender"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./createEvent.html"><iconify-icon icon="tabler:cast"></iconify-icon></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./ProfiePage2.html" style="background-color: transparent;" ><img src="./images/Event_Theme_Profile.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- DOWN NAV SM END -->
 <!-- Scheduled Event Md to XL Device Start -->
-  <section id="allEvents" class="d-sm-none d-md-block">
+  <section id="allEvents" class="">
     <div class="container">
       <div class="row">
-        <div class="home-leftside-bar col-3">
+        <div class="home-leftside-bar d-none d-lg-block col-xl-3 col-lg-4">
           <div class="leftside-bar">
               <!-- search box start -->
               <div class="input-group flex-nowrap searchBox">
@@ -212,13 +320,13 @@
           </div>
       </div>
       <!-- Event Feed Section Start -->
-      <div class="eventFeed col-6">
+      <div class="eventFeed  col-xl-6 col-lg-7">
         <!-- Scheduled event start -->
         <div class="scheduled">
           <div class="text">
             <h5>15 May 2023 9:30 am</h5>
             <h2>Your scheduled event</h2>
-            <a href="" class="joinBtn">Join Now</a>
+            <a href="./event-community-countdown.html" class="joinBtn">Join Now</a>
           </div>
         </div>
          <!-- Scheduled event end -->
@@ -230,7 +338,7 @@
           </div>
           <div class="popoularCard"> 
               <div class="row">
-                <div class="col-4">
+                <div class="col-6 col-sm-4">
                   <div class="cardEvent">
                     <a href="#"><img src="./images/Summer_Festival.png" alt=""></a>
                     <!-- <a href="#"><img src="./Images_Sadia_V2/Summer_Festival.png" alt=""></a> -->
@@ -244,7 +352,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-sm-4">
                   <div class="cardEvent">
                     <a href="#"><img src="./images/Night_Party.png" alt=""></a>
                     <h5><a href="#">Night Party</a></h5>
@@ -257,9 +365,22 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-4">
+                <div class="col-6 mt-4 mt-sm-0 col-sm-4">
                   <div class="cardEvent">
                     <a href="#"><img src="./images/Night_Party_2.png" alt=""></a>
+                    <h5><a href="#">Night Party 2</a></h5>
+                    <div class="text">
+                      <p>July, 27 2023</p>
+                      <div class="shape">
+                        <!-- Empty div for shape -->
+                      </div>
+                      <p>07:00 pm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-4 mt-sm-0 col-sm-4 d-block d-sm-none">
+                  <div class="cardEvent">
+                    <a href="#"><img src="./images/Summer_Festival.png" alt=""></a>
                     <h5><a href="#">Night Party 2</a></h5>
                     <div class="text">
                       <p>July, 27 2023</p>
@@ -360,7 +481,7 @@
       </div>
       <!-- Event Feed Section End -->
       <!-- Create Event Section Start -->
-      <div class="createEvent col-3">
+      <div class="createEvent col-xl-3 d-none d-xl-block">
         <a href="./eventStart.html">
           <button class="newEventBtn">
             <iconify-icon id="vid-cam" icon="ph:video-camera"></iconify-icon>
@@ -426,73 +547,6 @@
     </div>
   </section>
   <!-- Scheduled Event Md to XL Device End -->
-
-  <!-- Scheduled Event SM Device Start -->
-  <section id="allEvents" class="d-sm-block d-md-none">
-    <div class="container">
-      <div class="scheduled">
-        <div class="text">
-          <h2>Explore events from <br> the community</h2>
-          <button class="startBtn">Get Started</button>
-        </div>
-      </div>
-      <hr>
-              <!-- Popular event start -->
-              <div class="popular">
-                <div class="eventTitle">
-                  <h4>Popular Event</h4>
-                  <a href="./EventName.html">See All</a>
-                </div>
-                <div class="popoularCard"> 
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="cardEvent">
-                          <a href="#"><img src="./images/Summer_Festival.png" alt=""></a>
-                          <h5><a href="#">Summer Festival</a></h5>
-                          <div class="text">
-                            <p>March, 27 2023</p>
-                            <div class="shape">
-                              <!-- Empty div for shape -->
-                            </div>
-                            <p>07:00 pm</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="cardEvent">
-                          <a href="#"><img src="./images/Night_Party.png" alt=""></a>
-                          <h5><a href="#">Night Party</a></h5>
-                          <div class="text">
-                            <p>March, 26 2023</p>
-                            <div class="shape">
-                              <!-- Empty div for shape -->
-                            </div>
-                            <p>07:00 pm</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="cardEvent">
-                          <a href="#"><img src="./images/Night_Party_2.png" alt=""></a>
-                          <h5><a href="#">Night Party 2</a></h5>
-                          <div class="text">
-                            <p>July, 27 2023</p>
-                            <div class="shape">
-                              <!-- Empty div for shape -->
-                            </div>
-                            <p>07:00 pm</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-              <!-- Popular event end -->
-    </div>
-  </section>
-  <!-- Scheduled Event SM Device End -->
-
 <!-- JS LINK START -->
 <script src="./js/jquery-3.7.0.min.js"></script>
 <script src="./js/slick.min.js"></script>

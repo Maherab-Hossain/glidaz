@@ -102,7 +102,7 @@ body{
 //profile page ends
 
 // Profile Page 2 Start
-@import "./profilePage2";
+@import "./profilePage2.scss";
 // Profile Page 2 End
 
 // Message Section Start
@@ -150,6 +150,22 @@ body{
 // SCHEDUL EVENT  END
 
 //  ******************************************* Responsive Start ******************************************* 
+// MV ADD FRIEND START
+@import "./_MV-addFriend.scss";
+// MV ADD FRIEND END
+
+// MV ADD FRIEND START
+@import "./MV-chat.scss";
+// MV ADD FRIEND END
+
+// MV ADD FRIEND START
+@import "./_MV-CreatePost.scss";
+// MV ADD FRIEND END
+
+// MV ADD FRIEND START
+@import "./MV-frindList.scss";
+// MV ADD FRIEND END
+
 // RESPONSIVE S START
 @import "./_responsive_S.scss";
 // RESPONSIVE S END

@@ -1,10 +1,40 @@
 // Message Section Starts Here
 #msg {
-  margin-top: 5px;
+  margin: 20px;
+  @media (width <= 991px) {
+    background-color: $white-color;
+    margin: 0px;
+  }
   .chat {
     border: 1px solid $event-created-brd-clr;
     border-radius: 15px;
     padding: 30px 17px 32px 7px;
+    @media (width <= 991px) {
+      border: none;
+      padding: 0px;
+      border-radius: 0px;
+      margin-top: 15px;
+    }
+    // <!-- SM / MD MESSAGE SECTION START -->
+    .MV-massage-storyBoxd{
+      padding-left: 10px;
+      margin-bottom: 10px;
+      a{
+          img{
+              height: 70px;
+          }
+          p{
+              font-family:$primaryfont;
+              color: var(--black-clr);
+              font-size: 16px;
+              font-weight: 600;
+              text-align:start;
+              padding-left: 12px;
+              
+          }
+      }
+    }  
+    // <!-- SM / MD MESSAGE SECTION END -->
     .chatMenu {
       align-items: center;
 

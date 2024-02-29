@@ -68,3 +68,15 @@ $( function (){
       
     });
     // SS Branch End
+
+    // ********** SM / MD TOSTE BOOTSTRAP START **********
+const toastTrigger = document.getElementById('voice-message-alertBtn')
+const toastLiveExample = document.getElementById('voice-message-alert')
+
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}
+    // ********** SM / MD TOSTE BOOTSTRAP END **********

@@ -101,5 +101,57 @@
       }
     }
   }
+  // SM / MD EVENT START **START**
+  .eventStart-form-sm{
+    padding: 0px 20px 50px;
+    position: relative;
+    h3{
+      text-align: center;
+      font-weight: 800;
+      margin-top: 15px;
+    }
+    .form-back-btn-eventStart{
+      color: $black-clr;
+      position: absolute;
+      left: 15px;
+      top: 4px;
+      margin-top: 15px;
+    }
+    .event-start-form-box{
+      padding-top: 70px;
+      .form-box{
+        label{
+          color: $black-clr;
+          font-weight: 600;
+        }
+        input,textarea{
+          background-color: transparent;
+        }
+      }
+      .get-start-btn{
+        text-align: center;
+        margin-bottom: 45px;
+      }
+      .GetStartedButton {
+        text-align: center;
+        margin-top: 32px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        a {
+          text-align: center;
+          font-size: 14px;
+          font-weight: 700;
+          border-radius: 30px;
+          border: 1px solid $getStart-btn-brd-clr;
+          background-color: $white-color;
+          padding: 12px 32px;
+          box-shadow: 0px 4px 4px 0px $nameCard-brd-clr;
+          color: $black-clr;
+        }
+      }
+    }
+  }
+  // SM / MD EVENT START **END**
 }
 // Message Section Ends Here
