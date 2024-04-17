@@ -1,3 +1,30 @@
+// Chat models start
+#modalCnt .chat-model {
+    position: fixed;
+    right: 55px;
+    bottom: 40px;
+    z-index: 9999;
+}
+#modalCnt .chat-model .btnBox {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: $nav-bottom-border-clr;
+    cursor: pointer;
+}
+#modalCnt .modalSendTextBtn {
+    width: 197px;
+    height: 56px;
+    background-color: $nav-bottom-border-clr;
+    color: $white-color;
+    font-weight: 600;
+    display: inline-block;
+    padding: 14px 37px;
+    position: relative;
+    transition-delay: .35s;
+}
+// Chat models end
 // ================ create post modal start ================ 
 .createmodal-bg{
     position: fixed;
