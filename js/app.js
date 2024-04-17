@@ -1,5 +1,52 @@
 $( function (){
     // *********************** jQUERY CODE  ***********************
+    // fixed menu start
+    $(window).scroll(function () {
+      let scrollup = $(window).scrollTop()
+      
+      if (scrollup > 300) {
+
+          $(`#main-manu`).addClass(`menufixed`)
+          $(`.upbutton`).fadeIn()
+      } else {
+          $(`#main-manu`).removeClass(`menufixed`)
+          $(`.upbutton`).fadeOut()
+      }
+  })
+// fixed menu end
+// up arrow start
+
+$(`.upbutton`).click (function () {
+    
+  $(`html,body`).animate({
+      scrollTop:0
+  },600)
+
+})
+// up arrow end
+  // modal chat button start
+  $(window).scroll(function () {
+    let scrollup = $(window).scrollTop()
+    if (scrollup > 300) {
+    $(`#main-manu`).addClass(`menufixed`)
+    $(`.chat-model`).fadeIn()
+    // scrollUp start
+    // $(`.scrollup`).slideDown()
+    // scrollup end
+    } else {
+    $(`#main-manu`).removeClass(`menufixed`)
+    $(`.chat-model`).fadeOut()
+    // scrollup start
+    // $(`.scrollup`).slideUp()
+    // scrollup end
+    }
+  })
+  $(`.chat-model`).scroll (function () {
+    $(`html,body`).animate({
+      scrollTop:0 
+    },600)
+   })
+// modal chat button end
     // ==============***************** MODAL START ************************==========================
     // ================== create-post-modal-start =================
     let createmodalbtn = $(`.creat-post-modal-btn`);

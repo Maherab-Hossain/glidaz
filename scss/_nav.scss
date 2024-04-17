@@ -1,3 +1,48 @@
+/* fixed menu start */
+.menufixed{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: $white-color;
+    animation: menuFixed 1s ease-in forwards;
+}
+
+@keyframes menuFixed {
+    0%{
+    transform: translateY(-100%);
+    }
+    100%{
+    transform: translateY(0%);
+    }
+}
+/* fixed menu end */
+/* up button start */
+.upbutton{
+    position: fixed;
+    bottom: 130px;
+    // left: 92%;
+    right: 61px;
+    z-index: 99999;
+    display: none;
+}
+.upbutton button{
+    height: 65px;
+    width: 65px;
+    font-size: 25px;
+    // padding: 20px;
+    // background-color: $msg-writemsg-bg-clr;
+    background-color: $nav-bottom-border-clr;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    img{
+    height: 60px;
+    width: 60px;
+    }
+}
+
+/* up button end */
 // NAV LG START
 #main-manu{
     border-bottom: 2px solid $nav-bottom-border-clr;

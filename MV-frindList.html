@@ -12,6 +12,53 @@
   <!-- CSS LINKS END -->
 </head>
 <body class="d-block d-md-none d-lg-none">
+      <!-- UP ARROW BTN START -->
+  <div class="upbutton d-none d-md-block">
+    <button><img src="./images/up-arrow scroll-up.gif" alt=""></button>
+  </div>
+  <!-- UP ARROW BTN end -->
+  <!-- CHAT MODEL START -->
+  <div class=" modal-fullscreen-sm-down d-none d-md-block" id="modalCnt">
+    <div class="chat-model">
+      <button type="button" class="btnBox d-lg-block d-none d-md-block" data-bs-toggle="modal" data-bs-target="#chatModal" data-bs-whatever="@mdo">
+      <img src="./images/chat-models.gif" alt="" class="modalBtn">
+      </button>
+    </div>
+  <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true" style="display: none; z-index: 999999999999;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+    <!-- modal logo start -->
+      <img src="./images/gildaz-logo-sm.png" alt="">
+    <!-- modal logo start -->
+    <!-- modal closeButton start -->
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- modal closeButton start -->
+      </div>
+      <div class="modal-body">
+      <!-- modal form start -->
+        <form>
+          <div class="mb-3">
+          <label for="recipient-name" class="col-form-label">Email</label>
+          <input type="email" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+          <label for="message-text" class="col-form-label">Message</label>
+          <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      <!-- modal form end -->
+      </div>
+      <div class="modal-footer">
+      <!-- modal send button start -->
+      <a href=""><button type="button" class="btn  modalSendTextBtn">Send message</button></a>
+      <!-- modal send button end -->
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- CHAT MODEL end -->
     <section id="sm-friend-list-md">
         <section id="MV-friendList-head">
             <div class="container">
